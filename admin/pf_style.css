@@ -1,0 +1,167 @@
+@charset "gb2312";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body {
+	font-family:"宋体";
+	font-size:12px;
+	min-width:990px;
+	background:#F1F1F1;
+}
+img {
+	border:none;
+}
+.red {
+	color:red;
+}
+.clear {
+	clear:both;
+}
+a {
+	text-decoration:none;
+	color:#000;
+}
+a:hover {
+	text-decoration:underline;
+}
+p{ line-height:18px;}
+#top {
+	height:60px;
+	padding:0 15px;
+	background:#006699;
+}
+#top_name {
+	width:350px;
+	height:60px;
+	float:left;
+	color:#FFF;
+}
+#top_name h1 {
+	color:#FFF;
+	line-height:20px;
+	font-size:14px;
+}
+#top_menu {
+	float:right;
+	height:26px;
+	margin-top:20px;
+	width:600px;
+}
+#top_menu ul li {
+	float:right;
+	text-align:center;
+	line-height:26px;
+	border:1px solid #FFF;
+	margin-right:2px;
+}
+#top_menu ul li a {
+	display:block;
+	padding:0 8px;
+	font-weight:bold;
+	color:#FFF;
+}
+#top_menu ul li a:hover {
+	background:#999;
+	text-decoration:none;
+}
+#content {
+	padding:2px 5px;
+}
+#left {
+	width:180px;
+	float:left;
+	text-align:center;
+	border:1px solid #666;
+}
+#left dl {
+	overflow:auto;
+	padding:5px;
+	padding-bottom:0;
+}
+#left dl dt {
+	font-weight:bold;
+	line-height:28px;
+	height:28px;
+	background:#006699;
+	margin-bottom:5px;
+	color:#FFF;
+}
+#left dl dd {
+	line-height:18px;
+	height:18px;
+}
+#right {
+	margin-left:190px;
+	border:1px solid #666;
+	padding:5px;
+}
+.right_title {
+	background:#006699;
+	color:#FFF;
+	padding:5px;
+	margin-bottom:5px;
+}
+.right_title h1 {
+	font-size:12px;
+	line-height:20px;
+	color:#F1F1F1;
+}
+.right_title p {
+	color:#999;
+}
+
+.right_body {
+	border:1px solid #99B4D1;
+	padding:5px;
+}
+#bottom {
+	padding:10px;
+	text-align:center;
+	color:#FFF;
+	background:#006699;
+}
+/*表格开始*/
+table {
+	border-collapse:collapse;
+	width:99%;
+}
+table td {
+	padding:3px;
+	border:1px solid #CCC;
+}
+table th {
+	text-align:center;
+	padding:5px;
+	border:1px solid #CCC;
+}
+input, select, textarea {
+	border:1px solid #CCC;
+	font-size:12px;
+	padding:2px;
+	font-family:"宋体";
+}
+.submit_button {
+	background:#006699;
+	width:80px;
+	height:26px;
+	color:#FFF;
+	font-weight:bold;
+	border:1px solid #000;
+}
+#login {
+	width:260px;
+	border:1px solid #CCC;
+	margin:120px auto;
+	padding:10px;
+}
+#login h1 {
+	line-height:25px;
+	background:#006699;
+	font-size:12px;
+	text-align:center;
+	color:#FFF;
+}

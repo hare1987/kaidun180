@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="1.css" rel="stylesheet" type="text/css" id="css"> 
+
+<script language="JavaScript" type="text/JavaScript">
+function change(a){ 
+var css=document.getElementById("css"); 
+if (a==1) 
+css.setAttribute("href","1.css"); 
+if (a==2) 
+css.setAttribute("href","2.css"); 
+if (a==3) 
+css.setAttribute("href","3.css"); 
+if (a==4) 
+css.setAttribute("href","4.css"); 
+
+} 
+
+</script>
+</head>
+
+<body>
+
+
+<div class="text">
+<a href="#" onClick="change(1)" ><img src="images/1.png"/></a> 
+<a href="#" onClick="change(2)" ><img src="images/2.png"/></a> 
+<a href="#" onClick="change(3)" ><img src="images/3.png"/></a> 
+<a href="#" onClick="change(4)" ><img src="images/4.png"/></a> 
+</div>
+
+
+</body>
+</html>
