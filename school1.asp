@@ -17,49 +17,56 @@
                      </ul>
                   </div>
                </div>
-<table width="100%"  border="0" cellpadding="0" cellspacing="0">
+               
+        
+<div class="contents">
+			<div class="content">
+				<div class="title">凯顿介绍</div>
+                              <P> <style type="text/css"><!--.style2 {	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	line-height: 150%;}--></style></P>
+                                     
+               
+
                  <%
 				  set rs=server.CreateObject("adodb.recordset")
 				  rs.open "select * from pf_sc where sc_num=2",conn,1,1
 				  %>
-                  <tr>
-                    <td height="25">
-                      <table width="642" height="324" border="0" align="center">
+
+<table width="100%"  border="0" cellpadding="0" cellspacing="0" class="form-table">
                         <tr>
-                          <td width="220" height="212"><img src="<%=rs("sc_p_logo")%>" width="221" height="214"></td>
-                          <td width="578"><table width="94%" height="236" border="0" align="center">
+                          <td width="220" height="212"><img src="<%=rs("sc_p_logo")%>" width="220" height="214"></td>
+                          <td width="430" style="float:right; padding-left:20px;">
+                          <table width="94%" border="0" align="center">
                             <tr>
-                              <td width="45%" height="40"><div align="center" class="STYLE13"><%=rs("sc_name")%></div></td>
-                              <td width="55%" height="40"><a href="yy.asp?school=徐汇田林校"><img src="images/yy.png" width="140" height="50" border="0"></a></td>
+                              <td width="45%"><%=rs("sc_name")%></td>
+                              <td width="55%"><a href="yy.asp?school=徐汇田林校"><img src="images/yy.png" border="0"></a></td>
                             </tr>
-                            <tr>
-                              <td colspan="2"><p align="left" class="STYLE14"><%=rs("sc_about")%></p></td>
+                              <tr>
+                              <td colspan="2"><%=rs("sc_about")%></td>
                               </tr>
                           </table></td>
                         </tr>
                         <tr>
-                          <td height="25" colspan="2"><div align="left"><span class="STYLE19">地址：<%=rs("sc_address")%></span></div></td>
-                        </tr>
-                        <tr>
-                          <td height="25" colspan="2"><div align="left"><span class="STYLE19">公交：<%=rs("sc_bus")%></span></div></td>
-                        </tr>
-                        <tr>
-                          <td height="25" colspan="2"><div align="left"><span class="STYLE19">电话：<%=rs("sc_tel")%></span></div></td>
-                          </tr>
-                      </table>
-                      <table width="642" height="387" border="0" align="center">
-                        <tr>
-                          <td><img src="<%=rs("sc_p_map")%>" width="642" height="387" align="middle"></td>
-                          </tr>
-                      </table></td>
-                  </tr>
+                        <td height="25" colspan="2">地址：<%=rs("sc_address")%></td>
+                      </tr>
+                      <tr>
+                        <td height="25" colspan="2">公交：<%=rs("sc_bus")%></td>
+                      </tr>
+                      <tr>
+                        <td height="25" colspan="2">电话：<%=rs("sc_tel")%></td>
+                      </tr>
+                    </table>
+                    <table width="642" height="387" border="0" align="center">
+                      <tr>
+                        <td><img src="<%=rs("sc_p_map")%>" width="642" height="387" align="middle"></td>
+                      </tr>
+                    </table>
+                        </table>
 				  <%
 				  rs.close
 				  set rs= nothing
 				  %>
-                </table></td>
-              </tr>
-                    </table>
+                    </div>
+                    </div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 
