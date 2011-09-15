@@ -52,9 +52,9 @@ End If
 						<th width="141">联系电话</th>
 						<th width="227">电子邮箱</th>
                         <th width="227">时间</th>
-
-						<th width="156">选择课程</th>
 						<th width="124">选定校区</th>
+						<th width="156">选择课程</th>
+
 					</tr>
 					<%
 Set rs = server.CreateObject("adodb.recordset")
