@@ -85,7 +85,7 @@ return true;
     }   
   }   
 </script>
-						<form method="post" action="save.asp"  name="gf" id="gf" onSubmit="return form1_onsubmit()">
+						<form method="post" action="save.asp?action=bm"  name="gf" id="gf" onSubmit="return form1_onsubmit()">
                           <table width="100%"  border="0" cellpadding="0" cellspacing="1">
                             <tr>
                               <td height="30" colspan="4"><div align="center" class="style6">±¨ Ãû ×É Ñ¯</div></td>
@@ -127,7 +127,7 @@ return true;
                               <td height="35"><div align="left">
                                 <input name="email" type="text" id="email"  onBlur="return validateEmail();">
                               </div></td>
-                              <td height="35"><input name="class" type="hidden" id="class" value="<%=request("class")%>"></td>
+                              <td height="35"><input name="hd" type="hidden" id="class" value="<%=request("class")%>"></td>
                               <td height="35"><div align="left"></div></td>
                             </tr>
                             <tr>

@@ -68,7 +68,6 @@
 		
 		 <dl>
 			<dt>联系我们</dt>
-			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_contact.asp?id=1">联系我们</a>&nbsp;&nbsp;&nbsp;<a href="pf_gf_order.asp">预约登记</a></div> </dd>
 			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_yyhd.asp">活动管理</a></div> </dd>
 		</dl>
 
@@ -89,7 +88,7 @@
 		
 		<dl>
 			<dt>预约咨询</dt>
-			<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_bm_order.asp">在线咨询</a>&nbsp;&nbsp;&nbsp;<a href="pf_yy_order.asp">在线预约</a></div></dd>
+			<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_yy_order.asp">在线预约</a></div></dd>
 			<dd>
 			  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_cn_startest.asp">长宁星级考</a></div>
 			</dd>

@@ -94,7 +94,7 @@ return true;
     }   
   }   
 </script>
-						<form method="post" action="save.asp"  name="gf" id="gf" onSubmit="return form1_onsubmit()">
+						<form method="post" action="save.asp?action=yy"  name="gf" id="gf" onSubmit="return form1_onsubmit()">
                           <table width="100%"  border="0" cellpadding="0" cellspacing="1">
                             <tr>
                               <td height="30" colspan="4"><div align="center" class="style6">在 线 预 约</div></td>
@@ -143,23 +143,23 @@ return true;
                               <td height="35"><div align="right"><span class="style7">*&nbsp;</span>选择课程：&nbsp;&nbsp;</div></td>
                               <td height="35" colspan="3"><div align="left">
   <br>
-  <input type="radio" name="class" value="ABCbakery">
+  <input type="radio" name="hd" value="ABCbakery">
 &nbsp;<span class="style4">ABCbakery</span>&nbsp;
-<input type="radio" name="class" value="Language Arts">
+<input type="radio" name="hd" value="Language Arts">
 <span class="style4">Language Arts</span>&nbsp;&nbsp;&nbsp;&nbsp;
                                   <input type="radio" name="class" value="Hip Hip Hooray">
 &nbsp;<span class="style4">Hip Hip Hooray</span>&nbsp;&nbsp;&nbsp;&nbsp;
                                   <input type="radio" name="class" value="ESL">
 &nbsp;<FONT color=#000000><span class="style4">ESL</span><br>
 <br>
-<input type="radio" name="class" value="Star Test">
+<input type="radio" name="hd" value="Star Test">
 &nbsp;<span class="style4">Star Test</span>&nbsp;&nbsp;&nbsp;
-<input type="radio" name="class" value="Phonic Magic Cards">
+<input type="radio" name="hd" value="Phonic Magic Cards">
 <span class="style4">Phonic Magic Cards</span> &nbsp;&nbsp;&nbsp;
-<input type="radio" name="class" value="Sing  Chant">
+<input type="radio" name="hd" value="Sing  Chant">
 &nbsp;<span class="style4">Sing &amp; Chant</span>
 &nbsp;
-<input name="class" type="radio" value="Reading House">
+<input name="hd" type="radio" value="Reading House">
 &nbsp;<span class="style4">&nbsp;Reading House</span></FONT></div></td>
                               </tr>
                             <tr>

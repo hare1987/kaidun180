@@ -5,7 +5,7 @@
   <h3 class="corner_it"><div class="inner">免费试听课预约</div></h3>
                     <ul>
                         <li class="telphone">预约电话:4006-117-668</li>
-<form  name="yx"  onsubmit="return checkregform()" method="post" action="save.asp">
+<form  name="yx"  onsubmit="return checkregform()" method="post" action="save.asp?action=gf">
 <li>宝宝姓名:<input type="text" class="in_txt" style="width:105px" id="name" name="name"></li>
 <li>宝宝年龄:<select style="width:42px" id="lngsex" name="age">
 <option value="3">3</option>
@@ -21,14 +21,14 @@
 </select>
 </li>
 <li>预约校区:<select style="width:100px" id="school" name="school">
-<option value="1">徐汇田林校</option>
-<option value="2">黄浦书城校</option>
-<option value="3">浦东金桥校</option>
-<option value="4">闵行莘庄校</option>
-<option value="5">虹口东宝校</option>
-<option value="6">长宁虹桥校</option>
-<option value="7">松江九亭校</option>
-<option value="8">宝山大华校</option>
+<option value="徐汇田林校">徐汇田林校</option>
+<option value="黄浦书城校">黄浦书城校</option>
+<option value="浦东金桥校">浦东金桥校</option>
+<option value="闵行莘庄校">闵行莘庄校</option>
+<option value="虹口东宝校">虹口东宝校</option>
+<option value="长宁虹桥校">长宁虹桥校</option>
+<option value="松江九亭校">松江九亭校</option>
+<option value="宝山大华校">宝山大华校</option>
 </select>
 </li>
 <li>联系电话:<input type="text" class="in_txt" style="width:105px" id="tel" name="tel"></li>
