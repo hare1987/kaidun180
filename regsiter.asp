@@ -91,7 +91,7 @@ return true;
 			<div class="content">
 				<div class="title">在 线 预 约</div>
                               <P> <style type="text/css"><!--.style2 {	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	line-height: 150%;}--></style></P>
-<form method="post" action="save.asp?action=gf"  name="gf" id="gf" onSubmit="return form1_onsubmit()">
+<form method="post" action="save.asp"  name="gf" id="gf" onSubmit="return form1_onsubmit()">
                           <table width="100%"  border="0" cellpadding="0" cellspacing="1">
                             <tr>
                               <td width="24%" height="35"><div align="right"> <span class="style7">*&nbsp;</span>宝宝姓名：&nbsp;&nbsp;</div></td>

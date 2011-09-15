@@ -165,11 +165,11 @@ _ background-image: none; /* IE6 */
 #nav .inner{
   margin: 0 auto; width: 100%;  
   position: absolute;
-  text-align: center;
+  /*text-align: center;*/
   z-index: 0;
   /*margin-top: 50px;*/
   text-align:center;
-  background:url(../images/fla.png) no-repeat;
+ /* background:url(../images/fla.png) no-repeat;*/
 }
 
 #index_slides {
@@ -214,14 +214,15 @@ _ background-image: none; /* IE6 */
 }
 */
 #slogan {
-  margin-top: 295px;
+	margin-top:300px;
+  _margin-top: 265px;
 }
 
 #slogan .inner{
   text-align: center;
   width: 600px;
   margin: 0 auto;
-  margin-top:-150px;
+ margin-top:-150px;
 }
 
 
@@ -352,19 +353,6 @@ _ background-image: none; /* IE6 */
 	_margin-right: 5px;
 }
 
-#kaidun_famous_teacher {
-  width: 260px;
-  float: left;
-  margin-right: 10px;
-	_margin-right: 5px;
-}
-
-#kaidun_month_star {
-  width: 260px;
-  float: left;
-	_float: right;
-}
-
 #colee {
 width: 260px;
 overflow:hidden;
@@ -476,7 +464,7 @@ font-weight:bold;
 }
 
 
-#kaidun_news, #kaidun_activity {
+#kaidun_news,#kaidun_month_star {
   width: 460px;
 }
 
@@ -485,12 +473,21 @@ font-weight:bold;
   height:172px;
   background:#000;
 }
-#online_test{
-	margin-top:20px;
+#kaidun_activity{margin-top:20px;}
+
+#company_partner  ul{
+	padding-bottom:5px;
+	}
+
+#company_partner li{
+	display:inline;
+	border:0;
+	
 	}
 
 #company_partner li img {
   margin-left: 15px;
+  padding-top: 5px;
 }
 
 #company_partner li a:hover {
@@ -516,13 +513,13 @@ font-weight:bold;
 }
 
 #footer{
-  margin-top: 20px;
+  margin-top: 5px;
   background: #552F18;
   color: #FFF;
 }
 
 #footer .inner {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
 }
 
@@ -579,6 +576,7 @@ font-weight:bold;
     font-size: 13px;
     width: 100%;
 }
+.news-list tr {border-bottom: 1px solid #C9C9C9;}
 th.n-title {
     text-align: left;
 	font-size:13px;
@@ -617,11 +615,12 @@ th.n-title {
 img {
     border: medium none;
 }
-..list-table {
+.list-table {
     width: 100%;
 	font-size:13px;
 }
 .list-table td{border:1px  #39F solid;line-height:150%;}
+.list-table p{ padding-left:10px;}
 .form-table td{
 line-height:150%;
 }

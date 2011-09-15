@@ -1,4 +1,4 @@
- <div id="egg">
+ <!--<div id="egg">
              <span>
                 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="212" height="179">
         <param name="movie" value="images/dan.swf" />
@@ -7,15 +7,69 @@
         <embed src="images/dan.swf" width="190" height="160" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
       </object>
            </span>
-        </div><!-- #End #dan -->
+        </div><!-- #End #dan -->-->
          <div id="backto_top">Back to top.</div>
+<div id="company_partner" class="box">
+                   <em class="icon"><img src="images/icons/partner.png" /></em>
+                    <h3 class="corner_it"><div class="inner"><span><a href="link.asp">MORE </a></span>企业伙伴</div></h3>
+      <ul>
+                               <%
+set rs = server.CreateObject("adodb.recordset")
+sql = "select * from pf_link"
+rs.open sql,conn,1,1
+if  rs.eof or rs.bof then
+%>
+  暂无通知!
+  <%
+else
+i = 1
+do while not rs.eof  or rs.bof
+%>
+<li> 
+<a href="<%=rs("pf_link_url")%>" title="<%=rs("pf_link_name")%>" target="_blank"><img src="<%=rs("pf_uploadfile")%>" border="0"></a>
+</li>
+                  <%
+i = i + 1
+if i > 10 then  exit do
+rs.movenext
+loop
+end if
+rs.close
+set rs = nothing
+%>
+</ul>
 
+                </div>
  <div id="footer">
             <div class="inner">
                 <p>Copyrgiht &copy; 2011 上海凯顿儿童美语 All Rights Reserved. 地址：徐家汇苍梧路10号三栋306 联系电话：4006-117-668</p>
             </div>
         </div><!-- End: #footer -->
         </div><!-- End: #container -->
+           <script language="javascript">
+   
+function checkregform(){
+    if (gf.name.value ==""){
+	   alert("请填写宝宝的姓名!");
+	   gf.name.focus();
+	   return false;	
+	}
+    if (gf.tel.value ==""){
+	   alert("请填写您的联系电话!");
+	   gf.tel.focus();
+	   return false;	
+	}
+     if (gf.tel.value == "" || gf.tel.value.length <11 ||  gf.tel.value.length > 12  ||  isNaN(gf.tel.value)){
+	 alert("请正确填写联系电话!");
+	 gf.tel.value = "";
+	 gf.tel.focus();
+	 return false;	 
+	 }
+
+return true;
+}
+
+</script>
         <script src="javascripts/jquery.cookie.js" type="text/javascript"></script>
         <script src="javascripts/slides.min.jquery.js" type="text/javascript"></script>
         <script src="javascripts/jquery.marquee.js" type="text/javascript"></script>

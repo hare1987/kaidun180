@@ -55,38 +55,10 @@ document.write('</object>');
 </script>	
                 </div><!-- End: #index_slides -->
                 <div class="clear"></div>
-                <div id="kaidun_famous_teacher" class="box">
-                   <em class="icon"><img src="images/icons/famous.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="moreteacher.asp?style=&#25945;&#24072;&#22242;&#38431;" title="">MORE</a></span>凯顿名师</div></h3>
-<div id="colee">
-<div id="colee1">
-<ul>
-                    <%
-set rs = server.CreateObject("adodb.recordset")
-sql = "select top 6 * from  pf_ms where  pf_link_style='教师团队'order by ID asc"
-rs.open sql,conn,1,1
-do while not rs.eof or rs.bof
-%>
-<li>
-<img src="<%=rs("pf_uploadfile")%>">
-<h1><%=rs("school")%><br/><%=rs("position")%><%=rs("pf_link_name")%></h1>
-<h2><%=left(rs("pf_link_text"),80)%></h2>
-</li>
-  <%
-rs.movenext
-loop
-rs.close
-set rs = nothing
-%>
-</ul>
-</div>
-<div id="colee2"></div>
-</div>
-</div>
                 <div id="kaidun_month_star" class="box">
                    <em class="icon"><img src="images/icons/star.png" /></em>
         <h3 class="corner_it"><div class="inner"><span><a href="star.asp" title="">MORE</a></span>凯顿月之星</div></h3>
-<div id="colee_left" style="overflow:hidden; width:260px;">
+<div id="colee_left" style="overflow:hidden; width:460px;">
 <table cellpadding="0" cellspacing="0" border="0">
 <tr><td id="colee_left1" valign="top" align="center">
 <table cellpadding="2" cellspacing="0" border="0">
@@ -132,35 +104,61 @@ colee_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
 <!--向左滚动代码结束-->
 </div>
                 <div class="clear"></div>
-                <div id="kaidun_news" class="box">
+              <div id="kaidun_news" class="box">
                    <em class="icon"><img src="images/icons/paper.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="hdmore.asp?pf_link_style=0">MORE </a></span>凯顿新闻</div></h3>
+                    <h3 class="corner_it"><div class="inner"><span><a href="class.asp">MORE </a></span>最新开班信息</div></h3>
                     <ul>
-                    <%
+                    <table bgcolor="#FFFFFF" width="460" class="list-table">
+                    <tbody><tr>
+													<td width="130" align="center"  height="25">开班名称</td>
+													<td width="130" align="center"  height="25">上课时间</td>
+													<td width="100" align="center"  height="25">开班日期</td>
+													<td width="100" align="center"  height="25">上课地点</td>					
+
+												  </tr>
+ 
+  <%
 set rs = server.CreateObject("adodb.recordset")
-sql = "select top 4 *  from  pf_hd  where  pf_link_style = '0' and  pf_uploadfile <> 'text'  order by id desc"
+sql = "select * from  class order by ID desc"
 rs.open sql,conn,1,1
-j = 1
 do while not rs.eof or rs.bof
 %>
-                        <li><strong><a href="hdinfo.asp?id=<%=rs("id")%>"><%=rs("pf_link_name")%></a></strong></li>
-                          <%
-j = j + 1
+		                                      <tr>
+		                                        <td width="130" align="center"  height="20"><%=rs("class_name")%></td>
+		                                        <td width="130" align="center"  height="20"><%=rs("class_time")%></td>
+												<td width="100" align="center"  height="18"><%=rs("class_date")%></td>
+		                                        <td width="100" align="center"  height="20"><%=rs("class_address")%></td>
+                                                </tr>
+
+  <%
 rs.movenext
 loop
 rs.close
 set rs = nothing
 %>
+		                                      
+		                                   
+ 
+		                                      		                                      
+                  </tbody>
+                  
+</table>
                         
                     </ul>
                 </div>
+                
+              <div class="clear"></div>
+            </div><!-- End: #center1 -->
+            <div class="right_bar">
+                <div id="preview_video" class="box">
+                </div><!-- End: #preview_video -->
                 <div id="kaidun_activity" class="box">
                    <em class="icon"><img src="images/icons/game.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="hdmore.asp?pf_link_style=1">MORE </a></span>凯顿活动</div></h3>
+                    <h3 class="corner_it"><div class="inner"><span><a href="hdmore.asp">MORE </a></span>凯顿活动</div></h3>
                     <ul>
                     <%
 set rs = server.CreateObject("adodb.recordset")
-sql = "select top 3 *  from  pf_hd  where  pf_link_style = '1' and  pf_uploadfile <> 'text' order by id desc"
+sql = "select top 3 *  from  pf_hd  order by id desc"
 rs.open sql,conn,1,1
 i = 1
 do while not rs.eof or rs.bof
@@ -173,18 +171,6 @@ loop
 rs.close
 set rs = nothing
 %>
-                    </ul>
-                </div>
-                <div class="clear"></div>
-            </div><!-- End: #center1 -->
-            <div class="right_bar">
-                <div id="preview_video" class="box">
-                </div><!-- End: #preview_video -->
-                <div id="online_test" class="box">
-                   <em id="pen"><img src="images/icons/pen.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="#" title="">MORE</a></span>在线测试</div></h3>
-                    <ul>
-                        
                     </ul>
                 </div><!-- End: #online_test -->
                 <div id="game_donwload" class="box">
@@ -215,60 +201,12 @@ set rs = nothing
 %>             
                     </ul>
                 </div><!-- End: #game_donwload -->
-                <div id="company_partner" class="box">
-                   <em class="icon"><img src="images/icons/partner.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="link.asp">MORE </a></span>企业伙伴</div></h3>
-                    <ul>
-                                      <%
-set rs = server.CreateObject("adodb.recordset")
-sql = "select * from pf_link"
-rs.open sql,conn,1,1
-if  rs.eof or rs.bof then
-%>
-  暂无通知!
-  <%
-else
-i = 1
-do while not rs.eof  or rs.bof
-%>
-                        <li><a href="<%=rs("pf_link_url")%>" title="<%=rs("pf_link_name")%>" target="_blank"><img src="<%=rs("pf_uploadfile")%>" border="0"></a></li>
-                  <%
-i = i + 1
-if i > 3 then  exit do
-rs.movenext
-loop
-end if
-rs.close
-set rs = nothing
-%>
-                    </ul>
-
-                </div><!-- End: #company_partenter -->
+                <!-- End: #company_partenter -->
 
             </div><!-- End: #right -->
             </div>
         </div><!-- End: #main -->
 
         <div class="clear"></div>
-<script>
-var speed=30;
-var colee2=document.getElementById("colee2");
-var colee1=document.getElementById("colee1");
-var colee=document.getElementById("colee");
-colee2.innerHTML=colee1.innerHTML; //克隆colee1为colee2
-function Marquee1(){
-//当滚动至colee1与colee2交界时
-if(colee2.offsetTop-colee.scrollTop<=0){
- colee.scrollTop-=colee1.offsetHeight; //colee跳到最顶端
- }else{
- colee.scrollTop++
-}
-}
-var MyMar1=setInterval(Marquee1,speed)//设置定时器
-//鼠标移上时清除定时器达到滚动停止的目的
-colee.onmouseover=function() {clearInterval(MyMar1)}
-//鼠标移开时重设定时器
-colee.onmouseout=function(){MyMar1=setInterval(Marquee1,speed)}
-</script>
 
        <!--#include file = "bottom.asp" -->

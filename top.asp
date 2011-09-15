@@ -56,7 +56,7 @@ set rs = nothing
         </div><!-- #End: #top_bar -->
         <div id="nav">
             <div class="inner">
-            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="920" height="269">
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="950" height="300">
               <param name="movie" value="images/nav.swf" />
               <param name="quality" value="high" />
               <param name="wmode" value="transparent" />

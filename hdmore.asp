@@ -5,61 +5,37 @@
 
 <div class="crumbs">
                   <div class="inner">
-                <span class="current">当前位置：当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;                  
-				<%
-		style = request("pf_link_style")
-		if style = 1 then
-		%>
-						  凯顿活动
-		<%else%>
-						  凯顿新闻
-		<%
-		end if
-		%>
+                <span class="current">当前位置：当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;   
+						凯顿活动
+
                &nbsp;&nbsp;</span>
                      <ul>
                         <li class="style6">
-                        <%
-		style = request("pf_link_style")
-		if style = 1 then
-		%>
+   
 						  凯顿活动
-		<%else%>
-						  凯顿新闻
-		<%
-		end if
-		%>
-                        
-                        
+                                       
                         </li>
                      </ul>
                   </div>
                </div>
-                      <div class="box">
-               
-<table width="97%"  border="0" align="left" cellpadding="0" cellspacing="0">
-                      <tr>
-                        <td width="3%" height="23">&nbsp;</td>
-                        <td width="97%" valign="top">
+               <div class="contents">
+			<div class="content">
+				<div class="title">凯顿活动</div>
+
 		<%
-	    pf_link_style = request("pf_link_style")
 		set rs = server.CreateObject("adodb.recordset")
-		if pf_link_style <> "" then
-         sql = "select *  from  pf_hd  where  pf_link_style ='"& pf_link_style&"' and  pf_uploadfile <> 'text'order by id desc"
-		 else
-		  sql = "select *  from  pf_hd  where  pf_uploadfile <> 'text'order by id desc"
-		 end if
+        sql = "select *  from  pf_hd  order by id desc"
 		 rs.open sql,conn,1,1
 		if rs.recordcount=0 then 
 		%>
                             <table width="100%" border="0" cellspacing="0" cellpadding="5" align="center">
                               <tr>
-                                <td align="center">暂无新闻资讯</td>
+                                <td align="center">暂无活动</td>
                               </tr>
                             </table>
                             <%
 		else
-	  		rs.PageSize =6 '每页记录条数
+	  		rs.PageSize =20 '每页记录条数
 			iCount=rs.RecordCount '记录总数
 			iPageSize=rs.PageSize
     		maxpage=rs.PageCount 
@@ -85,28 +61,20 @@
 		x=iPageSize
 	end if
 	%>
+  <table class="news-list">
+					<tbody><tr><th class="n-title">标题</th></tr>  
    <%
 	For i=1 To x
-	%>                      <table width="99%"  border="0" cellpadding="0" cellspacing="0">
-                              <tr>
-                                <td width="15%">&nbsp;</td>
-                                <td width="2%" height="41">&nbsp;</td>
-                                <td width="83%"><div align="left"><strong><%=rs("pf_link_name")%></strong></div></td>
-                              </tr>
-                              <tr>
-                                <td height="3" colspan="3"></td>
-                              </tr>
-                              <tr>
-                                <td valign="top"><div align="right"><img src="<%=rs("pf_uploadfile")%>" height="65" width="65"></div></td>
-                                <td height="69"><div align="right"></div></td>
-                                <td valign="top" style="line-height:150% "><div align="left"><%=rs("pf_link_text")%>[ <a href="hdinfo.asp?id=<%=rs("id")%>">详细信息</a> ]</div></td>
-                              </tr>
-                            </table>
+	%>  	
+                    
+                                <tr><td><a href="hdinfo.asp?id=<%=rs("id")%>"><%=rs("pf_link_name")%></a></td></tr>
+        
                               <%
 	rs.movenext
 	next
 	%>
-                            <div align="center"><br>
+
+</tbody></table>
                                 <%
 		call PageControl(iCount,maxpage,page,"border=0 align=center","<p align=center>")
 		end if
@@ -154,10 +122,7 @@ Sub PageControl(iCount,pagecount,page,table_style,font_style)
     Response.Write("</table>" & vbCrLf )        
 End Sub
 %>
-                            </div>
-                            <br></td>
-                      </tr>
-                    </table>
+                </div>
                     </div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->

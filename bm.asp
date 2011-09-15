@@ -85,7 +85,7 @@ return true;
     }   
   }   
 </script>
-						<form method="post" action="save.asp?action=bm"  name="gf" id="gf" onSubmit="return form1_onsubmit()">
+						<form method="post" action="save.asp"  name="gf" id="gf" onSubmit="return form1_onsubmit()">
                           <table width="100%"  border="0" cellpadding="0" cellspacing="1">
                             <tr>
                               <td height="30" colspan="4"><div align="center" class="style6">±¨ Ãû ×É Ñ¯</div></td>
