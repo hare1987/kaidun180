@@ -47,24 +47,17 @@ set rs = nothing
         </div><!-- End: #footer -->
         </div><!-- End: #container -->
         
-<script language="javascript">
-   
+<script language="javascript"> 
 function checkregform(){
-	alert("验证开始了！");
-    if (yx.name.value == ""){
+    if (document.yx.name.value == ""){
 	   alert("请填写宝宝的姓名!");
-	   yx.name.focus();
+	   document.yx.name.focus();
 	   return false;	
 	}
-    if (gf.tel.value == ""){
-	   alert("请填写您的联系电话!");
-	   yx.tel.focus();
-	   return false;	
-	}
-     if (yx.tel.value == "" || yx.tel.value.length <11 ||  yx.tel.value.length > 12  ||  isNaN(yx.tel.value)){
+     if (document.yx.tel.value == "" || document.yx.tel.value.length <11 ||  document.yx.tel.value.length > 12  ||  isNaN(document.yx.tel.value)){
 	 alert("请正确填写联系电话!");
-	 yx.tel.value = "";
-	 yx.tel.focus();
+	 document.yx.tel.value = "";
+	 document.yx.tel.focus();
 	 return false;	 
 	 }
 

@@ -6,7 +6,7 @@
                   <div class="inner">
                      <span class="current">当前位置：当前位置：<a href="index.asp">首 页</a>&nbsp;&gt; 招贤纳士&nbsp;&nbsp;</span>
                      <ul>
-                        <li class="style6">招 贤 纳 士</li>
+                        <li class="style6">招贤纳士</li>
                      </ul>
                   </div>
                </div>

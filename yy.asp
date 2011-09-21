@@ -8,67 +8,54 @@
                      <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt; 在线预约&nbsp;&nbsp</span>
                      <ul>
                         <li class="style6">在线预约</li>
-                        <li class="style11"><a href="contact.asp">联系方式</a></li>
                      </ul>
                   </div>
                </div>
- <div class="box">
-      <div class="m">  
-<script language="javascript">
+<div class="contents">
+			<div class="content">
+				<div class="title">在线预约</div>
+                              <P> <style type="text/css"><!--.style2 {	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	line-height: 150%;}--></style></P>
+ <script language="javascript">
 function form1_onsubmit(){
-    if (gf.name.value ==""){
+    if (document.gf.name.value ==""){
 	   alert("请填写宝宝的姓名!");
-	   gf.name.focus();
+	   document.gf.name.focus();
 	   return false;	
 	}
-    if (gf.age.value ==""){
+    if (document.gf.age.value ==""){
 	   alert("请填写宝宝的年龄!");
-	   gf.age.focus();
+	   document.gf.age.focus();
 	   return false;	
 	}
-    if (gf.Fname.value ==""){
+    if (document.gf.Fname.value ==""){
 	   alert("请填写您的姓名!");
-	   gf.Fname.focus();
+	   document.gf.Fname.focus();
 	   return false;	
 	}
-    if (gf.tel.value ==""){
-	   alert("请填写您的联系电话!");
-	   gf.tel.focus();
-	   return false;	
-	}
-     if (gf.tel.value == "" || gf.tel.value.length <11 ||  gf.tel.value.length > 12  ||  isNaN(gf.tel.value)){
+     if (document.gf.tel.value == "" || document.gf.tel.value.length <11 ||  document.gf.tel.value.length > 12  ||  isNaN(document.gf.tel.value)){
 	 alert("请正确填写联系电话!");
-	 gf.tel.value = "";
-	 gf.tel.focus();
+	 document.gf.tel.value = "";
+	 document.gf.tel.focus();
 	 return false;	 
 	 }
-     if (gf.email.value == ""){
+     if (document.gf.email.value == ""){
 	 alert("请填写电子信箱!");
-	 gf.email.focus();
+	 document.gf.email.focus();
 	 return false;	 
 	 }
 	 
 	 
-	 var ok=document.getElementsByName("class");
+	 var ok=document.getElementsByName("school");
      if (ok[0].checked == true){
 	 //alert(ok[0].value);
 	 }else if(ok[1].checked == true){
 	 //alert(ok[1].value);
-	 }
-	 else if(ok[2].checked == true){
+	 }else  if(ok[2].checked == true){
 	 //alert(ok[1].value);
 	 }else if(ok[3].checked == true){
 	 //alert(ok[1].value);
-	 }else if(ok[4].checked == true){
-	 //alert(ok[1].value);
-	 }else if(ok[5].checked == true){
-	 //alert(ok[1].value);
-	 }else if(ok[6].checked == true){
-	 //alert(ok[1].value);
-	 }else if(ok[7].checked == true){
-	 //alert(ok[1].value);
 	 }else{
-	 alert('请选择课程');
+	 alert('请选择意向校区');
 	 return false;	 
 	 }
 

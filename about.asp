@@ -9,7 +9,6 @@
                         <li class="style6">凯顿介绍</li>
                         <li class="style11"><a href="teacher.asp">师资团队</a></li>
                         <li class="style11"><a href="special.asp">特色理念</a></li>
-                        <li class="style11"><a href="team.asp">组织架构</a></span></li>
                      </ul>
                   </div>
                </div>

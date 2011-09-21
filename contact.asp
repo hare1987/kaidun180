@@ -7,7 +7,6 @@
                      <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt; 联系我们&nbsp;&nbsp</span>
                      <ul>
                         <li class="style6">联系我们</li>
-                        <li class="style11"><a href="regsiter.asp">在线预约</a></li>
                      </ul>
                   </div>
                </div>

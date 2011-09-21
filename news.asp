@@ -8,13 +8,13 @@
                   <div class="inner">
                      <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt; 新闻资讯&nbsp;&nbsp;</span>
                      <ul>
-                        <li class="style6">新 闻 资 讯</li>
+                        <li class="style6">新闻资讯</li>
                      </ul>
                   </div>
                </div>
 <div class="contents">
 			<div class="content">
-				<div class="title">最新消息</div>
+				<div class="title">新闻资讯</div>
                 <%set rs=server.createobject("adodb.recordset")
 		rs.open "select * from pf_news where pf_news_category ='新闻资讯' order by pf_news_date desc",conn,1,1
 		if rs.recordcount=0 then 
