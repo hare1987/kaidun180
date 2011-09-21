@@ -6,7 +6,7 @@
                     <ul>
                         <li class="telphone">预约电话:4006-117-668</li>
 <form  name="yx"  onsubmit="return checkregform()" method="post" action="save.asp?action=gf">
-<li>宝宝姓名:<input type="text" class="in_txt" style="width:105px" id="name" name="name"></li>
+<li>宝宝姓名:<input type="text"  style="width:105px" id="name" name="name"></li>
 <li>宝宝年龄:<select style="width:42px" id="lngsex" name="age">
 <option value="3">3</option>
 <option value="4">4</option>
@@ -31,8 +31,8 @@
 <option value="宝山大华校">宝山大华校</option>
 </select>
 </li>
-<li>联系电话:<input type="text" class="in_txt" style="width:105px" id="tel" name="tel"></li>
-<div align="center"><input type="submit" name="" value="预约" /></div>
+<li>联系电话:<input type="text"  style="width:105px" id="tel" name="tel"></li>
+<div align="center"><input type="submit" value="预约" /></div>
 </form></ul>
 
                 </div><!-- End: #contact_kaidun -->
@@ -50,7 +50,7 @@
                     <ul>
                     <%
 set rs = server.CreateObject("adodb.recordset")
-sql = "select top 5 * from pf_news order by pf_news_date desc"
+sql = "select top 5 * from pf_news order by ID desc"
 rs.open sql,conn,1,1
 if  rs.eof or rs.bof then
 %>

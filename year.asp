@@ -4,10 +4,12 @@
 <div class="right">
 <div class="crumbs">
                   <div class="inner">
-                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;凯顿明星课程&nbsp;&gt;短期课程</span>
+                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;年度班</span>
                      <ul>
                         <li class="style6">年度班</li>
-                        <li class="style6"> <a href="class3.asp">Hip Hip Hooray</a> </li>
+                        <li class="style11"><a href="item.asp">特色班</a></li>
+                        <li class="style11"><a href="star.asp">星级考</a></li>
+                        <li class="style11"><a href="other.asp">其他班</a></li>    
                      </ul>
                   </div>
                </div>

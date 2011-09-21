@@ -4,23 +4,22 @@
 <div class="right">
 <div class="crumbs">
                   <div class="inner">
-                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;凯顿经典课程&nbsp;&gt;Language Arts</span>
-                     <ul>
-                        <li class="style6">Language Arts</li>
-                        <li class="style11"><a href="class1.asp" class="style4">ABCbakery</a></li>
-                        <li class="style11"><a href="class4.asp">ESL</a></li>
-                        <li class="style11"><a href="class5.asp">Star Test</a></li>
+                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;<a href="year.asp">年度班</a>&nbsp;&gt;Language Arts</span>
+                        <ul>
+                        <li class="style6">年度班</li>
+                        <li class="style11"><a href="item.asp">特色班</a></li>
+                        <li class="style11"><a href="star.asp">星级考</a></li>
+                        <li class="style11"><a href="other.asp">其他班</a></li>    
                      </ul>
                   </div>
-               </div>
-<table width="100%"  border="0" cellpadding="0" cellspacing="0">
-                  <tr>
+<div class="contents">
+			<div class="content">
+				<div class="title">Language Arts</div>
+                              <P> <style type="text/css"><!--.style2 {	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	line-height: 150%;}--></style></P>
                                   				  <%
 				  set rs =server.CreateObject("adodb.recordset")
 				  rs.open "select * from  pf_custom",conn,1,1
 				  %>
-                  <td width="750" height="25"><DIV align=left>
-<DIV style="LINE-HEIGHT: 150%" align=left>
   <p><IMG height=97 src="images/a9.jpg" width=750><BR>
     </p>
   <p><span style="color:#A72589; font-size:18px;">课程内容</span><BR>&nbsp;&nbsp;&nbsp;&nbsp;<SPAN class=style4>&nbsp;&nbsp;&nbsp;&nbsp;本课程结合多媒体影音语言学习和平面视觉艺术的全方位设计美语教材，每堂课程中特别强调句型学习、发音学习、听力练习、书写练<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 习，每两课之后即附有一则有耳孰能详的预言预言故事<SPAN class=style7>，</SPAN>让学生在课堂设计中及养成阅读的兴趣<SPAN class=style7>。</SPAN>此课程专为EFL学生设计的美语课程<BR>
@@ -61,26 +60,13 @@
 </P>
 <P><span style="color:#A72589; font-size:18px;">课程目标：</span><BR>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;核心词汇：1700个单辞，500组以上的句型。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发音：短/长元音、复合辅/元音、双元音、韵文、辅音、连接r的元音。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;时态：一般现在时、现在进行时、一般将来时、一般过去时、过去进行时、现在完成时、比较级、最高级、祈使句、<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 虚拟语气、助动词 <BR><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;后续衔接课程：凯顿少儿精品班(全外教) </P>
-<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
-<TBODY>
-<TR>
-<TD>&nbsp;</TD>
-<TD rowSpan=3>
-<DIV align=right></DIV>
-<DIV align=right><A href="bm.asp?class=Language%20Arts"><IMG height=118 src="images/z2.png" width=215 border=0></A></DIV></TD></TR>
-<TR>
-<TD>&nbsp;</TD></TR>
-<TR>
-<TD vAlign=top width="46%" height=68>
-<P align=left>&nbsp;&nbsp;&nbsp;&nbsp;</P></TD></TR></TBODY></TABLE></DIV></DIV></td>
+<p><A href="bm.asp?class=Language%20Arts"><IMG height=118 src="images/z2.png" width=215 border=0></A></p>
 				  <%
 				  rs.close
 				  set rs = nothing
 				  %>
-                  </tr>
-                </table></td>
-              </tr>
-                    </table>
+   </div>
+		</div>
 </div><!-- End: #right-->
         </div><!-- End: #main -->
 

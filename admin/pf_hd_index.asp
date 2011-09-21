@@ -123,13 +123,6 @@ Call close_rs
                           <span class="red">必填</span> </td>
 				  </tr>
 					<tr>
-                      <td align="center">新闻类型：</td>
-                      <td><select name="pf_link_style" id="pf_link_style">
-                          <option value="0" selected="selected">新闻</option>
-                          <option value="1">活动</option>
-                      </select></td>
-				  </tr>
-					<tr>
                       <td align="center">简要说明：</td>
                       <td><textarea name="pf_link_text" cols="60" id="pf_link_text"></textarea>
                           <span class="red">控制在255个字符之内</span> </td>

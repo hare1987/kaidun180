@@ -57,7 +57,7 @@ document.write('</object>');
                 <div class="clear"></div>
                 <div id="kaidun_month_star" class="box">
                    <em class="icon"><img src="images/icons/star.png" /></em>
-        <h3 class="corner_it"><div class="inner"><span><a href="star.asp" title="">MORE</a></span>凯顿月之星</div></h3>
+        <h3 class="corner_it"><div class="inner"><span><a href="stars.asp" title="">MORE</a></span>凯顿月之星</div></h3>
 <div id="colee_left" style="overflow:hidden; width:460px;">
 <table cellpadding="0" cellspacing="0" border="0">
 <tr><td id="colee_left1" valign="top" align="center">
@@ -153,12 +153,12 @@ set rs = nothing
                 <div id="preview_video" class="box">
                 </div><!-- End: #preview_video -->
                 <div id="kaidun_activity" class="box">
-                   <em class="icon"><img src="images/icons/game.png" /></em>
+                   <em class="icon"><img src="images/icons/huodong.png" /></em>
                     <h3 class="corner_it"><div class="inner"><span><a href="hdmore.asp">MORE </a></span>凯顿活动</div></h3>
                     <ul>
                     <%
 set rs = server.CreateObject("adodb.recordset")
-sql = "select top 3 *  from  pf_hd  order by id desc"
+sql = "select top 3 *  from  pf_hd  order by ID desc"
 rs.open sql,conn,1,1
 i = 1
 do while not rs.eof or rs.bof

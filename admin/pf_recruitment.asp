@@ -103,15 +103,18 @@ End If
 				  </tr>
 					<tr>
 					  <td align="center">所在校区：</td>
-					  <td><select name="pf_recruitment_area" id="pf_recruitment_area">
+					  <td>
+                      <select name="pf_recruitment_area" id="pf_recruitment_area">
                         <option>总部</option>
-                        <option>田林校区</option>
-                        <option>书城校区</option>
-                        <option>浦东校区</option>
-                        <option>莘庄校区</option>
-                        <option>虹口校区</option>
-                        <option>长宁校区</option>
-                                                                                        </select></td>
+                        <option>徐汇田林校</option>
+                        <option>黄浦书城校</option>
+                        <option>浦东金桥校</option>
+                        <option>闵行莘庄校</option>
+                        <option>虹口东宝校</option>
+                        <option>长宁虹桥校</option>
+                        <option>松江九亭校</option>
+                        <option>宝山大华校</option>                                                                                                                                      </select>
+                                                                                                                                           </td>
 					</tr>
 					<tr>
 						<td align="center">年龄要求：</td>

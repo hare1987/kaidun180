@@ -5,10 +5,13 @@
 
 <div class="crumbs">
                   <div class="inner">
-     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;凯顿明星课程&nbsp;&gt;<a href="class6.asp">短期课程</a>&nbsp;&gt;Phonic Magic Cards</span>
-                     <ul>
-                        <li class="style6">Phonic Magic Cards</li>
-                     </ul>
+     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;<a href="item.asp">特色班</a>&nbsp;&gt;Phonic Magic Cards</span>
+                          <ul>
+                        <li class="style6">特色班</li>
+                        <li class="style11"><a href="year.asp">年度班</a></li>
+                        <li class="style11"><a href="star.asp">星级考</a></li>
+                        <li class="style11"><a href="other.asp">其他班</a></li>                    
+                      </ul>
                   </div>
                </div>
 

@@ -46,23 +46,25 @@ set rs = nothing
             </div>
         </div><!-- End: #footer -->
         </div><!-- End: #container -->
-           <script language="javascript">
+        
+<script language="javascript">
    
 function checkregform(){
-    if (gf.name.value ==""){
+	alert("验证开始了！");
+    if (yx.name.value == ""){
 	   alert("请填写宝宝的姓名!");
-	   gf.name.focus();
+	   yx.name.focus();
 	   return false;	
 	}
-    if (gf.tel.value ==""){
+    if (gf.tel.value == ""){
 	   alert("请填写您的联系电话!");
-	   gf.tel.focus();
+	   yx.tel.focus();
 	   return false;	
 	}
-     if (gf.tel.value == "" || gf.tel.value.length <11 ||  gf.tel.value.length > 12  ||  isNaN(gf.tel.value)){
+     if (yx.tel.value == "" || yx.tel.value.length <11 ||  yx.tel.value.length > 12  ||  isNaN(yx.tel.value)){
 	 alert("请正确填写联系电话!");
-	 gf.tel.value = "";
-	 gf.tel.focus();
+	 yx.tel.value = "";
+	 yx.tel.focus();
 	 return false;	 
 	 }
 
@@ -70,6 +72,7 @@ return true;
 }
 
 </script>
+
         <script src="javascripts/jquery.cookie.js" type="text/javascript"></script>
         <script src="javascripts/slides.min.jquery.js" type="text/javascript"></script>
         <script src="javascripts/jquery.marquee.js" type="text/javascript"></script>

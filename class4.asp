@@ -4,26 +4,24 @@
 <div class="right">
 <div class="crumbs">
                   <div class="inner">
-                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;凯顿经典课程&nbsp;&gt;ESL</span>
-                     <ul>
-                        <li class="style6">ESL</li>
-                        <li class="style11"><a href="class1.asp" class="style4">ABCbakery</a></li>
-                        <li class="style11"><a href="class2.asp">Language Arts</a></li>
-                        <li class="style11"><a href="class5.asp">Star Test</a></li>
+                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;<a href="year.asp">年度班</a>&nbsp;&gt;ESL</span>
+                       <ul>
+                        <li class="style6">年度班</li>
+                        <li class="style11"><a href="item.asp">特色班</a></li>
+                        <li class="style11"><a href="star.asp">星级考</a></li>
+                        <li class="style11"><a href="other.asp">其他班</a></li>    
                      </ul>
                   </div>
                </div>
                
-<table width="100%"  border="0" cellpadding="0" cellspacing="0">
-                  <tr>
+<div class="contents">
+			<div class="content">
+				<div class="title">ESL</div>
+                              <P> <style type="text/css"><!--.style2 {	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	line-height: 150%;}--></style></P>
                                   				  <%
 				  set rs =server.CreateObject("adodb.recordset")
 				  rs.open "select * from  pf_custom",conn,1,1
 				  %>
-                  <td width="750" height="25"><DIV align=left>
-<DIV align=left>
-<DIV align=left>
-<DIV style="LINE-HEIGHT: 150%" align=left>
   <p><IMG src="images/a11.jpg" width=750 height=97><BR>
     </p>
   <p><span style="color:#A72589; font-size:18px;">课程内容</span>
@@ -63,25 +61,15 @@
 <P><SPAN  style="color:#A72589; font-size:18px;">学习测试方式：<BR>
   </SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 电访测试/一周一次<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 月度测试-听力测试/由中籍老师负责，口语测试/由外籍老师负责<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. 期中考、期末考<BR><BR><SPAN  style="color:#A72589; font-size:18px;">课程目标：<BR>
 </SPAN><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;核心词汇：3000个单辞，700组以上的句型。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;发音：辅音、字母组合、元音字母在开闭音结中的读法、语音语调的基本知识与国际音标。 <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;时态：一般现在时、现在进行时、一般将来时、一般过去时、现在完成时、过去进行时、过去完成时、过去将 来时。 </P>
-<TABLE border=0 cellSpacing=0 cellPadding=0 width="100%">
-<TBODY>
-<TR>
-<TD><SPAN  style="color:#A72589; font-size:18px;">备注：</SPAN></TD>
-<TD rowSpan=3>
-<DIV align=right></DIV>
-<DIV align=right><A href="bm.asp?class=ESL"><IMG border=0 src="images/z4.png" width=215 height=118></A></DIV></TD></TR>
-<TR>
-</TR>
-<TR>
-<TD height=68 width="46%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. 教材依课程程度不同而收费。<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. 教学采小班制，一班8~10人<SPAN class=style7></SPAN></TD></TR></TBODY></TABLE></DIV></DIV></DIV></DIV></td>
+<p><A href="bm.asp?class=ESL"><IMG border=0 src="images/z4.png" width=215 height=118></A></p>
+<P><SPAN style="color:#A72589; font-size:18px;">备注：</SPAN><BR>1. 教材依课程程度不同而收费。<BR>2. 教学采小班制，一班8~10人</P>
 				  <%
 				  rs.close
 				  set rs = nothing
 				  %>
-                  </tr>
-                </table></td>
-              </tr>
-                    </table>
+                  </div>
+		</div>
+
 </div><!-- End: #right-->
         </div><!-- End: #main -->
 

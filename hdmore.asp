@@ -24,7 +24,7 @@
 
 		<%
 		set rs = server.CreateObject("adodb.recordset")
-        sql = "select *  from  pf_hd  order by id desc"
+        sql = "select *  from  pf_hd  order by ID desc"
 		 rs.open sql,conn,1,1
 		if rs.recordcount=0 then 
 		%>

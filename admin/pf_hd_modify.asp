@@ -32,6 +32,7 @@ If request.Form("submit") = "确认修改" Then
     rs("pf_link_style") = request.Form("pf_link_style")
 	rs("pf_link_text") = request.Form("pf_link_text")
     rs("content") = request.Form("content2")
+	rs("update_date")=Now();
     rs.update
     Call close_rs
 	
@@ -79,13 +80,6 @@ End If
                       <td align="center">新闻标题：</td>
                       <td><input type="text" name="pf_link_name" value="<%=rs("pf_link_name")%>" size="60" />
                           <span class="red">必填</span> </td>
-				  </tr>
-					<tr>
-                      <td align="center">新闻类型：</td>
-                      <td><select name="pf_link_style" id="pf_link_style">
-						      <option value="0" <%if rs("pf_link_style") = 0 then%>  selected="selected"  <%end if%>>新闻</option>
-						      <option value="1" <%if rs("pf_link_style") = 1 then%>  selected="selected"  <%end if%>>活动</option>
-						    </select></td>
 				  </tr>
 					<tr>
 						<td width="80" align="center">简要说明：</td>

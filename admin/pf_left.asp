@@ -26,10 +26,13 @@
 			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_hd_index.asp?id=1">活动新闻</a>&nbsp;&nbsp;&nbsp;<a href="pf_game.asp">游戏下载</a></div></dd>
 						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_link.asp">友情链接</a>&nbsp;&nbsp;&nbsp;<a href="uploadfile.asp">首页广告</a></div></dd>
 						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_index_contact.asp?id=1">联系方式</a>&nbsp;&nbsp;&nbsp;<a href="pf_bulletin.asp?id=1">公告管理</a></div></dd>
+						<dd>
+						  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_class.asp">开班管理</a></div>
+		   </dd>
                         		</dl>
 		
 		<dl>
-			<dt>凯顿简介</dt>
+<dt>凯顿简介</dt>
 			        <dd>
 			          <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_about.asp?id=1">凯顿介绍</a>&nbsp;&nbsp;&nbsp;<a href="pf_tsln.asp?id=1">特色理念</a> </div>
 			        </dd>

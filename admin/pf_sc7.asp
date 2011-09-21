@@ -21,6 +21,7 @@ If request.Form("submit") = "确认修改" Then
 	rs("sc_address")=request.Form("pf_sc_address")
 	rs("sc_bus")=request.Form("pf_sc_bus")
 	rs("sc_tel")=request.Form("pf_sc_tel")
+	rs("sc_link")=request.Form("sc_link")
     rs("sc_about") = request.Form("content2")
 	rs("sc_p_logo")=request.Form("pf_uploadfile")
 	rs("sc_p_map")=request.Form("pf_uploadfile2")
@@ -84,6 +85,12 @@ End If
                 <td width="80" align="center">学校电话：</td>
                 <td><input type="text" name="pf_sc_tel" value="<%=rs("sc_tel")%>" size="60" /></td>
               </tr>
+                <tr>
+						<td align="center">链接地址：</td>
+						<td>
+							<input type="text" name="sc_link" size="70" value="<%=rs("sc_link")%>"/>
+							<span class="red">必填</span> </td>
+					</tr>
               <tr>
                 <td rowspan="4" align="center">学校地图：</td>
                 <td><input type="text" name="pf_uploadfile" value="<%=rs("sc_p_logo")%>" size="40" />

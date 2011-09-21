@@ -4,12 +4,12 @@
 <div class="right">
 <div class="crumbs">
                   <div class="inner">
-                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;凯顿经典课程&nbsp;&gt;ABCbakery</span>
-                     <ul>
-                        <li class="style6">ABCbakery</li>
-                        <li class="style11"><a href="class2.asp">Language Arts</a></li>
-                        <li class="style11"><a href="class4.asp">ESL</a></li>
-                        <li class="style11"><a href="class5.asp">Star Test</a></li>
+                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;<a href="year.asp">年度班</a>&nbsp;&gt;ABCbakery</span>
+                        <ul>
+                        <li class="style6">年度班</li>
+                        <li class="style11"><a href="item.asp">特色班</a></li>
+                        <li class="style11"><a href="star.asp">星级考</a></li>
+                        <li class="style11"><a href="other.asp">其他班</a></li>    
                      </ul>
                   </div>
       </div>

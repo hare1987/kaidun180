@@ -5,16 +5,15 @@
 
 <div class="crumbs">
                   <div class="inner">
-                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;<a href="star.asp">凯顿月之星</a>&nbsp;&nbsp;</span>
+                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;<a href="stars.asp">凯顿月之星</a>&nbsp;&nbsp;</span>
                      <ul>
                         <li class="style6">凯顿月之星</li>
                      </ul>
                   </div>
                </div>	
-    <div class="box">
-    <h3 style="width:730px;"><div class="inner">
-    <span><a href="star.asp"><img src="images/more.gif" width="32" height="13" border="0"></a></span>凯顿月之星</div></h3>
-      <div class="m">
+<div class="contents">
+			<div class="content">
+				<div class="title">凯顿月之星</div>
 <%
 id=request.QueryString("id")
 set rs=server.CreateObject("adodb.recordset")
@@ -30,6 +29,8 @@ rs.open "select * from pf_ms where id="&id,conn,1,3
 
 <%rs.close
 set rs=nothing%>
+</div>
+</div>
                               
                                       </div><!-- End: #right-->
         </div><!-- End: #main -->
