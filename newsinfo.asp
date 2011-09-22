@@ -4,7 +4,7 @@
 <div class="right">
 <div class="crumbs">
                   <div class="inner">
-                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt; 新闻资讯&nbsp;&nbsp;</span>
+                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt; <a href="news.asp">新闻资讯</a>&nbsp;&nbsp;</span>
                      <ul>
                         <li class="style6">新闻资讯</li>
                      </ul>

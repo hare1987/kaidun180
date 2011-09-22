@@ -6,7 +6,7 @@
                     
                     <div class="crumbs">
                   <div class="inner">
-                  <span class="current">当前位置：当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;凯顿资讯  &nbsp;&nbsp;</span>
+                  <span class="current">当前位置：当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;<a href="hdmore.asp">凯顿活动</a>&nbsp;&nbsp;</span>
                      <ul>
                         <li class="style6">凯顿活动</li>
                      </ul>

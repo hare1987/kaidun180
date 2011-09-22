@@ -28,7 +28,7 @@
                                </table>
  <%
 		else
-	  		rs.PageSize =8'每页记录条数
+	  		rs.PageSize =4'每页记录条数
 			iCount=rs.RecordCount '记录总数
 			iPageSize=rs.PageSize
     		maxpage=rs.PageCount 
@@ -68,7 +68,7 @@
 	next
 	%>		                        
            
-             <div class="page-no">             
+            <div class="page-no">             
 
                                 <%
 		call PageControl(iCount,maxpage,page,"border=0 align=center","<p align=center>")

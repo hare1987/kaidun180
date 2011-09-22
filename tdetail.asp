@@ -19,12 +19,12 @@ id=request.QueryString("id")
 set rs=server.CreateObject("adodb.recordset")
 rs.open "select * from pf_ms where id="&id,conn,1,3
 %>
-
+<div>
 <img src="<%=rs("pf_uploadfile")%>">
-姓名：<%=rs("pf_link_name")%><br />
+<p>姓名：<%=rs("pf_link_name")%><br />
 校区：<%=rs("school")%><br />
 获得奖项：<%=rs("position")%><br />
-说明：<%=rs("pf_link_text")%><br />
+说明：<%=rs("pf_link_text")%><br /></p>
 </div>
 
 <%rs.close

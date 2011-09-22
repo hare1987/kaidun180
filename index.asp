@@ -58,18 +58,18 @@ document.write('</object>');
                 <div id="kaidun_month_star" class="box">
                    <em class="icon"><img src="images/icons/star.png" /></em>
         <h3 class="corner_it"><div class="inner"><span><a href="stars.asp" title="">MORE</a></span>凯顿月之星</div></h3>
-<div id="colee_left" style="overflow:hidden; width:460px;">
+<div id="colee_left" style="overflow:hidden; width:100%; padding-bottom:5px;">
 <table cellpadding="0" cellspacing="0" border="0">
 <tr><td id="colee_left1" valign="top" align="center">
 <table cellpadding="2" cellspacing="0" border="0">
 <tr align="center">
               <%
 set rs = server.CreateObject("adodb.recordset")
-sql = "select top 2 * from  pf_ms where  pf_link_style='凯顿月之星'order by ID asc"
+sql = "select top 5 * from  pf_ms where  pf_link_style='凯顿月之星'order by ID asc"
 rs.open sql,conn,1,1
 do while not rs.eof or rs.bof
 %>
-<td style="padding:10px;"><p><a href="tdetail.asp?id=<%=rs("id")%>" title="<%=rs("pf_link_name")%><%=rs("position")%>"><img src="<%=rs("pf_uploadfile")%>"></a></p></td>
+<td style="padding:10px;"><p><img src="<%=rs("pf_uploadfile")%>"><%=rs("pf_link_name")%></p></td>
   <%
 rs.movenext
 loop
@@ -79,7 +79,7 @@ set rs = nothing
 </tr>
 </table>
 </td>
-<td id="colee_left2" valign="top"></td>
+<td id="colee_left2" valign="top" align="center"></td>
 </tr>
 </table>
 </div>
@@ -104,11 +104,11 @@ colee_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
 <!--向左滚动代码结束-->
 </div>
                 <div class="clear"></div>
-              <div id="kaidun_news" class="box">
-                   <em class="icon"><img src="images/icons/paper.png" /></em>
+              <div id="kaidun_news" class="box" style="padding-bottom:5px;">
+                   <em class="icon"><img src="images/icons/xingxing.png" /></em>
                     <h3 class="corner_it"><div class="inner"><span><a href="class.asp">MORE </a></span>最新开班信息</div></h3>
                     <ul>
-                    <table bgcolor="#FFFFFF" width="460" class="list-table">
+                    <table bgcolor="#FFFFFF" width="460" class="list-table" style="margin-top:10px;">
                     <tbody><tr>
 													<td width="130" align="center"  height="25">开班名称</td>
 													<td width="130" align="center"  height="25">上课时间</td>
@@ -176,7 +176,7 @@ rs.open sql,conn,1,1
 i = 1
 do while not rs.eof or rs.bof
 %>
-                        <li><strong><a href="hdinfo.asp?id=<%=rs("id")%>"><%=rs("pf_link_name")%></a></strong></li>
+                        <li><a href="hdinfo.asp?id=<%=rs("id")%>" title="<%=rs("pf_link_name")%>"><%=left(replace(trim(rs("pf_link_name")),"<br>",""),13)%></a></li>
                         <%
 i = i + 1
 rs.movenext
