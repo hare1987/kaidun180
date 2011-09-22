@@ -20,7 +20,7 @@ If request.Form("submit") = "确认添加" Then
         'Call infoback("排序数字不能为空！而且必须为数字！")
     'End If
     Set rs = server.CreateObject("adodb.recordset")
-    sql = "select * from pf_hd"
+    sql = "select * from pf_hd order by ID desc"
     rs.Open sql, conn, 1, 3
     rs.addnew
     rs("pf_link_name") = request.Form("pf_link_name")
@@ -78,37 +78,48 @@ End If
 					<th>类型</th>
 					<th>修改操作</th>
 				</tr>
-				<%
+<%
+sql = "select * from pf_hd where pf_uploadfile <> 'text' order by ID desc"
 Set rs = server.CreateObject("adodb.recordset")
-sql = "select * from pf_hd where pf_uploadfile <> 'text'"
 rs.Open sql, conn, 1, 1
-Do While Not rs.EOF
-
+If rs.EOF Then
+    response.Write "暂无新闻！"
+Else
+    rs.PageSize =20
+    allpage = rs.RecordCount
+    iPageSize = rs.PageSize
+    maxpage = rs.PageCount
+    page = request("page")
+    If Not IsNumeric(page) Or page = "" Then
+        page = 1
+    Else
+        page = CInt(page)
+    End If
+    If page<1 Then
+        page = 1
+    ElseIf page>maxpage Then
+        page = maxpage
+    End If
+    rs.AbsolutePage = Page
+    If page = maxpage Then
+        x = allpage - (maxpage -1) * iPageSize
+    Else
+        x = iPageSize
+    End If
+    For i = 1 To x
 %>
 				<tr align="center">
 					<td><%=rs("pf_link_name")%></td>
-					<td>
-					<%
-					if  rs("pf_link_style") = 0 then
-					%>
-					新闻
-					<%
-					else
-					%>
-					活动
-					<%
-					end if
-					%>
-					
-					</td>
 					<td>[<a href="pf_hd_modify.asp?id=<%=rs("ID")%>">修改</a>] [<a href="pf_hd_delete.asp?id=<%=rs("ID")%>&opname=<%=rs("pf_link_name")%>" onclick="return confirm('确定要删除此消息吗？删除后将不可恢复！')">删除</a>]</td>
 				</tr>
-				<%
-rs.movenext
-Loop
-Call close_rs
-
-%>
+			<%
+		rs.movenext
+		Next
+		Call close_rs
+		Call close_conn
+End If 
+		%>
+                       <%call pcfinal_page%>
 			</table>
 		</div>
 		<div class="right_title">

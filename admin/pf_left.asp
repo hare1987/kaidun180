@@ -23,9 +23,9 @@
 		
 		 <dl>
 			<dt>首页信息管理</dt>
-			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_hd_index.asp?id=1">活动新闻</a>&nbsp;&nbsp;&nbsp;<a href="pf_game.asp">游戏下载</a></div></dd>
-						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_link.asp">友情链接</a>&nbsp;&nbsp;&nbsp;<a href="uploadfile.asp">首页广告</a></div></dd>
-						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_index_contact.asp?id=1">联系方式</a>&nbsp;&nbsp;&nbsp;<a href="pf_bulletin.asp?id=1">公告管理</a></div></dd>
+			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_hd_index.asp">活动回顾</a>&nbsp;&nbsp;&nbsp;<a href="pf_game.asp">游戏下载</a></div></dd>
+						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_link.asp">合作伙伴</a>&nbsp;&nbsp;&nbsp;<a href="uploadfile.asp">首页广告</a></div></dd>
+						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_index_contact.asp?id=1">联系凯顿</a>&nbsp;&nbsp;&nbsp;<a href="pf_bulletin.asp?id=1">公告管理</a></div></dd>
 						<dd>
 						  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_class.asp">开班管理</a></div>
 		   </dd>
@@ -37,26 +37,36 @@
 			          <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_about.asp?id=1">凯顿介绍</a>&nbsp;&nbsp;&nbsp;<a href="pf_tsln.asp?id=1">特色理念</a> </div>
 			        </dd>
 					<dd>
-					  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_zzjg.asp?id=1">组织架构</a>&nbsp;&nbsp;&nbsp;<a href="pf_ms_index.asp?id=1">名师推荐</a></div>
+					  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_ms_index.asp?id=1">凯顿月之星</a></div>
 				   </dd>
 		</dl>
 		
 		<dl>
-		     <dt>凯顿课程</dt>
+		     <dt>年度班</dt>
 			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_s1.asp?id=1" class="style1">ABCbakery</a>&nbsp;&nbsp;&nbsp;<a href="pf_s2.asp?id=1" class="style1">LA</a></div> 
 			     		</dd>
-						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_s3.asp?id=1" class="style1">Hip</a>&nbsp;&nbsp;&nbsp;<a href="pf_s4.asp?id=1" class="style1">ESL</a></div>
-						</dd>
-						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_s5.asp?id=1" class="style1">Star Test</a>&nbsp;&nbsp;&nbsp;<a href="pf_s6.asp?id=1" class="style1">短期课程</a></div>
+						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_s4.asp?id=1" class="style1">ESL</a></div>
 						</dd>
 		</dl>
 		
 		<dl>
-		     <dt>短期课程</dt>
+		     <dt>特色班</dt>
 			     		<dd><div align="left">&nbsp;<a href="pf_c1.asp?id=1" class="style1">Phonic Magic</a>&nbsp;&nbsp;<a href="pf_c2.asp?id=1" class="style1">Sing  Chant</a></div> 
 			     		</dd>
 						<dd><div align="left">&nbsp;<a href="pf_c3.asp?id=1" class="style1">Reading House</a></div>
 						</dd>
+		</dl>
+        
+        	<dl>
+		     <dt>星级考</dt>
+			     	<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_s5.asp?id=1" class="style1">Star Test</a></div>
+						</dd>
+		</dl>
+        
+        	<dl>
+		     <dt>其他班</dt>
+			     			<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_s3.asp?id=1" class="style1">Hip</a></div>
+						   </dd>
 		</dl>
 		
 		<dl>
@@ -70,7 +80,7 @@
 		</dl>
 		
 		 <dl>
-			<dt>联系我们</dt>
+			<dt>活动管理</dt>
 			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_yyhd.asp">活动管理</a></div> </dd>
 		</dl>
 
@@ -92,9 +102,6 @@
 		<dl>
 			<dt>预约咨询</dt>
 			<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_yy_order.asp">在线预约</a></div></dd>
-			<dd>
-			  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_cn_startest.asp">长宁星级考</a></div>
-			</dd>
 			<dt>&nbsp;</dt>
 			<dd>
 			  <div align="left"></div>
