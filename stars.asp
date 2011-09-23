@@ -77,6 +77,8 @@
 	        rs.movenext
 	        next
 	       %>
+               <div class="clear"></div>
+           
                                <div class="page-no">             
 
                                 <%

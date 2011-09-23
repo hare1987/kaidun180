@@ -26,6 +26,7 @@
                                    <td align="center">暂无专家信息</td>
                                  </tr>
                                </table>
+                        
  <%
 		else
 	  		rs.PageSize =4'每页记录条数
@@ -67,7 +68,7 @@
 	rs.movenext
 	next
 	%>		                        
-           
+            <div class="clear"></div>
             <div class="page-no">             
 
                                 <%
