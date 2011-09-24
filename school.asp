@@ -53,10 +53,10 @@
 	%>     
 				<table class="news-list">
 					<tbody><tr>
-                    <th>校区</th>
-                    <th class="n-title">电话</th>
-                    <th class="n-title">地址</th>
-                    <th class="n-title">校区详情</th>
+                    <th >校区</th>
+                    <th>电话</th>
+                    <th >地址</th>
+                    <th >校区详情</th>
                     </tr>
 					
 			

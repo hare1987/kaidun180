@@ -38,16 +38,17 @@
                 </div><!-- End: #contact_kaidun -->
 
              <div class="bar_connection">
-                    <span class="t corner_bottom"></span>
+                   <span class="t"></span>
                     <img src="images/icons/bar_connection.png" />
+
                 </div>
-                <div class="bar_connection1 corner_top"></div>
+                <div class="bar_connection1"></div>
 
                 <div id="latest_news" class="box">
                    <em class="icon"><img src="images/icons/news.png" /></em>
                    <h3 class="corner_it">
                      <div class="inner"><span><a href="news.asp" title="">MORE </a></span>最新资讯</div></h3>
-                    <ul>
+                    <ul  class="corner_bottom">
                     <%
 set rs = server.CreateObject("adodb.recordset")
 sql = "select top 5 * from pf_news order by ID desc"
@@ -70,11 +71,4 @@ set rs = nothing
         
                     </ul>
                 </div><!-- End: #latest_news -->
-         <div id="online_test" class="box">
-                   <em id="pen"><img src="images/icons/pen.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="#" title="">MORE</a></span>在线测试</div></h3>
-                    <ul class="corner_bottom">
-          
-                    </ul>
-                </div>
             </div>

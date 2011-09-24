@@ -50,23 +50,22 @@ document.write('<embed src="images/focus.swf" FlashVars="pics='+pics+'&links='+l
 document.write('</object>');
 </script>	
                 </div><!-- End: #index_slides -->
-                <div class="clear"></div>        
-                            <div id="corner" class="corner_outer">     
-                <div id="kaidun_month_star" class="box corner_inner">
+                <div class="clear"></div>  
+ <div id="kaidun_month_star" class="box">
                    <em class="icon"><img src="images/icons/star.png" /></em>
-        <h3 class="corner_it"><div class="inner"><span><a href="stars.asp" title="">MORE</a></span>凯顿月之星</div></h3>
-<div id="colee_left" style="overflow:hidden; width:100%; padding-bottom:5px;">
+        <h3 class="corner_it"><div class="inner"><span><a href="star.asp" title="">MORE</a></span>凯顿月之星</div></h3>
+<div id="colee_left" style="overflow:hidden; width:100%;">
 <table cellpadding="0" cellspacing="0" border="0">
 <tr><td id="colee_left1" valign="top" align="center">
 <table cellpadding="2" cellspacing="0" border="0">
 <tr align="center">
               <%
 set rs = server.CreateObject("adodb.recordset")
-sql = "select top 5 * from  pf_ms where  pf_link_style='凯顿月之星'order by ID asc"
+sql = "select top 2 * from  pf_ms where  pf_link_style='凯顿月之星'order by ID asc"
 rs.open sql,conn,1,1
 do while not rs.eof or rs.bof
 %>
-<td style="padding:10px;"><p><img src="<%=rs("pf_uploadfile")%>" class="corner_it"></p></td>
+<td style="padding:10px;"><p><a href="tdetail.asp?id=<%=rs("id")%>" title="<%=rs("pf_link_name")%><%=rs("position")%>"><img src="<%=rs("pf_uploadfile")%>"></a></p></td>
   <%
 rs.movenext
 loop
@@ -76,7 +75,7 @@ set rs = nothing
 </tr>
 </table>
 </td>
-<td id="colee_left2" valign="top" align="center"></td>
+<td id="colee_left2" valign="top"></td>
 </tr>
 </table>
 </div>
@@ -99,54 +98,8 @@ colee_left.onmouseover=function() {clearInterval(MyMar3)}
 colee_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
 </script>
 <!--向左滚动代码结束-->
-</div>
-                <div class="clear"></div>
-              <div id="kaidun_news" class="box corner_inner" style="padding-bottom:5px;">
-                   <em class="icon"><img src="images/icons/xingxing.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="class.asp">MORE </a></span>最新开班信息</div></h3>
-                
-                    <ul>
-                    <table bgcolor="#FFFFFF" width="460" class="list-table" style="margin-top:10px;">
-                    <tbody><tr>
-													<td width="130" align="center"  height="25">开班名称</td>
-													<td width="130" align="center"  height="25">上课时间</td>
-													<td width="100" align="center"  height="25">开班日期</td>
-													<td width="100" align="center"  height="25">上课地点</td>					
-
-												  </tr>
- 
-  <%
-set rs = server.CreateObject("adodb.recordset")
-sql = "select * from  class order by ID desc"
-rs.open sql,conn,1,1
-do while not rs.eof or rs.bof
-%>
-		                                      <tr>
-		                                        <td width="130" align="center"  height="20"><%=rs("class_name")%></td>
-		                                        <td width="130" align="center"  height="20"><%=rs("class_time")%></td>
-												<td width="100" align="center"  height="18"><%=rs("class_date")%></td>
-		                                        <td width="100" align="center"  height="20"><%=rs("class_address")%></td>
-                                                </tr>
-
-  <%
-rs.movenext
-loop
-rs.close
-set rs = nothing
-%>
-		                                      
-		                                   
- 
-		                                      		                                      
-                  </tbody>
-                  
-</table>
-                        
-                    </ul>
-                </div>
-                
+</div>          
               <div class="clear"></div>
-              </div>
             </div><!-- End: #center1 -->
             <div class="right_bar">
                 <div id="preview_video" class="box corner_it">

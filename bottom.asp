@@ -1,13 +1,3 @@
-<!--<div id="egg">
-             <span>
-                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="212" height="179">
-        <param name="movie" value="images/dan.swf" />
-        <param name="quality" value="high" />
-        <param name="wmode" value="transparent" />
-        <embed src="images/dan.swf" width="190" height="160" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
-      </object>
-           </span>
-        </div><!-- #End #dan --> -->
 
          <div id="backto_top">Back to top.</div>
 <div id="company_partner" class="box">
@@ -41,6 +31,16 @@ set rs = nothing
 </ul>
 
                 </div>
+<div id="egg">
+             <span>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="212" height="179">
+        <param name="movie" value="images/dan.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="transparent" />
+        <embed src="images/dan.swf" width="190" height="160" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
+      </object>
+           </span>
+        </div><!-- #End #dan -->
  <div id="footer" class="corner_it">
             <div class="inner">
                 <p>Copyrgiht &copy; 2011 上海凯顿儿童美语 All Rights Reserved. 地址：徐家汇苍梧路10号三栋306 联系电话：4006-117-668</p>

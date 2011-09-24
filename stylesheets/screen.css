@@ -251,7 +251,7 @@ _ background-image: none; /* IE6 */
   padding: 3px;
   margin-bottom: 10px;
   height: 20px;
-  width:  740px;
+  width:  735px;
   line-height: 20px;
   border: 1px  solid #a9d3ff;
 }
@@ -470,7 +470,7 @@ font-weight:bold;
 #kaidun_news,#kaidun_month_star {
   width: 505px;
 }
-#kaidun_month_star{ margin-bottom:10px;}
+
 #preview_video {
   margin-bottom: 10px;
   height:172px;
@@ -480,6 +480,7 @@ font-weight:bold;
 
 #company_partner  ul{
 	padding-bottom:5px;
+	padding-left:30px;
 	}
 
 #company_partner li{
@@ -500,8 +501,8 @@ font-weight:bold;
 
 #egg {
   position: absolute;
-  bottom: 36px;
-  left: 25px;
+  bottom: 40px;
+  left: 30px;
   z-index: 9999;
 }
 
@@ -540,22 +541,6 @@ font-weight:bold;
 }
 
 .teacher img {
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-/* End teachers */
-
-.contents {
-    min-height: 380px;
-    overflow: hidden;
-    width: 740px;
-	border: 1px  solid #a9d3ff;
-	background-color:#FFF;
-}
-
-.contents .content {
-    margin-left: 45px;
     width: 650px;
 }
 .contents .content .title {
@@ -577,8 +562,25 @@ font-weight:bold;
 .news-list {
     border-bottom: 1px solid #C9C9C9;
     border-collapse: collapse;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* End teachers */
+
+.contents {
+    min-height: 380px;
+    overflow: hidden;
+    width: 740px;
+	border: 1px  solid #a9d3ff;
+	background-color:#FFF;
+}
+
+.contents .content {
+    margin-left: 45px;
     font-size: 13px;
     width: 100%;
+min-height:460px;height:auto !important; height:460px;
 }
 .news-list tr {border-bottom: 1px solid #C9C9C9;}
 th.n-title {
@@ -645,4 +647,3 @@ div.corner_outer{
     padding: 5px;
     width: 22em;
 }
-#corner{ width:515px;}

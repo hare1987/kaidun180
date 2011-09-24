@@ -316,6 +316,7 @@ _ background-image: none; /* IE6 */
 .bar_connection img {
   margin-top: -10px;
   margin-left: 20px;
+  z-index:1111;
 }
 .bar_connection span {
   _margin-top: -10px;
@@ -326,7 +327,7 @@ _ background-image: none; /* IE6 */
   background: #FFF;
   margin-left: 4px;
   margin-right: 4px;
-  _margin-top: -15px;
+  _margin-top: -5px;
   _height:28px;
 }
 
@@ -470,7 +471,10 @@ font-weight:bold;
 #kaidun_news,#kaidun_month_star {
   width: 505px;
 }
-#kaidun_month_star{ margin-bottom:10px;}
+#kaidun_month_star{ 
+margin-bottom:10px;
+_margin-bottom: 0px;
+}
 #preview_video {
   margin-bottom: 10px;
   height:172px;
