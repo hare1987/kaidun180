@@ -79,7 +79,7 @@ End If
 					<th>ÐÞ¸Ä²Ù×÷</th>
 				</tr>
 <%
-sql = "select * from pf_hd where pf_uploadfile <> 'text' order by ID desc"
+sql = "select * from pf_hd order by ID desc"
 Set rs = server.CreateObject("adodb.recordset")
 rs.Open sql, conn, 1, 1
 If rs.EOF Then

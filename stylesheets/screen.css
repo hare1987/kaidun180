@@ -1,3 +1,6 @@
+#container{
+  background: #ffe565;
+}
 .clear {
   height: 0;
   clear: both;
@@ -29,7 +32,8 @@ a:active {
 	text-decoration: none;
 	color: #000000;
 }
-.style6 {	color: #990000;
+.style6 {	
+    color: #990000;
 	font-weight: bold;
 	font-size:11px;
 }
@@ -249,6 +253,7 @@ _ background-image: none; /* IE6 */
   height: 20px;
   width:  740px;
   line-height: 20px;
+  border: 1px  solid #a9d3ff;
 }
 .crumbs ul {
   margin-left: 30px;
@@ -437,16 +442,15 @@ font-weight:bold;
 }
 
 .box ul {
-  background: #FFF;
   margin: 0 4px;
   padding-bottom: 25px;
+  background-color:#fff;
 }
 
 .box ul li {
   padding: 8px;
   border-bottom: 1px dashed #BDBDBD;
 }
-
 .center1 .box h3 {
   background: #552F18;
 }
@@ -464,9 +468,9 @@ font-weight:bold;
 
 
 #kaidun_news,#kaidun_month_star {
-  width: 530px;
+  width: 505px;
 }
-
+#kaidun_month_star{ margin-bottom:10px;}
 #preview_video {
   margin-bottom: 10px;
   height:172px;
@@ -546,6 +550,7 @@ font-weight:bold;
     min-height: 380px;
     overflow: hidden;
     width: 740px;
+	border: 1px  solid #a9d3ff;
 	background-color:#FFF;
 }
 
@@ -620,7 +625,24 @@ img {
 }
 .list-table td{border:1px  #39F solid;line-height:150%;}
 .list-table p{ padding-left:10px;}
+.list-table a{color: #990000;}
 .form-table td{
 line-height:150%;
 }
 .form-table strong{ font-weight:bold;}
+
+div.corner_inner {
+    background: none repeat scroll 0 0 #ffe565;
+    border: 0 none;
+    margin: 0;
+    padding: 5px;
+	width:100%;
+}
+div.corner_outer{
+    background: none repeat scroll 0 0 #FF8800;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    width: 22em;
+}
+#corner{ width:515px;}

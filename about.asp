@@ -3,7 +3,7 @@
 <!-- #include file = "left.asp" -->
 <div class="right">
 <div class="crumbs">
-                  <div class="inner">
+                  <div class="inner corner_it">
                      <span class="current">µ±«∞Œª÷√£∫<a href="index.asp"> ◊ “≥</a>&nbsp;&gt; ø≠∂ŸΩÈ…‹&nbsp;&nbsp</span>
                      <ul>
                         <li class="style6">ø≠∂ŸΩÈ…‹</li>
@@ -13,8 +13,8 @@
                   </div>
                </div>
 
-
-<div class="contents">
+<div class="corner_outer" style="width:730px;">
+<div class="contents  corner_inner" style="width:720px;">
 			<div class="content">
 				<div class="title">ø≠∂ŸΩÈ…‹</div>
                               <P> <style type="text/css"><!--.style2 {	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	line-height: 150%;}--></style></P>
@@ -29,7 +29,7 @@
 				  %>
 		</div>
 		</div>
-
+</div>
              
   </div><!-- End: #right-->
         </div><!-- End: #main -->

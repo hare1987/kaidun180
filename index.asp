@@ -4,7 +4,7 @@
             <!-- End: #left -->
             <div class="right">
             <div class="center1">
-                <div id="index_slides">
+                <div id="index_slides" class="corner_it">
          <script type=text/javascript>
 var pic_width=530; //图片宽度
 var pic_height=280; //图片高度
@@ -17,24 +17,20 @@ var imag=new Array();
 var link=new Array();
 var text=new Array();
 imag[1]="images/fla1.jpg";
-link[1]="http://www.kaidun180.com/sd/index.htm";
-text[1]="凯顿儿童美语学校";
+link[1]="";
+text[1]="家长俱乐部活动，9月10月专家教育讲座";
 imag[2]="images/fla2.jpg";
-link[2]="http://www.kaidun180.com/";
-text[2]="凯顿儿童美语学校";
+link[2]="";
+text[2]="凯顿儿童美语 宝山大华校开业庆典";
 imag[3]="images/fla3.jpg";
-link[3]="http://www.kaidun180.com/";
-text[3]="凯顿儿童美语学校";
+link[3]="";
+text[3]="凯顿儿童美语 宝山大华校开业庆典";
 imag[4]="images/fla4.jpg";
-link[4]="http://www.kaidun180.com/";
-text[4]="凯顿儿童美语学校"
+link[4]="";
+text[4]="凯顿儿童美语 宝山大华校开业庆典";
 imag[5]="images/fla5.jpg";
-link[5]="http://www.kaidun180.com/";
-text[5]="凯顿儿童美语学校"
-imag[6]="images/fla6.jpg";
-link[6]="http://www.kaidun180.com/";
-text[6]="凯顿儿童美语学校"
-
+link[5]="";
+text[5]="凯顿儿童美语 宝山大华校开业庆典";
 //可编辑内容结束
 var swf_height=show_text==1?pic_height+20:pic_height;
 var pics="", links="", texts="";
@@ -54,8 +50,9 @@ document.write('<embed src="images/focus.swf" FlashVars="pics='+pics+'&links='+l
 document.write('</object>');
 </script>	
                 </div><!-- End: #index_slides -->
-                <div class="clear"></div>
-                <div id="kaidun_month_star" class="box">
+                <div class="clear"></div>        
+                            <div id="corner" class="corner_outer">     
+                <div id="kaidun_month_star" class="box corner_inner">
                    <em class="icon"><img src="images/icons/star.png" /></em>
         <h3 class="corner_it"><div class="inner"><span><a href="stars.asp" title="">MORE</a></span>凯顿月之星</div></h3>
 <div id="colee_left" style="overflow:hidden; width:100%; padding-bottom:5px;">
@@ -69,7 +66,7 @@ sql = "select top 5 * from  pf_ms where  pf_link_style='凯顿月之星'order by ID a
 rs.open sql,conn,1,1
 do while not rs.eof or rs.bof
 %>
-<td style="padding:10px;"><p><img src="<%=rs("pf_uploadfile")%>"><%=rs("pf_link_name")%></p></td>
+<td style="padding:10px;"><p><img src="<%=rs("pf_uploadfile")%>" class="corner_it"></p></td>
   <%
 rs.movenext
 loop
@@ -104,9 +101,10 @@ colee_left.onmouseout=function() {MyMar3=setInterval(Marquee3,speed)}
 <!--向左滚动代码结束-->
 </div>
                 <div class="clear"></div>
-              <div id="kaidun_news" class="box" style="padding-bottom:5px;">
+              <div id="kaidun_news" class="box corner_inner" style="padding-bottom:5px;">
                    <em class="icon"><img src="images/icons/xingxing.png" /></em>
                     <h3 class="corner_it"><div class="inner"><span><a href="class.asp">MORE </a></span>最新开班信息</div></h3>
+                
                     <ul>
                     <table bgcolor="#FFFFFF" width="460" class="list-table" style="margin-top:10px;">
                     <tbody><tr>
@@ -148,9 +146,10 @@ set rs = nothing
                 </div>
                 
               <div class="clear"></div>
+              </div>
             </div><!-- End: #center1 -->
             <div class="right_bar">
-                <div id="preview_video" class="box">
+                <div id="preview_video" class="box corner_it">
                 <script type="text/javascript">
 
 var swf_width=201
@@ -189,7 +188,7 @@ set rs = nothing
                 <div id="game_donwload" class="box">
                    <em class="icon"><img src="images/icons/game.png" /></em>
                     <h3 class="corner_it"><div class="inner"><span><a href="game.asp">MORE </a></span>游戏下载</div></h3>
-                    <ul>
+                    <ul class="corner_bottom">
                                         <%
 set rs = server.CreateObject("adodb.recordset")
 sql = "select * from pf_game order by pf_link_order desc"

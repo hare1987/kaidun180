@@ -3,7 +3,7 @@
 <!-- #include file = "left.asp" -->
 <div class="right">
 <div class="crumbs">
-                  <div class="inner">
+                  <div class="inner corner_it">
                      <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;最新开班信息&nbsp;&nbsp</span>
                      <ul>
                         <li class="style6">最新开班信息</li>

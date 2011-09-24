@@ -31,17 +31,17 @@
 <option value="宝山大华校">宝山大华校</option>
 </select>
 </li>
-<li>联系电话:<input type="text"  style="width:105px" id="tel" name="tel"></li>
+<li>家长手机:<input type="text"  style="width:105px" id="tel" name="tel"></li>
 <div align="center"><input type="submit" value="预约" /></div>
 </form></ul>
 
                 </div><!-- End: #contact_kaidun -->
 
              <div class="bar_connection">
-                    <span class="t"></span>
+                    <span class="t corner_bottom"></span>
                     <img src="images/icons/bar_connection.png" />
                 </div>
-                <div class="bar_connection1"></div>
+                <div class="bar_connection1 corner_top"></div>
 
                 <div id="latest_news" class="box">
                    <em class="icon"><img src="images/icons/news.png" /></em>
@@ -73,8 +73,8 @@ set rs = nothing
          <div id="online_test" class="box">
                    <em id="pen"><img src="images/icons/pen.png" /></em>
                     <h3 class="corner_it"><div class="inner"><span><a href="#" title="">MORE</a></span>在线测试</div></h3>
-                    <ul>
-                        
+                    <ul class="corner_bottom">
+          
                     </ul>
                 </div>
             </div>

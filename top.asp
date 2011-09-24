@@ -13,8 +13,8 @@
         </script>
         <meta name="author" content="kaidun" />
         <title>凯顿儿童美语学校欢迎您,儿童美语，幼儿美语，少儿美语!</title>
-        <link href="stylesheets/reset.css" media="screen, projection" rel="stylesheet" type="text/css" />
-        <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <link href="stylesheets/reset.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
+        <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />   
         <link id="theme_css" href="stylesheets/yellow.css" media="screen, projection" rel="stylesheet" type="text/css" />
 </script>
     </head>
@@ -24,7 +24,7 @@
            <div id="top_menus">
                <ul>
                    <li ><a class="corner_bottom" href="#" title="在线水平测试">在线水平测试</a></li>
-                   <li ><a class="corner_bottom" href="school1.asp" title="分校找寻">分校找寻</a></li>
+                   <li ><a class="corner_bottom" href="school.asp" title="分校找寻">分校找寻</a></li>
                    <li ><a class="corner_bottom" href="#" title="">加入最爱</a></li>
                    <li ><a class="corner_bottom" href="regsiter.asp" title="">免费活动预约</a></li>
                </ul>

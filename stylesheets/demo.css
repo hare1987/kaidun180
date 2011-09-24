@@ -1,0 +1,124 @@
+body, div, h1, .desc {
+    font-family: 'trebuchet ms',verdana,arial;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: large;
+    margin: 0;
+    padding: 10px;
+}
+h2 {
+    background-color: #DDDDDD;
+    color: black;
+    font-size: small;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px;
+}
+#main {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 10px;
+}
+div.section {
+    clear: left;
+}
+div.section h1 {
+    padding: 20px 20px 0;
+}
+div.section h2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 1px 20px;
+}
+div.demo, div.inner {
+    color: #000000;
+    font-family: verdana,arial,sans-serif;
+    text-align: center;
+}
+div.demo {
+    background: none repeat scroll 0 0 #66AAFF;
+    float: left;
+    margin: 1em;
+    padding: 20px;
+    width: 18em;
+}
+div.inner {
+    background: none repeat scroll 0 0 #FFFFCC;
+    border: 0 none;
+    margin: 0;
+    padding: 10px;
+}
+div.outer {
+    background: none repeat scroll 0 0 #CC8822;
+    float: left;
+    margin: 15px;
+    padding: 8px;
+    width: 22em;
+}
+div.fun {
+    margin: 2px;
+}
+div#readyTest {
+    background-color: #66AAFF;
+    float: right;
+    height: 20px;
+    padding: 10px;
+}
+#abs {
+    background: none repeat scroll 0 0 #FFFFAA;
+    margin: 8px;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 200px;
+}
+.box {
+    background-color: #66AAFF;
+    margin: 25px;
+    padding: 15px;
+    text-align: center;
+}
+#box1 {
+}
+#box2 {
+    height: 150px;
+}
+#box3 {
+    margin: auto;
+    width: 300px;
+}
+#box4 {
+    height: 150px;
+    margin: auto;
+    width: 300px;
+}
+div.plain {
+    background-color: #66AAFF;
+    text-align: center;
+}
+b {
+    color: #FF4444;
+}
+#twitter {
+    float: right;
+    right: 20px;
+}
+#twitter a {
+    font-family: arial;
+    text-decoration: none;
+    vertical-align: top;
+}
+#twitter img {
+    border: medium none;
+    float: left;
+}
+div.desc {
+    margin: 10px;
+}

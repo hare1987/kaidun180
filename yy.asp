@@ -32,7 +32,7 @@ function form1_onsubmit(){
 	   document.gf.Fname.focus();
 	   return false;	
 	}
-     if (document.gf.tel.value == "" || document.gf.tel.value.length <11 ||  document.gf.tel.value.length > 12  ||  isNaN(document.gf.tel.value)){
+     if (document.gf.tel.value == "" || document.gf.tel.value.length <11 ||  document.gf.tel.value.length > 11  ||  isNaN(document.gf.tel.value)){
 	 alert("请正确填写联系电话!");
 	 document.gf.tel.value = "";
 	 document.gf.tel.focus();

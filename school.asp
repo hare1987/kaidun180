@@ -67,7 +67,7 @@
                     		<tr><td ><%=rs("sc_name")%></td>
                             <td ><%=rs("sc_tel")%></td>
                             <td ><%=rs("sc_address")%></td>
-                            <td><a href="<%=rs("sc_link")%>">点击查看详情</a></td>
+                            <td><a href="<%=rs("sc_link")%>" style=" color:#990000">点击查看详情</a></td>
                     	</tr>
 
 						
