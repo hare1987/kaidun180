@@ -15,7 +15,12 @@
         <title>凯顿儿童美语学校欢迎您,儿童美语，幼儿美语，少儿美语!</title>
         <link href="stylesheets/reset.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
         <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />   
-        <link id="theme_css" href="stylesheets/yellow.css" media="screen, projection" rel="stylesheet" type="text/css" />
+        <% current_theme = session("current_theme")
+			if current_theme = "" then
+				current_theme = "yellow"
+			end if
+		%>
+        <link id="theme_css" href="stylesheets/<%= current_theme %>.css" media="screen, projection" rel="stylesheet" type="text/css" />
 </script>
     </head>
     <body>

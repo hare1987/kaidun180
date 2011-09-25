@@ -74,23 +74,14 @@ return true;
         <script src="javascripts/jquery.corner.js" type="text/javascript"></script>
         <script type="text/javascript">
             $(document).ready(function(){
-                if($.cookie('current_theme') != null){
-                    $("#theme_css").attr("href", "stylesheets/" + $.cookie('current_theme') + ".css");
-                }
 
-                $('#index_slides').slides({
-                                preload: true,
-                                preloadImage: 'images/loading.gif',
-                                play: 5000,
-                                pause: 2500,
-                                hoverPause: true
-                            });
 
                 $(".style_btn").click(function(){
-                    $("#theme_css").attr("href", "stylesheets/" + $(this).attr("theme") + ".css");
-                    $.cookie('current_theme', $(this).attr("theme"));
+					var theme = $(this).attr("theme");						   
+                    $("#theme_css").attr("href", "stylesheets/" + theme + ".css");
+					$.get("set_theme.asp?theme="+theme);
+                    $.cookie('current_theme', theme);
                 });
-				
                  $("#backto_top").click(function(){
                        jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );
                 });
