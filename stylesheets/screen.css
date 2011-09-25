@@ -289,6 +289,9 @@ _ background-image: none; /* IE6 */
   padding-bottom: 15px;
   _padding-bottom: 10px;
 }
+#contact_kaidun ul  li{
+border:0;
+}
 
 .bar_connection {
   height: 40px;
@@ -502,7 +505,7 @@ font-weight:bold;
 #egg {
   position: absolute;
   bottom: 40px;
-  left: 30px;
+  left: -200px;
   z-index: 9999;
 }
 
