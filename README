@@ -1,1 +1,11 @@
-hello
+## HELP
+
+### How to update current project?
+
+     cd /path/to/your_local_project
+     git pull --rebase origin master
+
+
+### How to push commits to remote githu?
+
+    git push origin master
