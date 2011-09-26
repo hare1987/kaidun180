@@ -81,6 +81,7 @@
 	rs.movenext
 	next
 	%>		</tbody></table>
+    <div class="clear"></div>
     
              <div class="page-no">             
 

@@ -6,8 +6,8 @@
   clear: both;
   border: none;
 }
-body{
-font-family: Verdana,'Times New Roman',Georgia,Serif !important;
+html body{
+font-family:"Î¢ÈíÑÅºÚ";
 margin: 0;
 font-size:12px;
 }
@@ -504,8 +504,8 @@ font-weight:bold;
 
 #egg {
   position: absolute;
-  bottom: 40px;
-  left: -200px;
+  bottom: 10px;
+  left: -160px;
   z-index: 9999;
 }
 
@@ -536,16 +536,19 @@ font-weight:bold;
 }
 
 /* teachers page style */
-.teacher {
+.teacher {;
   float: left;
   margin-bottom: 10px;
   margin-right: 6px;
-	_margin-right: 0px;
 }
 
 .teacher img {
-    width: 650px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
+/* End teachers */
+
 .contents .content .title {
     color: #333333;
     font-size: 22px;
@@ -569,10 +572,10 @@ font-weight:bold;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-/* End teachers */
 
 .contents {
-    min-height: 380px;
+   min-height:460px;
+  _height:expression(this.scrollHeight < 460 ? "460px" : "auto");    
     overflow: hidden;
     width: 740px;
 	border: 1px  solid #a9d3ff;
@@ -582,8 +585,9 @@ font-weight:bold;
 .contents .content {
     margin-left: 45px;
     font-size: 13px;
-    width: 100%;
-min-height:460px;height:auto !important; height:460px;
+	width:650px;
+	line-height:150%;
+	font-family:"Î¢ÈíÑÅºÚ";
 }
 .news-list tr {border-bottom: 1px solid #C9C9C9;}
 th.n-title {
