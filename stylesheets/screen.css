@@ -1,5 +1,5 @@
 #container{
-  background: #ffe565;
+background: #ffe565;
 }
 .clear {
   height: 0;
@@ -7,9 +7,10 @@
   border: none;
 }
 html body{
-font-family:"Î¢ÈíÑÅºÚ";
+font-family:"Ó×Ô²"
 margin: 0;
 font-size:12px;
+background-image: url("../images/mbpg.jpg");
 }
 
 a {
@@ -550,10 +551,12 @@ font-weight:bold;
 /* End teachers */
 
 .contents .content .title {
-    color: #333333;
+    color: #ff6633;
     font-size: 22px;
     font-weight: bold;
-    padding: 36px 0;
+    padding: 36px 0 10px;
+	font-family:"Ó×Ô²"
+	
 }
 .contents .content .section, .contents .content p {
     line-height:200%;

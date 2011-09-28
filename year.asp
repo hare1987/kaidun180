@@ -31,7 +31,7 @@
                   <td>每周2次，每次2课时，12个月</td>
                   <td rowspan="3">1:1</td>
                   <td rowspan="3">6人开班Max12</td>
-                  <td rowspan="3"><a href="class1.asp">查看课程介绍</a></td>
+                  <td rowspan="3"><a href="class1.asp"><img src="images/icons/kc.png"></a></td>
                 </tr>
                 <tr>
                   <td>384</td>
@@ -55,7 +55,7 @@
                   <td>每周1次，每次4课时，12个月</td>
                   <td rowspan="3">1:1</td>
                   <td rowspan="3">8人开班MAX15</td>
-                  <td rowspan="3"><a href="class2.asp">查看课程介绍</a></td>
+                  <td rowspan="3"><a href="class2.asp"><img src="images/icons/kc.png"></a></td>
                 </tr>
                 <tr>
                   <td>384</td>
@@ -79,7 +79,7 @@
                   <td>每周1次，每次4课时，12个月</td>
                   <td>全外教</td>
                   <td>6人开班Max10</td>
-                  <td><a href="class4.asp">查看课程介绍</a></td>
+                  <td><a href="class4.asp"><img src="images/icons/kc.png"></a></td>
                 </tr>
               </table>
         </div>
