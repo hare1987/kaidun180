@@ -15,7 +15,7 @@
                </div>
 <div class="contents">
 			<div class="content">
-				<div class="title">短期课程</div>
+				<div class="title">特色班</div>
             <table width="200" border="1" class="list-table">
                 <tr bgColor=#ff9933>
      <td width="25%">课程</td>

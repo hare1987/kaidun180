@@ -7,10 +7,10 @@ background: #ffe565;
   border: none;
 }
 html body{
-font-family:"ËÎÌו"
-margin: 0;
-font-size:12px;
 background-image: url("../images/mbpg.jpg");
+color: #636363;
+font: 13px/20px ËÎÌו;
+line-height:150%£»
 }
 
 a {
@@ -252,9 +252,9 @@ _ background-image: none; /* IE6 */
   padding: 3px;
   margin-bottom: 10px;
   height: 20px;
-  width:  735px;
+  width:  725px;
   line-height: 20px;
-  border: 1px  solid #a9d3ff;
+  border: 5px  solid #a9d3ff;
 }
 .crumbs ul {
   margin-left: 30px;
@@ -541,6 +541,8 @@ font-weight:bold;
   float: left;
   margin-bottom: 10px;
   margin-right: 6px;
+  margin-top:10px;
+  border-bottom: 1px dashed #CCC;
 }
 
 .teacher img {
@@ -554,7 +556,7 @@ font-weight:bold;
     color: #7487BD;
     font-size: 22px;
     font-weight: bold;
-    padding: 36px 0 10px;
+    padding: 36px 0 ;
 	
 }
 .contents .content .section, .contents .content p {
@@ -575,32 +577,31 @@ font-weight:bold;
   margin-right: 10px;
   margin-bottom: 10px;
   width:100%;
+  font: 13px/20px ËÎÌו;
   }
 
 .contents {
    min-height:460px;
   _height:expression(this.scrollHeight < 460 ? "460px" : "auto");    
     overflow: hidden;
-    width: 740px;
-	border: 1px  solid #a9d3ff;
+    width: 730px;
 	background-color:#FFF;
+	border: 5px  solid #a9d3ff;
+	margin-bottom:10px;
 }
 
 .contents .content {
     margin-left: 45px;
-    font-size: 13px;
 	width:600px;
 	line-height:150%;
 }
 .news-list tr {border-bottom: 1px solid #C9C9C9;}
 th.n-title {
     text-align: left;
-	font-size:13px;
 }
 .news-list th {
     border-bottom: 1px solid #C9C9C9;
     padding-bottom: 5px;
-	font-size:13px;
 }
 .news-list tr.row {
     background: none repeat scroll 0 0 #EEEEEE;
@@ -608,7 +609,6 @@ th.n-title {
 .news-list td.date {
     text-align: center;
     width: 120px;
-	font-size:13px;
 }
 
 .news-list td {
@@ -616,7 +616,6 @@ th.n-title {
 }
 .form-table {
     width: 100%;
-	font-size:13px;
 }
 
 .form-table tr {
@@ -633,7 +632,6 @@ img {
 }
 .list-table {
     width: 100%;
-	font-size:13px;
 }
 .list-table td{border:1px  #39F solid;line-height:150%;}
 .list-table p{ padding-left:10px;}
@@ -644,14 +642,14 @@ line-height:150%;
 .form-table strong{ font-weight:bold;}
 
 div.corner_inner {
-    background: none repeat scroll 0 0 #ffe565;
+    background: none repeat scroll 0 0 #FFF;
     border: 0 none;
     margin: 0;
     padding: 5px;
 	width:100%;
 }
 div.corner_outer{
-    background: none repeat scroll 0 0 #FF8800;
+    background: none repeat scroll 0 0 #ffcc66;
     float: left;
     margin: 3px;
     padding: 5px;

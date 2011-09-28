@@ -53,14 +53,16 @@
 	end if
 	%>     
 				<table class="news-list">
-					<tbody><tr><th>发布日期</th><th class="n-title">标题</th></tr>
+					<tbody>
+                    <tr><th>发布日期</th><th class="n-title">标题</th></tr>
 					
 			
 
                               <%
 	For i=1 To x
 	%>
-                    		<tr><td class="date">[<%=formatdatetime(rs("pf_news_date"),2)%>]</td>
+                    		<tr>
+                            <td class="date">[<%=formatdatetime(rs("pf_news_date"),2)%>]</td>
                             <td><a href='newsinfo.asp?id=<%=rs("id")%>'><%=replace(trim(rs("pf_news_name")),"<br>","")%></a></td>
                     	
                                 <%
@@ -80,7 +82,10 @@
                               <%
 	rs.movenext
 	next
-	%>		</tbody></table>
+	%>		
+
+                            </tbody>
+                            </table>
     <div class="clear"></div>
     
              <div class="page-no">             

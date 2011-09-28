@@ -62,8 +62,9 @@
  
     <div class="teacher">
     <img src="<%=rs("pf_uploadfile")%>" border="0">
-    <p><%=rs("pf_link_name")%><br/><%=rs("pf_link_text")%></p> 
+    <p style="padding-top:40px; padding-left:20px;"><%=rs("pf_link_name")%><br/><%=rs("pf_link_text")%></p> 
     </div>
+ 
                                      <%
 	rs.movenext
 	next

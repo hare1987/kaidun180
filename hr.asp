@@ -21,7 +21,7 @@
                         </tr>
                         <tr>
                           <td width="3%" rowspan="10">&nbsp;</td>
-                          <td width="97%" height="12"><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="bodyfont">
+                          <td width="97%" height="12"><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
                             <tr>
                               <%
 								Set rs = Server.CreateObject("adodb.recordset")
@@ -29,9 +29,9 @@
 								rs.Open sql,conn,1,1
 								if rs.recordcount=0 then
 							  %>
-                              <td height="30" colspan="2" class="STYLE15"><div align="left">总部</td>
+                              <td height="30" colspan="2" class="STYLE15">总部</td>
                             </tr>
-                            <tr class="bodyfont1">
+                            <tr>
                               <td height="30"  class="dd1"><div align="left">暂无职位提供</div></td>
                               <td></td>
                             </tr>
@@ -52,7 +52,7 @@
 									  %>
   </div></td>
   </tr>
-  <tr class="bodyfont1">
+  <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]　　                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
     <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
@@ -67,7 +67,7 @@
                             <p></p></td>
                         </tr>
                         <tr>
-                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="bodyfont">
+                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
                             <tr>
                               <%
 								Set rs = Server.CreateObject("adodb.recordset")
@@ -75,10 +75,10 @@
 								rs.Open sql,conn,1,1
 								if rs.recordcount=0 then
 							  %>
-                              <td height="30" colspan="2"><div align="left">
+                              <td height="30" colspan="2">
                                   <span class="STYLE15">徐汇田林校</span> </td>
                             </tr>
-                            <tr class="bodyfont1">
+                            <tr>
                               <td height="30"  class="dd1"><div align="left">暂无职位提供</div></td>
                               <td></td>
                             </tr>
@@ -99,7 +99,7 @@
 									  %>
   </div></td>
   </tr>
-  <tr class="bodyfont1">
+  <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]　　                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
     <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
@@ -114,7 +114,7 @@
                             <p></p></td>
                         </tr>
                         <tr>
-                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="bodyfont">
+                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
                             <tr>
                               <%
 									Set rs = Server.CreateObject("adodb.recordset")
@@ -146,7 +146,7 @@
 										%>
   </div></td>
   </tr>
-  <tr class="bodyfont1">
+  <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]　　                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
     <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
@@ -162,7 +162,7 @@
                             <p></p></td>
                         </tr>
                         <tr>
-                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="bodyfont">
+                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
                             <tr>
                               <%
 									Set rs = Server.CreateObject("adodb.recordset")
@@ -194,7 +194,7 @@
 										%>
   </div></td>
   </tr>
-  <tr class="bodyfont1">
+  <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]　　                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
     <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
@@ -210,7 +210,7 @@
                             <p></p></td>
                         </tr>
                         <tr>
-                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="bodyfont">
+                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
                             <tr>
                               <%
 									Set rs = Server.CreateObject("adodb.recordset")
@@ -242,7 +242,7 @@
 										%>
   </div></td>
   </tr>
-  <tr class="bodyfont1">
+  <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]　　                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
     <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
@@ -258,7 +258,7 @@
                             <p></p></td>
                         </tr>
                         <tr>
-                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="bodyfont">
+                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0"class="news-list">
                             <tr>
                               <%
 									Set rs = Server.CreateObject("adodb.recordset")
@@ -290,7 +290,7 @@
 										%>
   </div></td>
   </tr>
-  <tr class="bodyfont1">
+  <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]　　                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
     <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
@@ -309,7 +309,7 @@
                         
                         <tr>
                           <td>
-                            <table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="bodyfont">
+                            <table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
                               <tr>
                                 <%
 									Set rs = Server.CreateObject("adodb.recordset")
@@ -341,7 +341,7 @@
 										%>
   </div></td>
   </tr>
-  <tr class="bodyfont1">
+  <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]　　                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
     <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
@@ -355,7 +355,7 @@
                             </table></td>
                         </tr>
                                       <tr>
-                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="bodyfont">
+                          <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
                             <tr>
                               <%
 								Set rs = Server.CreateObject("adodb.recordset")
@@ -387,7 +387,7 @@
 									  %>
   </div></td>
   </tr>
-  <tr class="bodyfont1">
+  <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]　　                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
     <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
@@ -401,7 +401,7 @@
                           </table>
                             <p></p></td>
                         </tr>
-                        <tr><td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="bodyfont">
+                        <tr><td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
                             <tr>
                               <%
 									Set rs = Server.CreateObject("adodb.recordset")
@@ -433,7 +433,7 @@
 										%>
   </div></td>
   </tr>
-  <tr class="bodyfont1">
+  <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]　　                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
     <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
