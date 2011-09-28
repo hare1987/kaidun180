@@ -7,7 +7,7 @@ background: #ffe565;
   border: none;
 }
 html body{
-font-family:"Ó×Ô²"
+font-family:"ËÎÌå"
 margin: 0;
 font-size:12px;
 background-image: url("../images/mbpg.jpg");
@@ -45,7 +45,7 @@ a:active {
   position: relative;
 }
 
-#top_bar{
+{
   width: 970px;
   height: 30px;
   margin-bottom: 0px;
@@ -551,18 +551,18 @@ font-weight:bold;
 /* End teachers */
 
 .contents .content .title {
-    color: #ff6633;
+    color: #7487BD;
     font-size: 22px;
     font-weight: bold;
     padding: 36px 0 10px;
-	font-family:"Ó×Ô²"
 	
 }
 .contents .content .section, .contents .content p {
-    line-height:200%;
-    margin-top: 5pt;
-    margin-bottom: 10pt;
-	font-size:13px;
+	font-size:12px;
+	color: #636363;
+    font: 13px/20px ËÎÌå;
+    margin-top: 20px;
+	line-height:150%£»
 }
 .contents .content td a {
     line-height:150%;
@@ -588,9 +588,8 @@ font-weight:bold;
 .contents .content {
     margin-left: 45px;
     font-size: 13px;
-	width:650px;
+	width:600px;
 	line-height:150%;
-	font-family:"Î¢ÈíÑÅºÚ";
 }
 .news-list tr {border-bottom: 1px solid #C9C9C9;}
 th.n-title {
