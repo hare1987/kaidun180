@@ -7,7 +7,7 @@ background: #ffe565;
   border: none;
 }
 html body{
-background-image: url("../images/mbpg.jpg");
+background-color:#ffcc00;
 color: #636363;
 font: 13px/20px ËÎÌå;
 line-height:150%£»
@@ -35,8 +35,7 @@ a:active {
 }
 .style6 {	
     color: #990000;
-	font-weight: bold;
-	font-size:11px;
+	font-size:13px;
 }
 
 #container{
@@ -78,7 +77,7 @@ _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/icons
 _ background-image: none; /* IE6 */ 
 }
 
-#backto_home a{_position:relative;_margin-left:-5px;_padding-bottom:5px;}/* IE6 */ 
+#backto_home a{_position:relative;_margin-left:-5px;_padding-bottom:5px; font-size:13px;}/* IE6 */ 
 
 #yellow_style{_margin-left:40px;}/* IE6 */ 
 
@@ -93,11 +92,11 @@ _ background-image: none; /* IE6 */
 }
 
 #yellow_style{
-  background: #ffe565;
+background: #ffe565;
 }
 
 #red_style{
-  background: #F9C9D5;
+  background: #ffcccc;
 }
 
 #blue_style{
@@ -267,10 +266,11 @@ _ background-image: none; /* IE6 */
 }
 
 .crumbs li a {
-  font-weight: bold;
-  font-size:11px;
+  font-size:13px;
   text-decoration: none;
 }
+
+.current a{ font-size:13px;}
 
 .crumbs li a:hover {
   text-decoration: underline;
@@ -424,7 +424,7 @@ font-weight:bold;
 .box h3 span {
   display: block;
   float: right;
-  font-size: 80%;
+  font-size:13px;
 }
 
 .box h3 .inner {
@@ -433,7 +433,8 @@ font-weight:bold;
 }
 
 .box h3 .inner a{
-	font-size:8px;
+	font-size:13px;
+	color:#FFF;
 }
 .box div.m{
   padding: 9px;
@@ -481,6 +482,7 @@ font-weight:bold;
   background:#000;
 }
 #kaidun_activity{margin-top:20px;}
+#latest_news{margin-bottom:20px;_margin-bottom:0px;}
 
 #company_partner  ul{
 	padding-bottom:5px;
@@ -552,11 +554,30 @@ font-weight:bold;
 }
 /* End teachers */
 
+.contents {
+   min-height:500px;
+  _height:expression(this.scrollHeight < 500 ? "500px" : "auto");    
+    overflow: hidden;
+    width: 730px;
+	background-color:#FFF;
+	border: 5px  solid #a9d3ff;
+	margin-bottom:10px;
+	_margin-bottom:5px;
+}
+
+.contents .content {
+    margin-left: 45px;
+	width:600px;
+	line-height:150%;
+}
 .contents .content .title {
-    color: #7487BD;
-    font-size: 22px;
-    font-weight: bold;
-    padding: 36px 0 ;
+	color:#636363;
+    font-size: 20px;
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-weight: bold;
+    padding: 36px  0 15px;
+	border-bottom:3px  solid  #FF8800;
+	margin-bottom:20px;
 	
 }
 .contents .content .section, .contents .content p {
@@ -566,6 +587,14 @@ font-weight:bold;
     margin-top: 20px;
 	line-height:150%£»
 }
+p.ntitle{
+BORDER-BOTTOM: #FF8800 1px solid;
+
+}
+p.ntitle span{
+FONT-SIZE: 14px; 
+COLOR: #FF8800; 
+	 }
 .contents .content td a {
     line-height:150%;
 	font-size:13px;
@@ -579,29 +608,16 @@ font-weight:bold;
   width:100%;
   font: 13px/20px ËÎÌå;
   }
+.news-list tr  td {
+border-bottom: 1px  dashed #C9C9C9;	
+	}
 
-.contents {
-   min-height:460px;
-  _height:expression(this.scrollHeight < 460 ? "460px" : "auto");    
-    overflow: hidden;
-    width: 730px;
-	background-color:#FFF;
-	border: 5px  solid #a9d3ff;
-	margin-bottom:10px;
+.news-list th {
+    border-bottom: 1px  dashed #C9C9C9;
+    padding-bottom: 5px;
 }
-
-.contents .content {
-    margin-left: 45px;
-	width:600px;
-	line-height:150%;
-}
-.news-list tr {border-bottom: 1px solid #C9C9C9;}
 th.n-title {
     text-align: left;
-}
-.news-list th {
-    border-bottom: 1px solid #C9C9C9;
-    padding-bottom: 5px;
 }
 .news-list tr.row {
     background: none repeat scroll 0 0 #EEEEEE;
@@ -615,7 +631,7 @@ th.n-title {
     padding: 7px 0;
 }
 .form-table {
-    width: 100%;
+    width: 600px;
 }
 
 .form-table tr {
@@ -625,7 +641,10 @@ th.n-title {
 .form-table caption {
     text-align: left;
 }
-
+.form-table td{
+line-height:150%;
+}
+.form-table strong{ font-weight:bold;}
 
 img {
     border: medium none;
@@ -633,13 +652,9 @@ img {
 .list-table {
     width: 100%;
 }
-.list-table td{border:1px  #39F solid;line-height:150%;}
+.list-table tr td{border: 1px  solid #D3E6F5;line-height:150%;}
 .list-table p{ padding-left:10px;}
 .list-table a{color: #990000;}
-.form-table td{
-line-height:150%;
-}
-.form-table strong{ font-weight:bold;}
 
 div.corner_inner {
     background: none repeat scroll 0 0 #FFF;

@@ -7,9 +7,9 @@
                   <div class="inner">
                      <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt; 特色理念&nbsp;&nbsp;</span>
                      <ul>
-                        <li class="style6">特色理念</li>
                         <li class="style11"><a href="about.asp">凯顿介绍</a></li>
                         <li class="style11"><a href="teacher.asp">师资团队</a></li>
+                        <li class="style6">特色理念</li>
                      </ul>
                   </div>
                </div>

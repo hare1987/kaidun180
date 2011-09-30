@@ -17,7 +17,7 @@
 			<div class="content">
 				<div class="title">年度班</div>
               <table width="200" border="1" class="list-table">
-                <tr bgColor=#ff9933>
+                <tr bgColor=#ffcc00>
                   <td width="23%">课程</td>
                   <td width="7%">总课时</td>
                   <td width="31%">学习周期</td>
@@ -41,7 +41,7 @@
                   <td>576</td>
                   <td>每周2次，每次2课时，36个月</td>
                 </tr>
-          <tr bgColor=#ff9933>
+          <tr bgColor=#ffcc00>
                   <td>课程</td>
                   <td>总课时</td>
                   <td>学习周期</td>
@@ -65,7 +65,7 @@
                   <td>576</td>
                   <td>每周1次，每次4课时，36个月</td>
                 </tr>
-                <tr bgColor=#ff9933>
+                <tr bgColor=#ffcc00>
                   <td>课程</td>
                   <td>总课时</td>
                   <td>学习周期</td>

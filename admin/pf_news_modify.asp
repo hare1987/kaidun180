@@ -85,7 +85,8 @@ End If
 						<td align="center">所属分类：</td>
 						<td>
 							<select name="pf_news_category">
-								<option value="新闻资讯"  <%if rs("pf_news_category") ="新闻资讯"  then%>   selected   <%end  if%>>新闻资讯</option>
+								<option value="行业资讯"  <%if rs("pf_news_category") ="行业资讯"  then%>   selected   <%end  if%>>行业资讯</option>
+                               <option value="凯顿新闻"  <%if rs("pf_news_category") ="凯顿新闻"  then%>   selected   <%end  if%>>凯顿新闻</option>
 								<option value="凯顿通知"  <%if rs("pf_news_category") ="凯顿通知"  then%>   selected   <%end  if%>>凯顿通知</option>
 								<option value="常见问题"  <%if rs("pf_news_category") ="常见问题"  then%>   selected   <%end  if%>>常见问题</option>
 							</select>

@@ -13,7 +13,7 @@
                   </div>
                </div>
 
-<div class="contents">
+<div class="contents corner_it">
 			<div class="content">
 				<div class="title">ø≠∂ŸΩÈ…‹</div>
                               <P> <style type="text/css"><!--.style2 {	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	line-height: 150%;}--></style></P>

@@ -1,4 +1,3 @@
-<%@ language="vbscript" codepage="936" %>
 <!--#include file="pcfinal.asp"-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -12,7 +11,9 @@
             });
         </script>
         <meta name="author" content="kaidun" />
-        <title>凯顿儿童美语学校欢迎您,儿童美语，幼儿美语，少儿美语!</title>
+        <title>
+        凯顿儿童美语学校欢迎您,儿童美语，幼儿美语，少儿美语!
+        </title>
         <link href="stylesheets/reset.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
         <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />   
         <% current_theme = session("current_theme")
@@ -55,7 +56,6 @@ set rs = nothing
                 <span id="yellow_style" class="style_btn" theme='yellow' title="黄"></span>
                 <span id="red_style"    class="style_btn" theme='red' title="粉红"></span>
                 <span id="blue_style"   class="style_btn" theme='blue' title="粉蓝"></span>
-                <span id="white_style"  class="style_btn" theme='white' title="米白"></span>
                 <span class="tip">What color do you like?</span>
             </div><!-- End: #style_choosing -->
         </div><!-- #End: #top_bar -->

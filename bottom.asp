@@ -2,7 +2,7 @@
          <div id="backto_top">Back to top.</div>
 <div id="company_partner" class="box">
                    <em class="icon"><img src="images/icons/partner.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="link.asp">MORE </a></span>企业伙伴</div></h3>
+                    <h3 class="corner_it"><div class="inner"><span><a href="link.asp">more</a></span>企业伙伴</div></h3>
       <ul class="corner_bottom">
                                <%
 set rs = server.CreateObject("adodb.recordset")

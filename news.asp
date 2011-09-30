@@ -16,7 +16,7 @@
 			<div class="content">
 				<div class="title">新闻资讯</div>
                 <%set rs=server.createobject("adodb.recordset")
-		rs.open "select * from pf_news where pf_news_category ='新闻资讯' order by pf_news_date desc",conn,1,1
+		rs.open "select * from pf_news order by ID desc",conn,1,1
 		if rs.recordcount=0 then 
 		%>
                             <table width="100%" border="0" cellspacing="0" cellpadding="5" align="center">
@@ -54,7 +54,6 @@
 	%>     
 				<table class="news-list">
 					<tbody>
-                    <tr><th>发布日期</th><th class="n-title">标题</th></tr>
 					
 			
 
@@ -63,6 +62,7 @@
 	%>
                     		<tr>
                             <td class="date">[<%=formatdatetime(rs("pf_news_date"),2)%>]</td>
+                            <td>[<%=rs("pf_news_category")%>]</td>
                             <td><a href='newsinfo.asp?id=<%=rs("id")%>'><%=replace(trim(rs("pf_news_name")),"<br>","")%></a></td>
                     	
                                 <%

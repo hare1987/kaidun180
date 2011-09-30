@@ -47,7 +47,7 @@
                 <div id="latest_news" class="box">
                    <em class="icon"><img src="images/icons/news.png" /></em>
                    <h3 class="corner_it">
-                     <div class="inner"><span><a href="news.asp" title="">MORE </a></span>最新资讯</div></h3>
+                     <div class="inner"><span><a href="news.asp" title="">more</a></span>最新资讯</div></h3>
                     <ul  class="corner_bottom">
                     <%
 set rs = server.CreateObject("adodb.recordset")

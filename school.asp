@@ -52,7 +52,7 @@
 	end if
 	%>     
 				<table class="news-list">
-					<tbody><tr>
+					<tbody><tr align="left">
                     <th >校区</th>
                     <th>电话</th>
                     <th >地址</th>
@@ -67,7 +67,7 @@
                     		<tr><td ><%=rs("sc_name")%></td>
                             <td ><%=rs("sc_tel")%></td>
                             <td ><%=rs("sc_address")%></td>
-                            <td><a href="<%=rs("sc_link")%>" style=" color:#990000">查看校区详情</a></td>
+                            <td><a href="<%=rs("sc_link")%>" style=" color:#990000"><img src="images/icons/kc.png"></a></td>
                     	</tr>
 
 						

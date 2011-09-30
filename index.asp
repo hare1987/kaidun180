@@ -119,7 +119,7 @@ document.write('<embed src="images/vcastr22.swf" allowFullScreen="true" FlashVar
                 </div><!-- End: #preview_video -->
                 <div id="kaidun_activity" class="box">
                    <em class="icon"><img src="images/icons/huodong.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="hdmore.asp">MORE </a></span>凯顿活动</div></h3>
+                    <h3 class="corner_it"><div class="inner"><span><a href="hdmore.asp">more</a></span>凯顿活动</div></h3>
                     <ul>
                     <%
 set rs = server.CreateObject("adodb.recordset")
@@ -140,7 +140,7 @@ set rs = nothing
                 </div><!-- End: #online_test -->
                 <div id="game_donwload" class="box">
                    <em class="icon"><img src="images/icons/game.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="game.asp">MORE </a></span>游戏下载</div></h3>
+                    <h3 class="corner_it"><div class="inner"><span><a href="game.asp">more</a></span>游戏下载</div></h3>
                     <ul class="corner_bottom">
                                         <%
 set rs = server.CreateObject("adodb.recordset")

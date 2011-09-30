@@ -5,11 +5,11 @@
 <div class="crumbs">
                   <div class="inner">
                      <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;其他班</span>
-                     <ul>
-                        <li class="style6">其他班</li>
+                     <ul>                        
                         <li class="style11"><a href="year.asp">年度班</a></li>    
                         <li class="style11"><a href="item.asp">特色班</a></li>
                         <li class="style11"><a href="star.asp">星级考</a></li>
+                        <li class="style6">其他班</li>
                      </ul>
                   </div>
                </div>

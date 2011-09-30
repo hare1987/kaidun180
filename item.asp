@@ -5,9 +5,9 @@
 <div class="crumbs">
                   <div class="inner">
                      <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;特色班</span>
-                     <ul>
-                        <li class="style6">特色班</li>
+                     <ul>                       
                         <li class="style11"><a href="year.asp">年度班</a></li>
+                        <li class="style6">特色班</li>
                         <li class="style11"><a href="star.asp">星级考</a></li>
                         <li class="style11"><a href="other.asp">其他班</a></li>                    
                       </ul>
@@ -17,7 +17,7 @@
 			<div class="content">
 				<div class="title">特色班</div>
             <table width="200" border="1" class="list-table">
-                <tr bgColor=#ff9933>
+                <tr bgColor=#ffcc00>
      <td width="25%">课程</td>
                   <td width="19%">班别</td>
                   <td width="8%">总课时</td>
@@ -34,7 +34,7 @@
                   <td><a href="c1.asp"><img src="images/icons/kc.png"></a></td>
                 </tr>
 
-   <tr bgColor=#fff3c3>
+   <tr bgColor=#ffcc00>
             <td width="25%">课程</td>
                   <td width="19%">班别</td>
                   <td width="8%">总课时</td>
@@ -50,7 +50,7 @@
                   <td >未曾就读其他美语课程</td>
                   <td><a href="c2.asp"><img src="images/icons/kc.png"></a></td>
                 </tr>
-      <tr bgColor=#ff9933>
+      <tr bgColor=#ffcc00>
                   <td width="25%">课程</td>
                   <td width="19%">班别</td>
                   <td width="8%">总课时</td>

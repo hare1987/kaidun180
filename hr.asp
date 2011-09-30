@@ -16,10 +16,6 @@
 
 <table width="100%" height="198"  border="0" align="left" cellpadding="0" cellspacing="0">
                         <tr>
-                          <td height="12">&nbsp;</td>
-                          <td>&nbsp;</td>
-                        </tr>
-                        <tr>
                           <td width="3%" rowspan="10">&nbsp;</td>
                           <td width="97%" height="12"><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
                             <tr>
@@ -158,8 +154,7 @@
 			      			  %>
   <%end if%>
                           </table>
-                            <p>&nbsp;</p>
-                            <p></p></td>
+</td>
                         </tr>
                         <tr>
                           <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
@@ -206,8 +201,7 @@
 			      			  %>
   <%end if%>
                           </table>
-                            <p>&nbsp;</p>
-                            <p></p></td>
+                           </td>
                         </tr>
                         <tr>
                           <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
@@ -254,8 +248,7 @@
 			      			  %>
   <%end if%>
                           </table>
-                            <p>&nbsp;</p>
-                            <p></p></td>
+                          </td>
                         </tr>
                         <tr>
                           <td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0"class="news-list">
@@ -302,7 +295,7 @@
 			      			  %>
   <%end if%>
                           </table>
-                            <p>&nbsp;</p></td>
+                       </td>
                         </tr>
                         
                         
@@ -399,7 +392,7 @@
 			      			%>
   <%end if%>
                           </table>
-                            <p></p></td>
+                            </td>
                         </tr>
                         <tr><td><table width="90%" height="0" border="0" align="left" cellpadding="0" cellspacing="0" class="news-list">
                             <tr>

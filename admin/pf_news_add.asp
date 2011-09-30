@@ -73,7 +73,8 @@ End If
 						<td align="center">所属分类：</td>
 						<td>
 							<select name="pf_news_category">
-							  <option value="新闻资讯" selected="selected">新闻资讯</option>
+							  <option value="行业资讯" selected="selected">行业资讯</option>
+                              <option value="凯顿新闻">凯顿新闻</option>
 							  <option value="凯顿通知">凯顿通知</option>
 							  <option value="常见问题">常见问题</option>
 							</select>						</td>

@@ -5,9 +5,9 @@
 <div class="crumbs">
                   <div class="inner">
                      <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt; 师资团队&nbsp;&nbsp;</span>
-                     <ul>
+                      <ul>
+                        <li class="style11"><a href="about.asp">凯顿介绍</a></li>
                         <li class="style6">师资团队</li>
-                        <li class="style11"><a href="teacher.asp">凯顿介绍</a></li>
                         <li class="style11"><a href="special.asp">特色理念</a></li>
                      </ul>
                   </div>
@@ -15,7 +15,7 @@
                       
 <div class="contents">
 			<div class="content">
-				<div class="title">专家团队</div>
+				<div class="title">师资团队</div>
 	<%
   set rs=server.createobject("adodb.recordset")
   rs.open "select * from pf_ms where  pf_link_style='专家团队'order by ID asc",conn,1,1

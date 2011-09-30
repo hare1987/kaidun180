@@ -15,20 +15,17 @@
 				<div class="title">宝山大华校<span style="float:right;"><a href="yy.asp?school=宝山大华校"><img src="images/yy.png" border="0"></a></span></div>
                  <%
 				  set rs=server.CreateObject("adodb.recordset")
-				  rs.open "select * from pf_sc where sc_num=2",conn,1,1
+				  rs.open "select * from pf_sc where sc_num=9",conn,1,1
 				  %>
 
-<table width="100%"  border="0" cellpadding="0" cellspacing="0" class="form-table">
+
+<table  border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
-                          <td width="225" height="212">
-                          <img src="<%=rs("sc_p_logo")%>" width="225" height="214"></td>
-                          <td width="425" style="float:right; padding-left:20px;">
-                          <table width="94%" border="0" align="center">
+                          <td><img src="<%=rs("sc_p_logo")%>" width="600px"></td>
+                          </tr>
                               <tr>
                               <td><%=rs("sc_about")%></td>
                               </tr>
-                          </table></td>
-                        </tr>
                         <tr>
                         <td height="25" colspan="2">地址：<%=rs("sc_address")%></td>
                       </tr>
@@ -38,12 +35,10 @@
                       <tr>
                         <td height="25" colspan="2">电话：<%=rs("sc_tel")%></td>
                       </tr>
-                    </table>
-                    <table width="642" height="387" border="0" align="center">
+       
                       <tr>
-                        <td><img src="<%=rs("sc_p_map")%>" width="642" height="387" align="middle"></td>
+                        <td><img src="<%=rs("sc_p_map")%>" align="middle"></td>
                       </tr>
-                    </table>
                         </table>
 				  <%
 				  rs.close

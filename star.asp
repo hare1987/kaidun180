@@ -5,18 +5,16 @@
 <div class="crumbs">
                   <div class="inner">
                      <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;星级考</span>
-                     <ul>
-                        <li class="style6">星级考</li>
+                     <ul>                       
                         <li class="style11"><a href="year.asp">年度班</a></li>
                         <li class="style11"><a href="item.asp">特色班</a></li>
+                        <li class="style6">星级考</li>
                         <li class="style11"><a href="other.asp">其他班</a></li>     
                      </ul>
                   </div>
                </div>
 <div class="contents">
 			<div class="content">
-				<div class="title">星级考</div>
-                              <P> <style type="text/css"><!--.style2 {	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	line-height: 150%;}--></style></P>
                               
                                   				  <%
 				  set rs =server.CreateObject("adodb.recordset")
