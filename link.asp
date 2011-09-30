@@ -1,3 +1,8 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
+<!--#include file="pcfinal.asp"-->
+<%
+title="友情链接 -  "
+%>
 <!-- #include file = "top.asp"-->
  <div id="main">
 <!-- #include file = "left.asp" -->
@@ -6,7 +11,7 @@
                   <div class="inner">
                      <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt; 友情链接&nbsp;&nbsp;</span>
                      <ul>
-                        <li class="style6">友 情 链 接</li>
+                        <li class="style6">友情链接</li>
                      </ul>
                   </div>
                </div>

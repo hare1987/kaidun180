@@ -1,3 +1,8 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
+<!--#include file="pcfinal.asp"-->
+<%
+title="¿­¶ÙÔÂÖ®ÐÇ - "
+%>
 <!-- #include file = "top.asp"-->
  <div id="main">
 <!-- #include file = "left.asp" -->
@@ -57,7 +62,7 @@
 	%>
     
  
-    <div class="teacher" style="width:320px; margin-right:5px; font-size:13px; line-height:150%;">
+    <div class="teacher" style="width:600px; font-size:13px; line-height:150%;">
     <img src="<%=rs("pf_uploadfile")%>" border="0">
     <div class="introduce">
 <%=rs("pf_link_name")%><br />

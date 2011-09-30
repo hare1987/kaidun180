@@ -1,3 +1,8 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
+<!--#include file="pcfinal.asp"-->
+<%
+title="Reading House - ÌØÉ«°à - ¿­¶Ù¿Î³Ì -  "
+%>
 <!-- #include file = "top.asp"-->
  <div id="main">
 <!-- #include file = "left.asp" -->

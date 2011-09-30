@@ -1,3 +1,8 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
+<!--#include file="pcfinal.asp"-->
+<%
+title="在线预约 - "
+%>
 <!-- #include file = "top.asp"-->
  <div id="main">
 <!-- #include file = "left.asp" -->
@@ -133,25 +138,25 @@ return true;
   <input type="radio" name="hd" value="ABCbakery">
 &nbsp;<span class="style4">ABCbakery</span>&nbsp;
 <input type="radio" name="hd" value="Language Arts">
-<span class="style4">Language Arts</span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span class="style4">Language Arts</span>&nbsp;
                                   <input type="radio" name="class" value="Hip Hip Hooray">
-&nbsp;<span class="style4">Hip Hip Hooray</span>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;<span class="style4">Hip Hip Hooray</span>&nbsp;
                                   <input type="radio" name="class" value="ESL">
 &nbsp;<FONT color=#000000><span class="style4">ESL</span><br>
 <br>
 <input type="radio" name="hd" value="Star Test">
-&nbsp;<span class="style4">Star Test</span>&nbsp;&nbsp;&nbsp;
+&nbsp;<span class="style4">Star Test</span>&nbsp
 <input type="radio" name="hd" value="Phonic Magic Cards">
-<span class="style4">Phonic Magic Cards</span> &nbsp;&nbsp;&nbsp;
+<span class="style4">Phonic Magic Cards</span> &nbsp;
 <input type="radio" name="hd" value="Sing  Chant">
-&nbsp;<span class="style4">Sing &amp; Chant</span>
-&nbsp;
+<span class="style4">Sing &amp; Chant</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <input name="hd" type="radio" value="Reading House">
 &nbsp;<span class="style4">&nbsp;Reading House</span></FONT></div></td>
                               </tr>
                             <tr>
                               <td height="33" colspan="4">
-                                <div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注：带<span class="style7">*&nbsp;</span>为必填项</div></td>
+                                <div align="left" style="margin-top:20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注：带<span class="style7">*&nbsp;</span>为必填项</div></td>
                               </tr>
                             <tr>
                               <td height="35" colspan="4"><div align="center">

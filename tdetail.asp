@@ -1,3 +1,13 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
+<!--#include file="pcfinal.asp"-->
+<%
+id=request.QueryString("id")
+set rs1=server.CreateObject("adodb.recordset")
+rs1.open "select * from pf_ms where id="&id,conn,1,3
+%>
+<%
+title=rs1("pf_link_name")&" - 凯顿月之星 - "
+%>
 <!-- #include file = "top.asp"-->
 <div id="main">
 <!-- #include file = "left.asp" -->
@@ -5,7 +15,7 @@
 
 <div class="crumbs">
                   <div class="inner">
-                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;<a href="stars.asp">凯顿月之星</a>&nbsp;&nbsp;</span>
+                     <span class="current">当前位置：<a href="index.asp">首 页</a>&nbsp;&gt;<a href="stars1.asp">凯顿月之星</a>&nbsp;&nbsp;</span>
                      <ul>
                         <li class="style6">凯顿月之星</li>
                      </ul>
@@ -14,21 +24,17 @@
 <div class="contents">
 			<div class="content">
 				<div class="title">凯顿月之星</div>
-<%
-id=request.QueryString("id")
-set rs=server.CreateObject("adodb.recordset")
-rs.open "select * from pf_ms where id="&id,conn,1,3
-%>
-<div>
-<img src="<%=rs("pf_uploadfile")%>>
-<p>姓名：<%=rs("pf_link_name")%><br />
-校区：<%=rs("school")%><br />
-获得奖项：<%=rs("position")%><br />
-说明：<%=rs("pf_link_text")%><br /></p>
+
+<div class="teacher" style="width:600px;">
+<img src="<%=rs1("pf_uploadfile")%>"/>
+<p>姓名：<%=rs1("pf_link_name")%><br />
+校区：<%=rs1("school")%><br />
+获得奖项：<%=rs1("position")%><br />
+说明：<%=rs1("pf_link_text")%><br /></p>
 </div>
 
-<%rs.close
-set rs=nothing%>
+<%rs1.close
+set rs1=nothing%>
 </div>
 </div>
                               

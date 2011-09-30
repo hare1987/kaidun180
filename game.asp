@@ -1,4 +1,9 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
+<!--#include file="pcfinal.asp"-->
 <!-- #include file = "top.asp"-->
+<%
+title=сно╥обть - "
+%>
  <div id="main">
 <!-- #include file = "left.asp" -->
 <div class="right">

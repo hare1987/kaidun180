@@ -1,3 +1,8 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
+<!--#include file="pcfinal.asp"-->
+<%
+title="免费活动预约 - "
+%>
 <!-- #include file = "top.asp"-->
  <div id="main">
 <!-- #include file = "left.asp" -->
@@ -130,18 +135,21 @@ return true;
                             <tr>
                               <td height="35"><div align="right"><span class="style7">*&nbsp;</span>选择校区：&nbsp;&nbsp;</div></td>
                               <td height="35" colspan="3"><div align="left">
-  <input type="radio" name="school" value="徐汇田林校">徐汇田林校 
-  <input type="radio" name="school" value="黄浦书城校">黄浦书城校
-  <input type="radio" name="school" value="浦东金桥校">浦东金桥校
+  <input type="radio" name="school" value="徐汇田林校">徐汇田林校 &nbsp;
+  <input type="radio" name="school" value="黄浦书城校">黄浦书城校&nbsp;
+  <input type="radio" name="school" value="浦东金桥校">浦东金桥校&nbsp;
   <input type="radio" name="school" value="闵行莘庄校">闵行莘庄校<br />
-  <input type="radio" name="school" value="虹口东宝校">虹口东宝校
-  <input type="radio" name="school" value="长宁虹桥校">长宁虹桥校
-  <input type="radio" name="school" value="松江九亭校">松江九亭校
+  <input type="radio" name="school" value="虹口东宝校">
+  虹口东宝校&nbsp;
+   <input type="radio" name="school" value="长宁虹桥校">
+  长宁虹桥校
+  <input type="radio" name="school" value="松江九亭校">
+  松江九亭校
   <input type="radio" name="school" value="宝山大华校">宝山大华校</div></td>
                               </tr>
                             <tr>
                               <td><div align="right">活动选项：&nbsp;&nbsp;</div></td>
-                              <td colspan="3"><div align="left">
+                              <td colspan="3"><div>
 <%
 set rs = server.CreateObject("adodb.recordset")
 sql = "select * from  pf_hdyy"
@@ -150,8 +158,9 @@ if not rs.eof or bof then
 i = 1
 do while not rs.eof or rs.bof
 %>
-  <input type="radio" name="hd" value="<%=rs("pf_link_name")%>">
-&nbsp;<SPAN style="line-height:300% "><%=rs("pf_link_name")%></SPAN>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div style="padding-top:10px;">
+<input type="radio" name="hd" value="<%=rs("pf_link_name")%>"><%=rs("pf_link_name")%>
+</div>
 <%
 if i mod 4 = 0 then
 %>
@@ -171,7 +180,7 @@ set rs = nothing
                               </tr>
                             <tr >
                               <td height="33" colspan="4">
-                                <div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注：带<span class="style7">*&nbsp;</span>为必填项</div></td>
+                                <div  style="padding-left:70px;">注：带<span>*&nbsp;</span>为必填项</div></td>
                               </tr>
                             <tr>
                               <td height="35" colspan="4"><div align="center">

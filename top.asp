@@ -1,4 +1,3 @@
-<!--#include file="pcfinal.asp"-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
@@ -11,9 +10,9 @@
             });
         </script>
         <meta name="author" content="kaidun" />
-        <title>
-        凯顿儿童美语学校欢迎您,儿童美语，幼儿美语，少儿美语!
-        </title>
+<title>
+<%=title%>凯顿儿童美语,儿童美语，幼儿美语，少儿美语!
+</title>
         <link href="stylesheets/reset.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
         <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />   
         <% current_theme = session("current_theme")

@@ -1,3 +1,14 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
+<!--#include file="pcfinal.asp"-->
+<%
+id=request.QueryString("id")
+set rs1=server.CreateObject("adodb.recordset")
+rs1.open "select * from pf_hd where id="&id,conn,1,3
+rs1.update
+%>
+<%
+title=rs1("pf_link_name")&" - 凯顿活动 - "
+%>
 <!-- #include file = "top.asp"-->
  <div id="main">
 <!-- #include file = "left.asp" -->
@@ -12,23 +23,16 @@
                      </ul>
                   </div>
                </div>
-                    
-<%dim newsid
-id=request.QueryString("id")
-set rs=server.CreateObject("adodb.recordset")
-rs.open "select * from pf_hd where id="&id,conn,1,3
-rs.update
-%><script language=javascript>document.title='<%=rs("pf_link_name")%>_凯顿活动_凯顿儿童美语学校欢迎您!';</script>
                               
                     <div class="contents">
 			<div class="content">
-				<div class="title"><%=trim(rs("pf_link_name"))%></div>
+				<div class="title"><%=trim(rs1("pf_link_name"))%></div>
                 <div class="section">
                 <ul>
-                             <li><%=trim(rs("content"))%></li>
+                             <li><%=trim(rs1("content"))%></li>
                            </ul>
-                                  <%rs.close
-set rs=nothing%>
+                                  <%rs1.close
+set rs1=nothing%>
                            
                     </div>
                     	</div>

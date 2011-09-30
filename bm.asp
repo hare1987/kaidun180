@@ -1,3 +1,8 @@
+<%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
+<!--#include file="pcfinal.asp"-->
+<%
+title="报名咨询 -  "
+%>
 <!-- #include file = "top.asp"-->
  <div id="main">
 <!-- #include file = "left.asp" -->
@@ -119,13 +124,17 @@ return true;
                                 <input name="tel" type="text" id="tel">
                               </div></td>
                             </tr>
+                            
                             <tr>
                               <td height="35"><div align="right"><span class="style7">*&nbsp;</span>电子邮箱：&nbsp;&nbsp;</div></td>
                               <td height="35"><div align="left">
                                 <input name="email" type="text" id="email"  onBlur="return validateEmail();">
                               </div></td>
-                              <td height="35"><input name="hd" type="hidden" id="class" value="<%=request("class")%>"></td>
-                              <td height="35"><div align="left"></div></td>
+                              </tr>
+                              <tr>
+                              
+                              <td><input name="hd" type="hidden" id="class" value="<%=request("class")%>"></td>
+                              <td><div align="left"></div></td>
                             </tr>
                             <tr>
                               <td height="35"><div align="right"><span class="style7">*&nbsp;</span>选择校区：&nbsp;&nbsp;</div></td>
@@ -146,7 +155,7 @@ return true;
                               </tr>
                             <tr>
                               <td height="33" colspan="4">
-                                <div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注：带<span class="style7">*&nbsp;</span>为必填项</div></td>
+                                <div  style="padding-left:70px; padding-top:20px;">注：带<span class="style7">*&nbsp;</span>为必填项</div></td>
                               </tr>
                             <tr>
                               <td height="35" colspan="4"><div align="center">
