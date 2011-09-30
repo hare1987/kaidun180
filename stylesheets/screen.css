@@ -247,13 +247,16 @@ background: #ffe565;
 	
 }
 .crumbs .inner{
-  background: url(../images/position.png);
   margin-right: 10px;
   height: 28px;
   width:  728px;
   margin-bottom:10px;
   padding:3px;
-  line-height: 20px;
+  background: url(../images/position.png);
+  _background-image:none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/position.png');
+  position:relative;	
+
 }
 .crumbs ul {
   margin-left: 30px;
