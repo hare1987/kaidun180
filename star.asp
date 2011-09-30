@@ -18,6 +18,7 @@ title="ÐÇ¼¶¿¼ - ¿­¶Ù¿Î³Ì - "
                      </ul>
                   </div>
                </div>
+               <div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
                               
@@ -36,6 +37,7 @@ title="ÐÇ¼¶¿¼ - ¿­¶Ù¿Î³Ì - "
 
   </div><!-- End: #right-->
         </div><!-- End: #main -->
+        <div><img  src="images/bg3.png"/></div>
 
 <div class="clear"></div>
 

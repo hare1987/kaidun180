@@ -15,6 +15,7 @@ title="联系凯顿 -  "
                      </ul>
                   </div>
                </div>
+                    <div><img  src="images/bg1.png"/></div>
                <div class="contents">
 			<div class="content">
 				<div class="title">联系凯顿</div>  
@@ -32,7 +33,7 @@ title="联系凯顿 -  "
 				  %>
             </div>
             </div>
- 
+      <div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 

@@ -18,6 +18,7 @@ title="特色理念 - 凯顿简介 - "
                      </ul>
                   </div>
                </div>
+               <div><img  src="images/bg1.png"/></div>
       <div class="contents">
 			<div class="content">
 				<div class="title">特色理念</div>
@@ -34,6 +35,7 @@ title="特色理念 - 凯顿简介 - "
 				  %>
 		</div>
 		</div>
+        <div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 

@@ -21,7 +21,10 @@ title=rs1("pf_link_name")&" - 游戏下载 - "
                      </ul>
                   </div>
                </div>
- <div class="box">
+             <div><img  src="images/bg1.png"/></div>
+               <div class="contents">
+			<div class="content">
+				<div class="title">游戏下载</div>  
 <table  width="750" height="500" border="0" align="left" cellpadding="0" cellspacing="0">
 <tr>
  <td height="30">
@@ -32,7 +35,9 @@ title=rs1("pf_link_name")&" - 游戏下载 - "
                     </object></td>
                   </tr>
                 </table>
-                </div>
+                       </div>
+            </div>
+      <div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 

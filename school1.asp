@@ -15,7 +15,7 @@ title="徐汇田林校 - 校区介绍 - "
                      </ul>
                   </div>
                </div>
-               
+          <div><img  src="images/bg1.png"/></div>     
         
 <div class="contents">
 			<div class="content">
@@ -52,6 +52,7 @@ title="徐汇田林校 - 校区介绍 - "
 				  %>
                     </div>
                     </div>
+                    <div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 

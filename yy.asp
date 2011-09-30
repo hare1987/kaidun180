@@ -16,6 +16,7 @@ title="在线预约 - "
                      </ul>
                   </div>
                </div>
+               <div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
 				<div class="title">在线预约</div>
@@ -133,26 +134,24 @@ return true;
                             </tr>
                             <tr>
                               <td height="35"><div align="right"><span class="style7">*&nbsp;</span>选择课程：&nbsp;&nbsp;</div></td>
-                              <td height="35" colspan="3"><div align="left">
-  <br>
+                              <td height="35" colspan="3">
+                              <div align="left">
   <input type="radio" name="hd" value="ABCbakery">
-&nbsp;<span class="style4">ABCbakery</span>&nbsp;
-<input type="radio" name="hd" value="Language Arts">
-<span class="style4">Language Arts</span>&nbsp;
+  <span class="style4">ABCbakery</span>
+  <input type="radio" name="hd" value="Language Arts">
+<span class="style4">Language Arts</span>
                                   <input type="radio" name="class" value="Hip Hip Hooray">
-&nbsp;<span class="style4">Hip Hip Hooray</span>&nbsp;
-                                  <input type="radio" name="class" value="ESL">
-&nbsp;<FONT color=#000000><span class="style4">ESL</span><br>
-<br>
+<span class="style4">Hip Hip Hooray</span>
+                                  <input type="radio" name="class" value="ESL"><span class="style4">ESL</span>
+<br />
 <input type="radio" name="hd" value="Star Test">
-&nbsp;<span class="style4">Star Test</span>&nbsp
+<span class="style4">Star Test</span>
 <input type="radio" name="hd" value="Phonic Magic Cards">
-<span class="style4">Phonic Magic Cards</span> &nbsp;
+<span class="style4">Phonic Magic Cards</span>
 <input type="radio" name="hd" value="Sing  Chant">
 <span class="style4">Sing &amp; Chant</span>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<input name="hd" type="radio" value="Reading House">
-&nbsp;<span class="style4">&nbsp;Reading House</span></FONT></div></td>
+<br />
+<input name="hd" type="radio" value="Reading House"><span class="style4">Reading House</span></FONT></div></td>
                               </tr>
                             <tr>
                               <td height="33" colspan="4">
@@ -168,6 +167,7 @@ return true;
                           </table>
                         </form>
                         </div></div>
+                        <div><img  src="images/bg3.png"/></div>
                       </div><!-- End: #right-->
         </div><!-- End: #main -->
 

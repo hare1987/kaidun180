@@ -19,6 +19,7 @@ title="Reading House - 特色班 - 凯顿课程 -  "
                       </ul>
                   </div>
                </div>
+                  <div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
                                   				  <%
@@ -33,6 +34,7 @@ title="Reading House - 特色班 - 凯顿课程 -  "
 
 	</div>
 		</div>
+           <div><img  src="images/bg3.png"/></div>
  </div><!-- End: #right-->
         </div><!-- End: #main -->
 

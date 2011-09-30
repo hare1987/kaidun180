@@ -1,9 +1,10 @@
 <%@LANGUAGE="VBSCRIPT" CODEPAGE="936"%>
 <!--#include file="pcfinal.asp"-->
-<!-- #include file = "top.asp"-->
 <%
-title=游戏下载 - "
+title="游戏下载 - "
 %>
+
+<!-- #include file = "top.asp"-->
  <div id="main">
 <!-- #include file = "left.asp" -->
 <div class="right">
@@ -15,7 +16,11 @@ title=游戏下载 - "
                      </ul>
                   </div>
                </div>
- <div class="box">
+   <div><img  src="images/bg1.png"/></div>
+               <div class="contents">
+			<div class="content">
+				<div class="title">游戏下载</div>  
+				
 <table width="97%"  border="0" align="left" cellpadding="0" cellspacing="0">
                       <tr>
                         <td width="3%" height="23">&nbsp;</td>
@@ -124,7 +129,10 @@ End Sub
                             <br></td>
                       </tr>
                     </table>
-</div>  </div><!-- End: #right-->
+        </div>
+            </div>
+      <div><img  src="images/bg3.png"/></div>
+ </div><!-- End: #right-->
         </div><!-- End: #main -->
 
 <div class="clear"></div>

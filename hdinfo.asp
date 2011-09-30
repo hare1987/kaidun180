@@ -23,7 +23,7 @@ title=rs1("pf_link_name")&" - ¿­¶Ù»î¶¯ - "
                      </ul>
                   </div>
                </div>
-                              
+                    <div><img  src="images/bg1.png"/></div>               
                     <div class="contents">
 			<div class="content">
 				<div class="title"><%=trim(rs1("pf_link_name"))%></div>
@@ -37,6 +37,7 @@ set rs1=nothing%>
                     </div>
                     	</div>
 		</div>
+             <div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 

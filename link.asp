@@ -15,7 +15,10 @@ title="友情链接 -  "
                      </ul>
                   </div>
                </div>
-                <div class="box">
+                    <div><img  src="images/bg1.png"/></div>
+           <div class="contents">
+			<div class="content">
+				<div class="title">友情链接</div>
 <table width="99%"  border="0" align="left" cellpadding="0" cellspacing="0">
                       <tr>
                         <td width="3%" height="23">&nbsp;</td>
@@ -152,7 +155,9 @@ End Sub
 						</td>
                       </tr>
                     </table>
-                    </div>
+                        </div>
+		</div>
+        <div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 

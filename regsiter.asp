@@ -85,7 +85,7 @@ return true;
     }   
   }   
 </script>
-
+<div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
 				<div class="title">免费活动预约</div>
@@ -134,18 +134,20 @@ return true;
                             </tr>
                             <tr>
                               <td height="35"><div align="right"><span class="style7">*&nbsp;</span>选择校区：&nbsp;&nbsp;</div></td>
-                              <td height="35" colspan="3"><div align="left">
-  <input type="radio" name="school" value="徐汇田林校">徐汇田林校 &nbsp;
-  <input type="radio" name="school" value="黄浦书城校">黄浦书城校&nbsp;
-  <input type="radio" name="school" value="浦东金桥校">浦东金桥校&nbsp;
-  <input type="radio" name="school" value="闵行莘庄校">闵行莘庄校<br />
-  <input type="radio" name="school" value="虹口东宝校">
-  虹口东宝校&nbsp;
-   <input type="radio" name="school" value="长宁虹桥校">
-  长宁虹桥校
-  <input type="radio" name="school" value="松江九亭校">
-  松江九亭校
-  <input type="radio" name="school" value="宝山大华校">宝山大华校</div></td>
+                              <td height="35" colspan="3">
+ <div align="left">
+  <input type="radio" name="school" value="徐汇田林校">徐汇田林校
+  <input type="radio" name="school" value="黄浦书城校">黄浦书城校
+  <input type="radio" name="school" value="浦东金桥校">浦东金桥校
+  <input type="radio" name="school" value="闵行莘庄校">闵行莘庄校
+  </div>
+  <div>
+  <input type="radio" name="school" value="虹口东宝校">虹口东宝校
+  <input type="radio" name="school" value="长宁虹桥校">长宁虹桥校
+  <input type="radio" name="school" value="松江九亭校">松江九亭校
+  <input type="radio" name="school" value="宝山大华校">宝山大华校
+  </div>
+  </td>
                               </tr>
                             <tr>
                               <td><div align="right">活动选项：&nbsp;&nbsp;</div></td>
@@ -180,7 +182,7 @@ set rs = nothing
                               </tr>
                             <tr >
                               <td height="33" colspan="4">
-                                <div  style="padding-left:70px;">注：带<span>*&nbsp;</span>为必填项</div></td>
+                                <div  style="padding-left:65px;">备&nbsp;&nbsp;&nbsp; 注：带<span>*&nbsp;</span>为必填项</div></td>
                               </tr>
                             <tr>
                               <td height="35" colspan="4"><div align="center">
@@ -193,6 +195,7 @@ set rs = nothing
                         </form>   
 		</div>
 		</div>  
+        <div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 

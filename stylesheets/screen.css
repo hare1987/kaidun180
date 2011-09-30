@@ -244,16 +244,16 @@ background: #ffe565;
 .crumbs {
 	_width: 740px;
 	_overflow: hidden;
+	
 }
 .crumbs .inner{
-  background: #FFF url(../images/icons/File.gif) no-repeat 1px 3px;
+  background: url(../images/position.png);
   margin-right: 10px;
-  padding: 3px;
-  margin-bottom: 10px;
-  height: 20px;
-  width:  725px;
+  height: 28px;
+  width:  728px;
+  margin-bottom:10px;
+  padding:3px;
   line-height: 20px;
-  border: 5px  solid #a9d3ff;
 }
 .crumbs ul {
   margin-left: 30px;
@@ -263,6 +263,7 @@ background: #ffe565;
   float: left;
   padding: 0px;
   margin-right: 5px;
+  padding:3px;
 }
 
 .crumbs li a {
@@ -284,6 +285,7 @@ background: #ffe565;
 
 #contact_kaidun {
   margin-bottom: 0;
+  font-weight:bold;
 }
 
 #contact_kaidun ul {
@@ -473,7 +475,7 @@ font-weight:bold;
 
 
 #kaidun_news,#kaidun_month_star {
-  width: 505px;
+  width: 530px;
 }
 
 #preview_video {
@@ -560,14 +562,12 @@ font-weight:bold;
     overflow: hidden;
     width: 730px;
 	background-color:#FFF;
-	border: 5px  solid #a9d3ff;
-	margin-bottom:10px;
-	_margin-bottom:5px;
+	background:#FFF url(../images/bg2.png);
 }
 
 .contents .content {
     margin-left: 45px;
-	width:600px;
+	width:650px;
 	line-height:150%;
 }
 .contents .content .title {

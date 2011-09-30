@@ -21,6 +21,7 @@ title=rs1("pf_link_name")&" - 凯顿月之星 - "
                      </ul>
                   </div>
                </div>	
+               <div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
 				<div class="title">凯顿月之星</div>
@@ -40,6 +41,7 @@ set rs1=nothing%>
                               
                                       </div><!-- End: #right-->
         </div><!-- End: #main -->
+        <div><img  src="images/bg3.png"/></div>
 
 <div class="clear"></div>
 

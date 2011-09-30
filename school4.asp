@@ -15,6 +15,7 @@ title="闵行莘庄校 - 校区介绍 - "
                      </ul>
                   </div>
                </div>
+               <div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
 				<div class="title">闵行莘庄校<span style="float:right;"><a href="yy.asp?school=闵行莘庄校"><img src="images/yy.png" border="0"></a></span></div>
@@ -51,6 +52,7 @@ title="闵行莘庄校 - 校区介绍 - "
 				  %>
                     </div>
                     </div>
+                    <div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 

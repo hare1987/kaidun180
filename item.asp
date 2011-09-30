@@ -18,6 +18,7 @@ title="特色班 - 凯顿课程 -  "
                       </ul>
                   </div>
                </div>
+               <div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
 				<div class="title">特色班</div>
@@ -33,9 +34,9 @@ title="特色班 - 凯顿课程 -  "
                 <tr bgColor=#fff3c3>
                   <td >字母拼读强效记忆班 Magic Phonics</td>
                   <td >字母拼读 </td>
-                  <td>24</td>
-                  <td>每次2课时，一周1次 </td>
-                  <td >7-12岁</td>
+                  <td>120</td>
+                  <td>常规班和暑期特训班</td>
+                  <td >6-9岁</td>
                   <td><a href="c1.asp"><img src="images/icons/kc.png"></a></td>
                 </tr>
 
@@ -48,7 +49,7 @@ title="特色班 - 凯顿课程 -  "
                   <td width="13%">课程介绍</td>
                 </tr>
                 <tr bgColor=#fff3c3>
-                  <td >幼儿唱诵班 Sing&amp;Chant  </td>
+                  <td >幼儿唱诵班 Sing&amp;Chat  </td>
                   <td >幼儿美语唱诵班</td>
                   <td>24</td>
                   <td>每次2课时，一周1次 </td>
@@ -80,6 +81,7 @@ title="特色班 - 凯顿课程 -  "
               </table>
     </div>
 		</div>
+        <div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 

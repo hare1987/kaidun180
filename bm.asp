@@ -17,6 +17,7 @@ title="报名咨询 -  "
                      </ul>
                   </div>
                </div>
+                  <div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
 				<div class="title">报名咨询</div>
@@ -168,6 +169,7 @@ return true;
                         </form>
       </div>
       </div>
+         <div><img  src="images/bg3.png"/></div>
                       </div><!-- End: #right-->
         </div><!-- End: #main -->
 

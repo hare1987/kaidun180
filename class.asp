@@ -15,7 +15,7 @@ title="最新开班信息 -  "
                      </ul>
                   </div>
                </div>
-
+   <div><img  src="images/bg1.png"/></div>
  <div class="contents">
 			<div class="content">
 				<div class="title">最新开班信息</div>
@@ -135,7 +135,7 @@ End Sub
 </div>
                 </div>
                     </div>
-
+   <div><img  src="images/bg3.png"/></div>
              
   </div><!-- End: #right-->
         </div><!-- End: #main -->

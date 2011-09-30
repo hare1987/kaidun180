@@ -17,7 +17,7 @@ title="师资团队 - 凯顿简介 -  "
                      </ul>
                   </div>
                </div>	  
-                      
+                      <div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
 				<div class="title">师资团队</div>
@@ -128,7 +128,7 @@ End Sub
                                </div>
                                </div>
 				  
-				  
+				<div><img  src="images/bg3.png"/></div>  
                           
 
   </div><!-- End: #right-->

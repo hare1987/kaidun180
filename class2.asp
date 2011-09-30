@@ -17,6 +17,7 @@ title="Language Arts - 年度班 - 凯顿课程 -  "
                         <li class="style11"><a href="other.asp">其他班</a></li>    
                      </ul>
                   </div>
+                     <div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
                                   				  <%
@@ -30,6 +31,7 @@ title="Language Arts - 年度班 - 凯顿课程 -  "
 				  %>
    </div>
 		</div>
+           <div><img  src="images/bg3.png"/></div>
 </div><!-- End: #right-->
         </div><!-- End: #main -->
 

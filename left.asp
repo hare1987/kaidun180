@@ -7,7 +7,8 @@
                         <li class="telphone">预约电话:4006-117-668</li>
 <form  name="yx"  onsubmit="return checkregform()" method="post" action="save.asp?action=gf">
 <li>宝宝姓名:<input type="text"  style="width:105px" id="name" name="name"></li>
-<li>宝宝年龄:<select style="width:42px" id="lngsex" name="age">
+<li>宝宝年龄:<select style="width:100px" id="lngsex" name="age">
+<option value="2.5">2.5</option>
 <option value="3">3</option>
 <option value="4">4</option>
 <option value="5">5</option>

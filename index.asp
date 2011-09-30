@@ -58,7 +58,7 @@ document.write('</object>');
                 <div class="clear"></div>  
  <div id="kaidun_month_star" class="box">
                    <em class="icon"><img src="images/icons/star.png" /></em>
-        <h3 class="corner_it"><div class="inner"><span><a href="stars.asp" title="">MORE</a></span>凯顿月之星</div></h3>
+        <h3 class="corner_it"><div class="inner"><span><a href="stars.asp" title="">more</a></span>凯顿月之星</div></h3>
 <div id="colee_left" style="overflow:hidden; width:100%;">
 <table cellpadding="0" cellspacing="0" border="0">
 <tr><td id="colee_left1" valign="top" align="center">

@@ -15,6 +15,7 @@ title="упомдий© -  "
                      </ul>
                   </div>
                </div>
+                    <div><img  src="images/bg1.png"/></div>
          <div class="contents">
 			<div class="content">
 				<div class="title">упомдий©</div>
@@ -459,7 +460,7 @@ title="упомдий© -  "
                     </div>
                     </div>
                     
-              
+                   <div><img  src="images/bg3.png"/></div>
                     
   </div><!-- End: #right-->
         </div><!-- End: #main -->

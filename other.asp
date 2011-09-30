@@ -18,6 +18,7 @@ title="其他班 - 凯顿课程 -  "
                      </ul>
                   </div>
                </div>
+               <div><img  src="images/bg1.png"/></div>
 <div class="contents">
 			<div class="content">
 				<div class="title">Hip Hip Hooray</div>
@@ -33,6 +34,7 @@ title="其他班 - 凯顿课程 -  "
 				  %>
  </div>
 		</div>
+        <div><img  src="images/bg3.png"/></div>
 </div><!-- End: #right-->
         </div><!-- End: #main -->
 

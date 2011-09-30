@@ -22,6 +22,7 @@ title=rs1("pf_news_name")&" - 新闻资讯 - "
                      </ul>
                   </div>
                </div>
+               <div><img  src="images/bg1.png"/></div>
 
 <div class="contents">
 			<div class="content">
@@ -37,6 +38,7 @@ title=rs1("pf_news_name")&" - 新闻资讯 - "
 		</div>
            <%rs1.close
 set rs1=nothing%>
+<div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 

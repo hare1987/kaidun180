@@ -17,8 +17,9 @@ title="ø≠∂ŸΩÈ…‹ - ø≠∂ŸºÚΩÈ - "
                      </ul>
                   </div>
                </div>
+                  <div><img  src="images/bg1.png"/></div>
 
-<div class="contents corner_it">
+<div class="contents">
 			<div class="content">
 				<div class="title">ø≠∂ŸΩÈ…‹</div>
                               <P> <style type="text/css"><!--.style2 {	font-family: Arial, Helvetica, sans-serif;	font-size: 16px;	line-height: 150%;}--></style></P>
@@ -33,7 +34,7 @@ title="ø≠∂ŸΩÈ…‹ - ø≠∂ŸºÚΩÈ - "
 				  %>
 		</div>
 		</div>
-             
+                <div><img  src="images/bg3.png"/></div>
   </div><!-- End: #right-->
         </div><!-- End: #main -->
 
