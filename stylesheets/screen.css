@@ -247,16 +247,15 @@ background: #ffe565;
 	
 }
 .crumbs .inner{
+  background: url(../images/position.png);
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/position.png'); /* IE6 */
+  _ background-image: none; /* IE6 */ 
   margin-right: 10px;
   height: 28px;
   width:  728px;
   margin-bottom:10px;
   padding:3px;
-  background: url(../images/position.png);
-  _background-image:none;
-  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/position.png');
-  position:relative;	
-
+  line-height: 20px;
 }
 .crumbs ul {
   margin-left: 30px;
@@ -272,9 +271,10 @@ background: #ffe565;
 .crumbs li a {
   font-size:13px;
   text-decoration: none;
+  _position:relative;
 }
 
-.current a{ font-size:13px;}
+span.current a{ font-size:13px; _position:relative;}
 
 .crumbs li a:hover {
   text-decoration: underline;
@@ -561,7 +561,7 @@ font-weight:bold;
 
 .contents {
    min-height:500px;
-  _height:expression(this.scrollHeight < 500 ? "500px" : "auto");    
+  _height:expression(this.scrollHeight < 500 ? "500px" : "auto"); 
     overflow: hidden;
     width: 730px;
 	background-color:#FFF;
@@ -601,6 +601,7 @@ COLOR: #FF8800;
 .contents .content td a {
     line-height:150%;
 	font-size:13px;
+	_position:relative;
 }
 .news-list {
   border-bottom: 1px  dashed #C9C9C9;
