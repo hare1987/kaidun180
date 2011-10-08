@@ -56,7 +56,7 @@ title="’–œÕƒ… ø -  "
   </tr>
   <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]°°°°                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
-    <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
+    <td align="center"  class="dd1"><div align="center">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
   <%
 								rs.MoveNext
@@ -103,7 +103,7 @@ title="’–œÕƒ… ø -  "
   </tr>
   <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]°°°°                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
-    <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
+    <td align="center"  class="dd1"><div align="center">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
   <%
 								rs.MoveNext
@@ -150,7 +150,7 @@ title="’–œÕƒ… ø -  "
   </tr>
   <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]°°°°                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
-    <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
+    <td align="center"  class="dd1"><div align="center">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
   <%
 								rs.MoveNext
@@ -197,7 +197,7 @@ title="’–œÕƒ… ø -  "
   </tr>
   <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]°°°°                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
-    <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
+    <td align="center"  class="dd1"><div align="center">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
   <%
 								rs.MoveNext
@@ -244,7 +244,7 @@ title="’–œÕƒ… ø -  "
   </tr>
   <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]°°°°                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
-    <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
+    <td align="center"  class="dd1"><div align="center">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
   <%
 								rs.MoveNext
@@ -291,7 +291,7 @@ title="’–œÕƒ… ø -  "
   </tr>
   <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]°°°°                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
-    <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
+    <td align="center"  class="dd1"><div align="center">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
   <%
 								rs.MoveNext
@@ -342,7 +342,7 @@ title="’–œÕƒ… ø -  "
   </tr>
   <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]°°°°                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
-    <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
+    <td align="center"  class="dd1"><div align="center">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
   <%
 								rs.MoveNext
@@ -388,7 +388,7 @@ title="’–œÕƒ… ø -  "
   </tr>
   <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]°°°°                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
-    <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
+    <td align="center"  class="dd1"><div align="center">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
   <%
 								rs.MoveNext
@@ -434,7 +434,7 @@ title="’–œÕƒ… ø -  "
   </tr>
   <tr>
     <td height="30"  class="dd1"><div align="left">[ <%=year(rs("pf_recruitment_date"))&"-"&m&"-"&d%> ]°°°°                    &gt;&gt; <a href="<%=rs("pf_recruitment_link")%>" target="_blank" > <%=rs("pf_recruitment_name")%> </a> </div></td>
-    <td align="right"  class="dd1"><div align="right">[ <%=rs("pf_recruitment_area")%> ]</div></td>
+    <td align="center"  class="dd1"><div align="center">[ <%=rs("pf_recruitment_area")%> ]</div></td>
   </tr>
   <%
 								rs.MoveNext
