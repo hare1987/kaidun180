@@ -23,11 +23,11 @@
 		
 		 <dl>
 			<dt>首页信息管理</dt>
-			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_hd_index.asp">活动回顾</a>&nbsp;&nbsp;&nbsp;<a href="pf_game.asp">游戏下载</a></div></dd>
+			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_hd_index.asp">凯顿活动</a>&nbsp;&nbsp;&nbsp;<a href="pf_game.asp">游戏下载</a></div></dd>
 						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_link.asp">合作伙伴</a>&nbsp;&nbsp;&nbsp;<a href="uploadfile.asp">首页广告</a></div></dd>
 						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_index_contact.asp?id=1">联系凯顿</a>&nbsp;&nbsp;&nbsp;<a href="pf_bulletin.asp?id=1">公告管理</a></div></dd>
 						<dd>
-						  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_class.asp">开班管理</a></div>
+						  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_class.asp">开班管理</a>&nbsp;&nbsp;&nbsp;<a href="pf_slogan.asp?id=1">跑马灯管理</a></div>
 		   </dd>
                         		</dl>
 		
@@ -71,11 +71,8 @@
 		
 		<dl>
 			<dt>校区介绍</dt>
-			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_sc1.asp?id=2">徐汇田林校</a>&nbsp;&nbsp;&nbsp;<a href="pf_sc2.asp?id=3">黄浦书城校</a></div>  </dd>
-						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_sc3.asp?id=4">浦东金桥校</a>&nbsp;&nbsp;&nbsp;<a href="pf_sc4.asp?id=5">闵行莘庄校</a></div> </dd>
-						<dd>
-						  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_sc5.asp?id=6">虹口东宝校</a>		&nbsp;&nbsp;<a href="pf_sc6.asp?id=7">长宁虹桥校</a></div>  
-                          						  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_sc7.asp?id=8">松江九亭校</a>		&nbsp;&nbsp;<a href="pf_sc8.asp?id=9">宝山大华校</a></div> 
+            	<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_sc.asp">校区管理</a></div>  </dd>
+
 		  </dd>
 		</dl>
 		
