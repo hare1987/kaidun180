@@ -71,7 +71,17 @@ set rs = nothing
       <div id="slogan">
             <div class="inner">
                <marquee loop="-1" scrollamount="3" scrolldelay="1000"　behavior="scroll" direction="left" >
-                     <div class="inner2"><span></span>180天后，让孩子与老外轻松聊天半小时!</div>
+                     <div class="inner2">
+                  <%
+				  set rs =server.CreateObject("adodb.recordset")
+				  rs.open "select * from  pf_custom",conn,1,1
+				  %>   
+                  <span> <%=rs("slogan")%></span>
+                  <%
+				  rs.close
+				  set rs = nothing
+				  %>
+                 </div>
                  </marquee>
             </div>
         </div><!-- End: #slogan -->
