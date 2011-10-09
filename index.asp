@@ -69,7 +69,7 @@ document.write('</object>');
 <tr align="center">
               <%
 set rs = server.CreateObject("adodb.recordset")
-sql = "select top 5 * from  pf_ms where  pf_link_style='凯顿月之星'order by ID asc"
+sql = "select top 15 * from  pf_ms where  pf_link_style='凯顿月之星'order by ID asc"
 rs.open sql,conn,1,1
 do while not rs.eof or rs.bof
 %>
