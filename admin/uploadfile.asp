@@ -21,7 +21,7 @@
     <tr> 
       <td bgcolor="#CCCCCC" align="left" valign="middle" height="18" width="559"><p class="style1"> <span class="style2">首页广告图片更换说明：</span>（注意：图片一旦上传覆盖掉原有图片后无法恢复，上传请仔细！）<br>
           <br>
-          <span class="style4">广告图片的按顺序的名称为:fla1.jpg--fla6.jpg，总计6张图片 ，尺寸为：581px × 303px <br>
+          <span class="style4">广告图片的按顺序的名称为:fla1.jpg--fla6.jpg，总计6张图片 ，尺寸为：530px × 280px <br>
           <br>
 例如：需更换第三张图片，则待上传的图片命名为：fla3.jpg，依次类推<br>
 <br>
