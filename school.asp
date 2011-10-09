@@ -73,7 +73,7 @@ title="Ð£Çø½éÉÜ - "
                     		<tr><td ><%=rs("sc_name")%></td>
                             <td ><%=rs("sc_tel")%></td>
                             <td ><%=rs("sc_address")%></td>
-                            <td><a href="<%=rs("sc_link")%>" style=" color:#990000"><img src="images/icons/kc.png"></a></td>
+                            <td><a href="schoolinfo.asp?id=<%=rs("sc_num")%>" style=" color:#990000"><img src="images/icons/kc.png"></a></td>
                     	</tr>
 
 						
