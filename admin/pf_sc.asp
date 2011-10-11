@@ -104,7 +104,7 @@ End If
             </table>
 	</div>
     <div class="right_title">
-			<h1>徐汇田林校</h1>
+			<h1>增加校区</h1>
 			
 		</div>
 		<div class="right_body">

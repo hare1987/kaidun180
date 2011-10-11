@@ -24,7 +24,7 @@
 		 <dl>
 			<dt>首页信息管理</dt>
 			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_hd_index.asp">凯顿活动</a>&nbsp;&nbsp;&nbsp;<a href="pf_game.asp">游戏下载</a></div></dd>
-						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_link.asp">合作伙伴</a>&nbsp;&nbsp;&nbsp;<a href="uploadfile.asp">首页广告</a></div></dd>
+						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_link.asp">合作伙伴</a>&nbsp;&nbsp;&nbsp;<a href="pf_advertising.asp">首页广告</a></div></dd>
 						<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_index_contact.asp?id=1">联系凯顿</a>&nbsp;&nbsp;&nbsp;<a href="pf_bulletin.asp?id=1">公告管理</a></div></dd>
 						<dd>
 						  <div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_class.asp">开班管理</a>&nbsp;&nbsp;&nbsp;<a href="pf_slogan.asp?id=1">跑马灯管理</a></div>

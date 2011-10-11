@@ -21,24 +21,31 @@ var bgcolor="DDDDDD"; //背景色
 var imag=new Array();
 var link=new Array();
 var text=new Array();
-imag[1]="images/fla1.jpg";
-link[1]="http://www.kaidun180.com/hdinfo.asp?id=138";
-text[1]="家长俱乐部活动,万圣节专场";
-imag[2]="images/fla2.jpg";
-link[2]="";
-text[2]="家长俱乐部活动，9月10月专家教育讲座";
-imag[3]="images/fla3.jpg";
-link[3]="";
-text[3]="凯顿儿童美语 宝山大华校开业庆典";
-imag[4]="images/fla4.jpg";
-link[4]="";
-text[4]="凯顿儿童美语 星级考";
-imag[5]="images/fla5.jpg";
-link[5]="";
-text[5]="凯顿儿童美语 免费试听课预约";
-imag[6]="images/fla6.jpg";
-link[6]="";
-text[6]="凯顿儿童美语 魔术气球DIY";
+<%
+set rs = server.CreateObject("adodb.recordset")
+sql = "select top 10 * from advertising order by pf_sort"
+rs.open sql,conn,1,3
+if  rs.eof or rs.bof then
+%>
+                    暂无通知!
+<%
+else
+i = 1
+do while not rs.eof  or rs.bof
+%>
+imag[<%=i%>]="<%=rs("pf_uploadfile")%>";
+link[<%=i%>]="<%=rs("pf_link")%>";
+text[<%=i%>]="<%=rs("pf_link_name")%>";
+<%
+
+i = i + 1
+if i > 10 then  exit do
+rs.movenext
+loop
+end if
+rs.close
+set rs = nothing
+%> 
 //可编辑内容结束
 var swf_height=show_text==1?pic_height+20:pic_height;
 var pics="", links="", texts="";

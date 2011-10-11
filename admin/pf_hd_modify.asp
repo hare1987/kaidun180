@@ -32,7 +32,7 @@ If request.Form("submit") = "È·ÈÏÐÞ¸Ä" Then
     rs("pf_link_style") = request.Form("pf_link_style")
 	rs("pf_link_text") = request.Form("pf_link_text")
     rs("content") = request.Form("content2")
-	rs("update_date")=Now();
+	rs("update_data") = now()
     rs.update
     Call close_rs
 	
