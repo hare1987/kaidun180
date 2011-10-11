@@ -572,6 +572,7 @@ font-weight:bold;
     margin-left: 45px;
 	width:650px;
 	line-height:150%;
+        _position:relative;
 }
 .contents .content .title {
 	color:#636363;
