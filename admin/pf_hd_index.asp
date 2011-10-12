@@ -75,7 +75,8 @@ End If
 			<table>
 				<tr>
 					<th width="200">新闻标题</th>
-					<th>类型</th>
+					<th width="210">发布时间</th>
+				    <th width="131">最后修改</th>
 					<th>修改操作</th>
 				</tr>
 <%
@@ -110,6 +111,13 @@ Else
 %>
 				<tr align="center">
 					<td><%=rs("pf_link_name")%></td>
+                  <td> 
+		 <%=rs("create_date")%>
+         </td>
+				<td>
+				 <%=rs("update_date")%>
+
+                 </td>
 					<td>[<a href="pf_hd_modify.asp?id=<%=rs("ID")%>">修改</a>] [<a href="pf_hd_delete.asp?id=<%=rs("ID")%>&opname=<%=rs("pf_link_name")%>" onclick="return confirm('确定要删除此消息吗？删除后将不可恢复！')">删除</a>]</td>
 				</tr>
 			<%

@@ -29,8 +29,11 @@ title=rs1("pf_link_name")&" - ¿­¶Ù»î¶¯ - "
 				<div class="title"><%=trim(rs1("pf_link_name"))%></div>
                 <div class="section">
                 <ul>
-                             <li><%=trim(rs1("content"))%></li>
+                <li>
+               [<%=rs1("create_date")%>]</li>
+                </li>
                            </ul>
+                <p><%=trim(rs1("content"))%></p>
                                   <%rs1.close
 set rs1=nothing%>
                            
