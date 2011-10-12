@@ -41,6 +41,8 @@
 				   </dd>
 		</dl>
 		
+        
+        
 		<dl>
 		     <dt>年度班</dt>
 			     		<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_s1.asp?id=1" class="style1">ABCbakery</a>&nbsp;&nbsp;&nbsp;<a href="pf_s2.asp?id=1" class="style1">LA</a></div> 
@@ -69,6 +71,12 @@
 						   </dd>
 		</dl>
 		
+        	<dl>
+			<dt>凯顿课程</dt>
+            	<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_course.asp">课程管理</a></div>  </dd>
+
+		  </dd>
+		</dl>
 		<dl>
 			<dt>校区介绍</dt>
             	<dd><div align="left">&nbsp;&nbsp;&nbsp;<a href="pf_sc.asp">校区管理</a></div>  </dd>
