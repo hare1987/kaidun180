@@ -1,0 +1,38 @@
+/* 默认的样式文件 */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size:12px;
+	background-image: url("../Images/bg.gif");
+	background-attachment:fixed;
+	font-size:12px;	
+}
+
+div {
+	word-wrap:break-word;
+}
+
+a:link {
+	color: #787777;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #787777;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+.xs {
+	color:#FFFFFF;
+	font-size:14px;
+	line-height:30px;
+}

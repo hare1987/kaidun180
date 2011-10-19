@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML dir=ltr><HEAD><TITLE>找不到网页</TITLE>
+<STYLE>A:link {
+	FONT: 9pt/11pt 宋体; COLOR: #ff0000
+}
+A:visited {
+	FONT: 9pt/11pt 宋体; COLOR: #4e4e4e
+}
+</STYLE>
+
+<META content=NOINDEX name=ROBOTS>
+<META http-equiv=Content-Type content="text-html; charset=gb2312">
+<SCRIPT> 
+function Homepage(){
+<!--
+// in real bits, urls get returned to our script like this:
+// res://shdocvw.dll/http_404.htm#http://www.DocURL.com/bar.htm 
+
+	//For testing use DocURL = "res://shdocvw.dll/http_404.htm#https://www.microsoft.com/bar.htm"
+	DocURL = document.URL;
+		
+	//this is where the http or https will be, as found by searching for :// but skipping the res://
+	protocolIndex=DocURL.indexOf("://",4);
+	
+	//this finds the ending slash for the domain server 
+	serverIndex=DocURL.indexOf("/",protocolIndex + 3);
+
+		//for the href, we need a valid URL to the domain. We search for the # symbol to find the begining 
+	//of the true URL, and add 1 to skip it - this is the BeginURL value. We use serverIndex as the end marker.
+	//urlresult=DocURL.substring(protocolIndex - 4,serverIndex);
+	BeginURL=DocURL.indexOf("#",1) + 1;
+	
+	urlresult=DocURL.substring(BeginURL,serverIndex);
+				
+	//for display, we need to skip after http://, and go to the next slash
+	displayresult=DocURL.substring(protocolIndex + 3 ,serverIndex);
+
+	InsertElementAnchor(urlresult, displayresult);
+}
+
+function HtmlEncode(text)
+{
+    return text.replace(/&/g, '&amp').replace(/'/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+}
+
+function TagAttrib(name, value)
+{
+    return ' '+name+'="'+HtmlEncode(value)+'"';
+}
+
+function PrintTag(tagName, needCloseTag, attrib, inner){
+    document.write( '<' + tagName + attrib + '>' + HtmlEncode(inner) );
+    if (needCloseTag) document.write( '</' + tagName +'>' );
+}
+
+function URI(href)
+{
+    IEVer = window.navigator.appVersion;
+    IEVer = IEVer.substr( IEVer.indexOf('MSIE') + 5, 3 );
+
+    return (IEVer.charAt(1)=='.' && IEVer >= '5.5') ?
+        encodeURI(href) :
+        escape(href).replace(/%3A/g, ':').replace(/%3B/g, ';');
+}
+
+function InsertElementAnchor(href, text)
+{
+    PrintTag('A', true, TagAttrib('HREF', URI(href)), text);
+}
+
+//-->
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.2912" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<TABLE cellSpacing=5 cellPadding=3 width=410>
+  <TBODY>
+  <TR>
+    <TD vAlign=center align=left width=360>
+      <H1 
+  style="FONT: 12pt/15pt 宋体; COLOR: #000000"><!--Problem-->找不到网页</H1></TD></TR>
+  <TR>
+    <TD width=400 colSpan=2><FONT 
+      style="FONT: 9pt/11pt 宋体; COLOR: #000000">正在查找的网页可能已被删除、重命名或暂时不可用。</FONT></TD></TR>
+  <TR>
+    <TD width=400 colSpan=2><FONT style="FONT: 9pt/11pt 宋体; COLOR: #000000">
+      <HR color=#c0c0c0 noShade>
+
+      <P>请尝试执行下列操作：</P>
+      <UL>
+        <LI>如果是在“地址”栏中键入了网页地址，请检查其拼写是否正确。<BR>
+        <LI>打开
+        <SCRIPT>
+	  <!--
+	  if (!((window.navigator.userAgent.indexOf("MSIE") > 0) && (window.navigator.appVersion.charAt(0) == "2")))
+	  { 
+	  	Homepage();
+	  }
+	  //-->
+	   </SCRIPT>
+         主页，然后查找与所需信息相关的链接。 
+        <LI>单击<A href="javascript:history.back(1)">后退</A>按钮尝试其他链接。 </LI></UL>
+      <H2 style="FONT: 9pt/11pt 宋体; COLOR: #000000">HTTP 错误 404 - 
+      找不到文件<BR>Internet 信息服务<BR></H2>
+      <HR color=#c0c0c0 noShade>
+
+      <P>技术信息（用于支持人员）</P>
+      <UL>
+        <LI>详细信息：<BR><A 
+        href="http://www.microsoft.com/ContentRedirect.asp?prd=iis&amp;sbp=&amp;pver=5.0&amp;pid=&amp;ID=404&amp;cat=web&amp;os=&amp;over=&amp;hrd=&amp;Opt1=&amp;Opt2=&amp;Opt3=" 
+        target=_blank>Microsoft 支持</A> 
+</LI></UL></FONT></TD></TR></TBODY></TABLE>
+s
+</BODY></HTML>
