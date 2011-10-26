@@ -6,7 +6,7 @@
       <ul class="corner_bottom">
                                <%
 set rs = server.CreateObject("adodb.recordset")
-sql = "select * from pf_link"
+sql = "select * from pf_link order by pf_link_order asc"
 rs.open sql,conn,1,1
 if  rs.eof or rs.bof then
 %>
@@ -46,8 +46,9 @@ set rs = nothing
                 <p>Copyrgiht &copy; 2011 上海凯顿儿童美语 All Rights Reserved. 地址：徐家汇苍梧路10号三栋306 联系电话：4006-117-668</p>
             </div>
         </div><!-- End: #footer -->
-<div id="www_qpsh_com" style="position:absolute;z-index: 10000;">
-<!--链接地址--><a href="http://localhost/819/wsj/" target="_blank">
+        </div><!-- End: #container -->
+        <div id="www_qpsh_com" style="position:absolute;z-index: 10000;">
+<!--链接地址--><a href="/wsj/" target="_blank">
 <!--图片地址--><img src="images/wan.jpg" border="0">
 </a>
 </div>
@@ -75,8 +76,6 @@ var itl= setInterval("floatwww_qpsh_com()", delay)
 obj.onmouseover=function(){clearInterval(itl)} 
 obj.onmouseout=function(){itl=setInterval("floatwww_qpsh_com()", delay)} 
 </script>
-        </div><!-- End: #container -->
-        
         
 <script language="javascript"> 
 function checkregform(){
@@ -124,7 +123,11 @@ return true;
             });
         </script>
 
- <!--<script type='text/javascript' src='javascripts/firebug-lite-compressed.js'></script>-->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F72d863f517a2d1eb56c3692237cac8b6' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
  <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -145,9 +148,5 @@ s);
 
 </script>
 
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F52c5d99a7b7a606f8789f87b0a192d03' type='text/javascript'%3E%3C/script%3E"));
-</script>
     </body>
 </html>

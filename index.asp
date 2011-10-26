@@ -132,6 +132,8 @@ document.write('<param name="FlashVars" value="vcastr_file='+files+'&vcastr_titl
 document.write('<embed src="images/vcastr22.swf" allowFullScreen="true" FlashVars="vcastr_file='+files+'&vcastr_title='+texts+'" menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>'); 
  </script>
                 </div><!-- End: #preview_video -->
+
+<div id="BDBridgeFixedWrap"></div>
                 <div id="kaidun_activity" class="box">
                    <em class="icon"><img src="images/icons/huodong.png" /></em>
                     <h3 class="corner_it"><div class="inner"><span><a href="hdmore.asp">more</a></span>¿­¶Ù»î¶¯</div></h3>
