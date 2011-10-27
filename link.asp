@@ -25,7 +25,7 @@ title="”—«È¡¥Ω” -  "
                         <td width="97%" valign="top">
 		<%
 				  set rs=server.createobject("adodb.recordset")
-				  sql="select * from pf_link   order by pf_link_order desc"
+				  sql="select * from pf_link order by pf_link_order asc"
 		          rs.open sql,conn,1,1
 		          if rs.recordcount=0 then  
 		    %>

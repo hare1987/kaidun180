@@ -1,10 +1,7 @@
 <div class="left_bar">
                 <!-- End: #kaidun_notices -->
-                <div id="contact_kaidun" class="box">
-                   <em class="icon"><img src="images/icons/dianhua.png" /></em>
-  <h3 class="corner_it"><div class="inner">免费试听课预约</div></h3>
+                <div id="contact_kaidun">
                     <ul>
-                        <li class="telphone">预约电话:4006-117-668</li>
 <form  name="yx"  onsubmit="return checkregform()" method="post" action="save.asp?action=gf">
 <li>宝宝姓名:<input type="text"  style="width:105px" id="name" name="name"></li>
 <li>宝宝年龄:<select style="width:100px" id="lngsex" name="age">
@@ -37,13 +34,6 @@
 </form></ul>
 
                 </div><!-- End: #contact_kaidun -->
-
-             <div class="bar_connection">
-                   <span class="t"></span>
-                    <img src="images/icons/bar_connection.png" />
-
-                </div>
-                <div class="bar_connection1"></div>
 
                 <div id="latest_news" class="box">
                    <em class="icon"><img src="images/icons/news.png" /></em>

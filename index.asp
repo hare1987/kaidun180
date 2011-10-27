@@ -67,8 +67,7 @@ document.write('</object>');
                 </div><!-- End: #index_slides -->
                 <div class="clear"></div>  
  <div id="kaidun_month_star" class="box">
-                   <em class="icon"><img src="images/icons/star.png" /></em>
-        <h3 class="corner_it"><div class="inner"><span><a href="stars.asp" title="">more</a></span>ø≠∂Ÿ‘¬÷Æ–«</div></h3>
+                   <em><img src="images/slice_33.png" /><span><a href="stars.asp" title="">more</a></span></em>
 <div id="colee_left" style="overflow:hidden; width:100%;">
 <table cellpadding="0" cellspacing="0" border="0">
 <tr><td id="colee_left1" valign="top" align="center">
