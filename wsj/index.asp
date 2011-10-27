@@ -6,19 +6,17 @@
 <title>奇妙万圣夜</title>
 <style type="text/css">
 <!--
-body {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	background-color: #000000;
-}
-body,td,th {
-	font-size: 12px;
-}
-#tbody {width:400px;margin:-10px auto;}
+div,a{margin:0;padding:0;}img{border:0px;}
+.imgsBox{overflow:hidden;width:380px;height:446px;}
+.imgs a{display:block;width:380px;height:430px;}
+.clickButton{background-color:#888888;width:380px;height:16px;position:relative;top:-1px;_top:-5px;}
+.clickButton div{float:right;}
+.clickButton a{background-color:#666;border-left:#ccc 2px solid;line-height:12px;height:16px;font-size:14px; font-weight:bold;float:left;padding:0 7px;text-decoration:none;color:#fff;}
+.clickButton a.active,.clickButton a:hover{background-color:#d34600;}
 -->
-</style></head>
+</style>
+
+</head>
 
 <body>
 <div align="center">
@@ -35,95 +33,36 @@ body,td,th {
     <tr>
       <td height="670" valign="top" background="images/bottom.jpg"><table width="100%"  border="0" cellpadding="0" cellspacing="0">
         <tr>
-          <td height="136" colspan="2">&nbsp;</td>
+          <td height="190" colspan="2">&nbsp;</td>
           </tr>
         <tr>
-          <td width="41">&nbsp;</td>
-          <td width="962" valign="top"><table width="86%"  border="0" cellpadding="0" cellspacing="0">
-            <tr>
-              <td>
-
-	    <table   border="0" cellpadding="0" cellspacing="0" align="right" style="margin-top:50px;">
+          <td width="1003" valign="top">
+          <table   border="0" cellpadding="0" cellspacing="0" align="right" width="1003">
           <tr>
-            <td><div align="right"><img src="images/cp/s1.jpg" alt="" width="340" height="240" id="mainphoto" rel="images/cp/s1.jpg" name="#" /></div></td>
-            </tr>
-                                   <tr>
-            <td>  
-            <div id="tbody" align="right" style="width:340px;">
-  <img src="images/goleft.gif" width="0" height="0" id="goleft" />
-      <img src="images/goright.gif" width="0" height="0" id="goright" />
-      <div id="photos">
-        <div id="showArea" style="width:330px;">
-          <img src="images/cp/s1.jpg" alt="" width="165" height="98" rel="images/cp/s1.jpg" name="#" />
-		  <img src="images/cp/s2.jpg" alt="" width="165" height="98" rel="images/cp/s2.jpg" name="#" /><br>
-		  <img src="images/cp/s3.jpg" alt="" width="165" height="98" rel="images/cp/s3.jpg" name="#" />
-		  <img src="images/cp/s4.jpg" alt="" width="165" height="98" rel="images/cp/s4.jpg" name="#" /><br>
-        </div>
-      </div>
-  </div>
+          <td width="540"></td>
+           <td width="430" align="center">
+
+<div class="imgsBox">
+	<div class="imgs">
+		<a href="#">
+			<img id="pic" src="images/cp/01.jpg" width="380" height="430" />
+		</a>
+	</div>
+	<div class="clickButton">
+		<div>
+			<a class="active" href="">1</a>
+			<a class="" href="">2</a>
+			<a class="" href="">3</a>
+			<a class="" href="">4</a>
+			<a class="" href="">5</a>
+		</div>
+	</div>
+</div>
             </td>
+            <td width="33"></td>
             </tr>
         </table>
-
-  <script language="javascript" type="text/javascript">
-var browse = window.navigator.appName.toLowerCase();
-var MyMar;
-var speed = 1; //速度，越大越慢
-var spec = 1; //每次滚动的间距, 越大滚动越快
-var minOpa = 100; //滤镜最小值
-var maxOpa = 100; //滤镜最大值
-var spa = 2; //缩略图区域补充数值
-var w = 0;
-spec = (browse.indexOf("microsoft") > -1) ? spec : ((browse.indexOf("opera") > -1) ? spec*10 : spec*20);
-function $(e) {return document.getElementById(e);}
-function goleft() {$('photos').scrollLeft -= spec;}
-function goright() {$('photos').scrollLeft += spec;}
-function setOpacity(e, n) {
-    if (browse.indexOf("microsoft") > -1) e.style.filter = 'alpha(opacity=' + n + ')';
-    else e.style.opacity = n/100;
-}
-$('goleft').style.cursor = 'pointer';
-$('goright').style.cursor = 'pointer';
-$('mainphoto').onmouseover = function() {setOpacity(this, maxOpa);}
-$('mainphoto').onmouseout = function() {setOpacity(this, minOpa);}
-$('mainphoto').onclick = function() {location = this.getAttribute('name');}
-$('goleft').onmouseover = function() {this.src = 'images/goleft2.gif'; MyMar=setInterval(goleft, speed);}
-$('goleft').onmouseout = function() {this.src = 'images/goleft.gif'; clearInterval(MyMar);}
-$('goright').onmouseover = function() {this.src = 'images/goright2.gif'; MyMar=setInterval(goright,speed);}
-$('goright').onmouseout = function() {this.src = 'images/goright.gif'; clearInterval(MyMar);}
-window.onload = function() {
-    setOpacity($('mainphoto'), minOpa);
-    var rHtml = '';
-    var p = $('showArea').getElementsByTagName('img');
-    for (var i=0; i<p.length; i++) {
-        w += parseInt(p[i].getAttribute('width')) + spa;
-        setOpacity(p[i], minOpa);
-        p[i].onclick = function() {location = this.getAttribute('name');}
-        p[i].onmouseover = function() {
-            setOpacity(this, maxOpa);
-            $('mainphoto').src = this.getAttribute('rel');
-            $('mainphoto').setAttribute('name', this.getAttribute('name'));
-            setOpacity($('mainphoto'), maxOpa);
-        }
-        p[i].onmouseout = function() {
-            setOpacity(this, minOpa);
-            setOpacity($('mainphoto'), minOpa);
-        }
-        rHtml += '<img src="' + p[i].getAttribute('rel') + '" width="0" height="0" alt="" />';
-    }
-    $('showArea').style.width = parseInt(w) + 'px';
-    var rLoad = document.createElement("div");
-    $('photos').appendChild(rLoad);
-    rLoad.style.width = "1px";
-    rLoad.style.height = "1px";
-    rLoad.style.overflow = "hidden";
-    rLoad.innerHTML = rHtml;
-}
-</script>
-</td>
-              </tr>
-            
-          </table></td>
+      </td>
           </tr>
       </table></td>
     </tr>
@@ -140,5 +79,34 @@ window.onload = function() {
   <area shape="rect" coords="375,3,647,91" href="rqbb.asp">
   <area shape="rect" coords="50,7,311,92" href="index.asp">
 </map>
+<script type="text/javascript" src="script/jquery-1.2.6.js"></script>
+<script type="text/javascript">	
+	$(document).ready(function(){	
+		$(".clickButton a").attr("href","javascript:return false;");
+		$(".clickButton a").each(function(index){			
+			$(this).click(function(){
+				changeImage(this,index);	
+			});			
+		});	
+		autoChangeImage();		
+	});
+
+	function autoChangeImage(){
+		for(var i = 0; i<=10000;i++){
+			window.setTimeout("clickButton("+(i%5+1)+")",i*3000);			
+		}
+	}
+
+	function clickButton(index){
+		$(".clickButton a:nth-child("+index+")").click();
+	}
+
+	function changeImage(element,index){
+		var arryImgs = ["images/cp/01.jpg","images/cp/01.jpg","images/cp/01.jpg","images/cp/01.jpg","images/cp/01.jpg"];
+		$(".clickButton a").removeClass("active");
+		$(element).addClass("active");
+		$(".imgs img").attr("src",arryImgs[index]);
+	}
+</script>
 </body>
 </html>

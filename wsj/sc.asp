@@ -75,7 +75,7 @@ body,td,th {
       <td height="66" background="images/center.jpg"><img src="images/menu.jpg" width="1003" height="96" border="0" usemap="#Map2"></td>
     </tr>
     <tr>
-      <td height="14"><img src="images/topline.jpg" width="1003" height="33"></td>
+      <td height="14"><img src="images/topline.jpg" width="1003" height="100"></td>
     </tr>
     <tr>
       <td height="229" valign="top" background="images/leftline.jpg"><table width="90%"  border="0" align="center" cellpadding="0" cellspacing="0">
@@ -144,7 +144,7 @@ body,td,th {
       </table></td>
     </tr>
     <tr>
-      <td height="18"><img src="images/bottomline.jpg" width="1003" height="44"></td>
+      <td height="18"><img src="images/bottomline.jpg" width="1003" height="100"></td>
     </tr>
   </table>
 </div>
