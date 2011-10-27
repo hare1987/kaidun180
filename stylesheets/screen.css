@@ -425,11 +425,6 @@ font-weight:bold;
   z-index:9999;
 }
 
-.box h3 {
-  background-color: #B0373C;
-  color: #FFF;
-}
-
 .box h3 span {
   display: block;
   float: right;
@@ -458,12 +453,14 @@ font-weight:bold;
 .box ul {
   margin: 0 4px;
   padding-bottom: 25px;
-  background-color:#fff;
 }
 
 .box ul li {
   padding: 8px;
-  border-bottom: 1px dashed #BDBDBD;
+  border-bottom: 2px  dotted #93652D;
+   margin-left: 10px;
+   padding-bottom: 6px;
+    padding-top: 6px;
 }
 .center1 .box h3 {
   background: #552F18;
@@ -514,10 +511,10 @@ font-weight:bold;
   padding-top: 2px;
 }
 
-#egg {
+#b_left #egg {
   position: absolute;
-  bottom: 10px;
-  left: -160px;
+  bottom:-150px;
+  left: 40px;
   z-index: 9999;
 }
 
@@ -547,6 +544,22 @@ font-weight:bold;
   font-size: 12px;
 }
 
+
+
+
+#bottom #b_left{
+  float: left;
+  width: 200px;
+  margin-left: 10px;
+	_margin-left: 5px;
+  margin-right: 10px;
+	_margin-right: 7px;
+}
+#bottom #b_right{
+  float: right;
+  width: 750px;
+	overflow: hidden;
+  }
 /* teachers page style */
 .teacher {;
   float: left;

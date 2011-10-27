@@ -133,9 +133,9 @@ document.write('<embed src="images/vcastr22.swf" allowFullScreen="true" FlashVar
                 </div><!-- End: #preview_video -->
 
 <div id="BDBridgeFixedWrap"></div>
-                <div id="kaidun_activity" class="box">
-                   <em class="icon"><img src="images/icons/huodong.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="hdmore.asp">more</a></span>¿­¶Ù»î¶¯</div></h3>
+                <div id="kaidun_activity" class="box" >
+                <img  src="images/slice_29.png"/>
+<h3><span><a href="hdmore.asp">more</a></span></h3>
                     <ul>
                     <%
 set rs = server.CreateObject("adodb.recordset")

@@ -36,9 +36,7 @@
                 </div><!-- End: #contact_kaidun -->
 
                 <div id="latest_news" class="box">
-                   <em class="icon"><img src="images/icons/news.png" /></em>
-                   <h3 class="corner_it">
-                     <div class="inner"><span><a href="news.asp" title="">more</a></span>最新资讯</div></h3>
+                   <em><img src="images/slice_30.png" /><span><a href="news.asp" title="">more</a></span></em>
                     <ul  class="corner_bottom">
                     <%
 set rs = server.CreateObject("adodb.recordset")

@@ -1,6 +1,19 @@
-
+ <div id="bottom">
+ <div id="b_left">
+ <div id="egg">
+             <span>
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="212" height="179">
+        <param name="movie" value="images/dan.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="transparent" />
+        <embed src="images/dan.swf" width="190" height="160" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
+      </object>
+           </span>
+        </div><!-- #End #dan -->
+        </div>
+        <div id="b_right">
          <div id="backto_top">Back to top.</div>
-<div id="company_partner" class="box">
+<div id="company_partner">
                    <em class="icon"><img src="images/icons/partner.png" /></em>
                     <h3 class="corner_it"><div class="inner"><span><a href="link.asp">more</a></span>企业伙伴</div></h3>
       <ul class="corner_bottom">
@@ -31,21 +44,14 @@ set rs = nothing
 </ul>
 
                 </div>
- <div id="egg">
-             <span>
-                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="212" height="179">
-        <param name="movie" value="images/dan.swf" />
-        <param name="quality" value="high" />
-        <param name="wmode" value="transparent" />
-        <embed src="images/dan.swf" width="190" height="160" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
-      </object>
-           </span>
-        </div><!-- #End #dan -->
- <div id="footer" class="corner_it">
+
+ <div id="footer">
             <div class="inner">
                 <p>Copyrgiht &copy; 2011 上海凯顿儿童美语 All Rights Reserved. 地址：徐家汇苍梧路10号三栋306 联系电话：4006-117-668</p>
             </div>
         </div><!-- End: #footer -->
+        </div>
+        
         </div><!-- End: #container -->
         <div id="www_qpsh_com" style="position:absolute;z-index: 10000;">
 <!--链接地址--><a href="/wsj/" target="_blank">
