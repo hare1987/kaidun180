@@ -77,7 +77,12 @@ body{
             <tr>
               <td colspan="3"><table id="submenu2" width="100%" border="0" cellspacing="0" cellpadding="0" style="display:">
                   <tr>
-                    <td height="20" align="center" valign="middle" background="Images/left_menu_bg.gif"><a href="Bm_List.asp" target="main">报名管理</a></td>
+                    <td height="20" align="center" valign="middle" background="Images/left_menu_bg.gif">
+<a href="Bm_List.asp" target="main">已审核</a></td>
+                  </tr>
+ <tr>
+                    <td height="20" align="center" valign="middle" background="Images/left_menu_bg.gif">
+<a href="Bm_no_List.asp" target="main">未审核</a></td>
                   </tr>
               </table></td>
             </tr>

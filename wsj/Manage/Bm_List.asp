@@ -54,7 +54,7 @@ function DrawImage(ImgD){
     <td height="20" align="center" valign="middle">&nbsp;</td>
   </tr>
 <%
-SQL="Select * from Photo order by id desc"
+SQL="Select * from Photo where ok=1 order by id desc"
 set rs=server.createobject("Adodb.Recordset")
 rs.open SQL,conn,1,1
 dim i,bgc
@@ -106,10 +106,10 @@ Do while not rs.eof and pages > 0
         <td height="25" align="left" valign="middle" bgcolor="#efefef"><%=rs("mail")%></td>
       </tr>
       <tr>
-        <td width="71" height="25" align="left" valign="middle" bgcolor="#efefef">电子信箱</td>
+        <td width="71" height="25" align="left" valign="middle" bgcolor="#efefef">电子邮箱</td>
         <td height="25" align="left" valign="middle" bgcolor="#efefef"><%=rs("a4")%></td>
-        <td height="25" align="left" valign="middle" bgcolor="#efefef">&nbsp;</td>
-        <td height="25" align="left" valign="middle" bgcolor="#efefef">&nbsp;</td>
+        <td height="25" align="left" valign="middle" bgcolor="#efefef">所在校区</td>
+        <td height="25" align="left" valign="middle" bgcolor="#efefef"><%=rs("a3")%></td>
       </tr>
       
     </table></td>

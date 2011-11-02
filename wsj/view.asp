@@ -102,6 +102,10 @@ body,td,th {
               <td align="left" valign="middle"><span class="style41">出生日期：</span></td>
               <td height="25" align="left" valign="middle">&nbsp;&nbsp;<font color="#FFFFFF"><%=rs("tea")%></font></td>
             </tr>
+             <tr >
+              <td height="25" align="right" valign="middle"><span class="style41">所在校区：</span></td>
+              <td colspan="3" align="left">&nbsp;&nbsp;<font color="#FFFFFF"><%=rs("a3")%></font></td>
+            </tr>
             <tr >
               <td height="25" align="right" valign="middle"><span class="style41">个人简介：</span></td>
               <td colspan="3" align="left">&nbsp;&nbsp;<font color="#FFFFFF"><%=rs("info")%></font></td>

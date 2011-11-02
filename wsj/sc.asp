@@ -88,18 +88,22 @@ body,td,th {
                   <tr >
                     <td width="115" height="30" align="left" valign="middle"><div align="center"><span class="style41">宝宝姓名</span></div></td>
                     <td width="344" height="30" align="left" valign="middle">&nbsp;
-                        <input name="name" id="name" size="30" maxlength="20" datatype="Require" msg="不能为空" /></td>
+                        <input name="name" id="name" size="30" maxlength="20" datatype="Require" msg="不能为空" />
+                        *</td>
                     <td width="108" height="30" align="left" valign="middle"><div align="center"><span class="style41">宝宝性别</span></div></td>
                     <td width="328" height="30" align="left" valign="middle">&nbsp;
-                        <input name="user" id="user" size="30" maxlength="20" datatype="Require" msg="不能为空" /></td>
+                        <input name="user" id="user" size="30" maxlength="20" datatype="Require" msg="不能为空" />
+                        *</td>
                   </tr>
                   <tr >
                     <td height="30" align="left" valign="middle"><div align="center"><span class="style41">宝宝年龄</span></div></td>
                     <td height="30" align="left" valign="middle">&nbsp;
-                        <input id="school" size="30" name="school" datatype="Require" msg="不能为空" /></td>
+                        <input id="school" size="30" name="school" datatype="Require" msg="不能为空" />
+                        *</td>
                     <td height="30" align="left" valign="middle"><div align="center"><span class="style41">出生年月</span></div></td>
                     <td height="30" align="left" valign="middle">&nbsp;
-                        <input name="tea" id="tea" size="30" maxlength="20" datatype="Require" msg="不能为空" /></td>
+                        <input name="tea" id="tea" size="30" maxlength="20" datatype="Require" msg="不能为空" />
+                        *</td>
                   </tr>
                   <tr >
                     <td height="30" align="left" valign="middle"><div align="center"><span class="style41">家长姓名</span></div></td>
@@ -110,11 +114,12 @@ body,td,th {
                         <input name="mail" id="mail" size="30" maxlength="50"  /></td>
                   </tr>
                   <tr >
-                    <td height="30" align="left" valign="middle"><div align="center"><span class="style41">电子信箱</span></div></td>
+                    <td height="30" align="left" valign="middle"><div align="center"><span class="style41">电子邮箱</span></div></td>
                     <td height="30" align="left" valign="middle">&nbsp;
                         <input name="a4" id="a4" size="30" maxlength="50"></td>
-                    <td height="30" align="left" valign="middle"><div align="center"></div></td>
-                    <td height="30" align="left" valign="middle">&nbsp;</td>
+                    <td height="30" align="left" valign="middle"><div align="center"><span class="style41">所在校区</span></div></td>
+                    <td height="30" align="left" valign="middle">&nbsp;
+                     <input name="a3" id="a3" size="30" maxlength="50"></td>
                   </tr>
                   <tr >
                     <td height="30" align="left" valign="middle"><div align="center"><span class="style41">宝宝说明</span></div></td>
@@ -123,12 +128,14 @@ body,td,th {
                   <tr >
                     <td height="25" align="left" valign="middle">&nbsp;</td>
                     <td height="25" colspan="3" align="left" valign="middle">&nbsp;
-                        <textarea id="info" name="info" rows="10" cols="95" datatype="Require" msg="不能为空"></textarea></td>
+                        <textarea id="info" name="info" rows="10" cols="95" datatype="Require" msg="不能为空"></textarea>
+                        *</td>
                   </tr>
                   <tr >
                     <td height="36" align="left" valign="middle"><div align="center"><span class="style41">照&nbsp;&nbsp;&nbsp;&nbsp;片</span></div></td>
                     <td height="36" colspan="3" align="left" valign="middle">&nbsp;&nbsp;
                         <iframe allowTransparency="true" src='manage/upload/upload_pic2.asp' name='i2' width="350" height="25" scrolling="No" frameborder="0" id="i2"></iframe>
+                        *请先上传图片后再提交。图片宽度最好不要超过800像素。
                         <div class="sup" id="sup"></div></td>
                   </tr>
                   <tr align="center" >
