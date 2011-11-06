@@ -55,7 +55,7 @@ set rs = nothing
                 <span id="yellow_style" class="style_btn" theme='yellow' title="»Æ"></span>
                 <span id="red_style"    class="style_btn" theme='red' title="·Ûºì"></span>
                 <span id="blue_style"   class="style_btn" theme='blue' title="·ÛÀ¶"></span>
-                <span class="tip">What color do you like?</span>
+                <span class="tip"><img src="images/top_theme_text.png"></span>
             </div><!-- End: #style_choosing -->
         </div><!-- #End: #top_bar -->
         <div id="nav">

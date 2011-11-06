@@ -8,9 +8,10 @@ title="首页 - "
  <!-- #include file = "left.asp"-->  
             <!-- End: #left -->
             <div class="right">
-            <div class="center1">
-                <div id="index_slides" class="corner_it">
-         <script type=text/javascript>
+            <div class="center1"><!-- End: #index_slides -->
+              <div class="clear"></div>  
+                   <div id="index_slides" class="corner_it">
+                     <script type=text/javascript>
 var pic_width=530; //图片宽度
 var pic_height=280; //图片高度
 var button_pos=4; //按扭位置 1左 2右 3上 4下
@@ -63,11 +64,12 @@ document.write('<param name="quality" value="high"><param name="wmode" value="op
 document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&pic_width='+pic_width+'&pic_height='+pic_height+'&show_text='+show_text+'&txtcolor='+txtcolor+'&bgcolor='+bgcolor+'&button_pos='+button_pos+'&stop_time='+stop_time+'">');
 document.write('<embed src="images/focus.swf" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&pic_width='+pic_width+'&pic_height='+pic_height+'&show_text='+show_text+'&txtcolor='+txtcolor+'&bgcolor='+bgcolor+'&button_pos='+button_pos+'&stop_time='+stop_time+'" quality="high" width="'+ pic_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');
 document.write('</object>');
-</script>	
-                </div><!-- End: #index_slides -->
-                <div class="clear"></div>  
- <div id="kaidun_month_star" class="box">
-                   <em><img src="images/slice_33.png" /><span><a href="stars.asp" title="">more</a></span></em>
+                   </script>
+                   </div>
+                    <div id="kaidun_month_star" class="box">
+                   <em><img src="images/slice_33.png" /></em>
+                   <h3 class="corner_it"><div class="inner"><span><a href="stars.asp" title=""><img src="images/btn-more.png"/></a></span></div></h3>
+                   
 <div id="colee_left" style="overflow:hidden; width:100%;">
 <table cellpadding="0" cellspacing="0" border="0">
 <tr><td id="colee_left1" valign="top" align="center">
@@ -135,7 +137,7 @@ document.write('<embed src="images/vcastr22.swf" allowFullScreen="true" FlashVar
 <div id="BDBridgeFixedWrap"></div>
                 <div id="kaidun_activity" class="box" >
                 <img  src="images/slice_29.png"/>
-<h3><span><a href="hdmore.asp">more</a></span></h3>
+ <h3> <div class="inner"><span><a href="hdmore.asp"><img src="images/btn-more.png"/></a></span></div></h3>
                     <ul>
                     <%
 set rs = server.CreateObject("adodb.recordset")
@@ -155,8 +157,8 @@ set rs = nothing
                     </ul>
                 </div><!-- End: #online_test -->
                 <div id="game_donwload" class="box">
-                   <em class="icon"><img src="images/icons/game.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="game.asp">more</a></span>游戏下载</div></h3>
+                <img src="images/slice_35.png"/>
+                <h3><div class="inner"><span><a href="game.asp"><img src="images/btn-more.png"/></a></span></div></h3>
                     <ul class="corner_bottom">
                                         <%
 set rs = server.CreateObject("adodb.recordset")

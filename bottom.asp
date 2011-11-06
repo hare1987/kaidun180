@@ -12,12 +12,9 @@
         </div><!-- #End #dan -->
         </div>
         <div id="b_right">
-         <div id="backto_top">Back to top.</div>
-<div id="company_partner">
-                   <em class="icon"><img src="images/icons/partner.png" /></em>
-                    <h3 class="corner_it"><div class="inner"><span><a href="link.asp">more</a></span>企业伙伴</div></h3>
-      <ul class="corner_bottom">
-                               <%
+        <div id="m_n">
+<span style="color:#F48359; font:bold 13px 宋体">友情链接</span>：
+    <%
 set rs = server.CreateObject("adodb.recordset")
 sql = "select * from pf_link order by pf_link_order asc"
 rs.open sql,conn,1,1
@@ -29,9 +26,7 @@ else
 i = 1
 do while not rs.eof  or rs.bof
 %>
-<li> 
-<a href="<%=rs("pf_link_url")%>" title="<%=rs("pf_link_name")%>" target="_blank"><img src="<%=rs("pf_uploadfile")%>" border="0"></a>
-</li>
+<a href="<%=rs("pf_link_url")%>" title="<%=rs("pf_link_name")%>" target="_blank"><%=rs("pf_link_name")%></a> |
                   <%
 i = i + 1
 if i > 10 then  exit do
@@ -41,9 +36,8 @@ end if
 rs.close
 set rs = nothing
 %>
-</ul>
-
-                </div>
+<a href="link.asp">more</a>|
+ </div>
 
  <div id="footer">
             <div class="inner">
@@ -51,7 +45,6 @@ set rs = nothing
             </div>
         </div><!-- End: #footer -->
         </div>
-        
         </div><!-- End: #container -->
         <div id="www_qpsh_com" style="position:absolute;z-index: 10000;">
 <!--链接地址--><a href="/wsj/" target="_blank">

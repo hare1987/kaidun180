@@ -86,8 +86,10 @@ if not rs.eof then
                               <td height="20" colspan="2" align="center" valign="middle"><font color="#FF3300"><%=rs("name")%></font></td>
                             </tr>
                             <tr>
-                              <td width="50%" height="20" align="center" valign="middle"><a href="vote.asp?id=<%=rs("id")%>"><img src="images/1.gif" width="52" height="18" border="0" /></a></a></td>
-                              <td width="50%" align="center" valign="middle"><a href="View.asp?id=<%=rs("id")%>"><img src="images/2.gif" width="52" height="18" border="0" /></a></td>
+                            <td width="50%" height="20" align="center" valign="middle"><a href="vote.asp?id=<%=rs("id")%>"><img src="images/1.gif" width="52" height="18" border="0" /></a></a></td>
+                              <td width="50%" align="center" valign="middle">
+                              
+                            <img src="images/2.gif" width="52" height="18" border="0" /></td>
                             </tr>
                             <tr>
                               <td height="20" colspan="2" align="center" valign="middle"><font color="#FFFFFF">目前投票第<%=j+(page-1)*mpage%>名<br>得票数:<font color="#FF0000"><%=rs("hit")%></font>
@@ -136,6 +138,7 @@ if not rs.eof then
                         <td height="6" colspan="3"></td>
                       </tr>
                     </table>
+                    	</form>
                     <%
 rs.MoveNext
 pages=pages-1
